@@ -1,4 +1,5 @@
 " Runtime Path for powerline (not needed with vim-airline
+" this is a trest
 "set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
 
 " Always show statusline
