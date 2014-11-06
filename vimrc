@@ -17,6 +17,8 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 set number
+set ruler
+set esckeys
 set autoindent
 set autowrite
 set nocompatible
@@ -24,4 +26,4 @@ set showmatch
 set smartcase
 set smarttab
 set visualbell
-
+set backspace=2
