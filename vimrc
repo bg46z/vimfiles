@@ -1,5 +1,4 @@
 " Runtime Path for powerline (not needed with vim-airline
-" this is a trest
 "set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
 
 " Always show statusline
@@ -16,6 +15,7 @@ execute pathogen#infect()
 " Other configurations
 syntax on
 filetype plugin indent on
+set noshowmode
 set number
 set ruler
 set esckeys
