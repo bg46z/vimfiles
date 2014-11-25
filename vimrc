@@ -1,5 +1,5 @@
-" Runtime Path for powerline (not needed with vim-airline
-"set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim/
+" Pathogen Configuration
+execute pathogen#infect()
 
 " Always show statusline
 set laststatus=2
@@ -7,19 +7,22 @@ set laststatus=2
 " airline configuration
 let g:airline_powerline_fonts = 1
 set t_Co=256 " Use 256 colours
+let g:airline_mode_map = { '__' : '-', 'n' : 'N', 'i' : 'I', 'R' : 'R', 'c' : 'C', 'v' : 'V', 'V' : 'V', '' : 'V', 's' : 'S', 'S' : 'S', '' : 'S'}
+let g:airline#extensions#tabline#enabled = 1
+if !exists('g:airline_symbols')
+	let g:airline_symbols = {}
+endif
 
-" Pathogen Configuration
-execute pathogen#infect()
 
-" Other configurations
+" Vim-specific configurations
 syntax on
 filetype plugin indent on
+colorscheme desert
 
 " Set options
 set number
-set autoindent
-set autowrite
-set nocompatible
-set showmatch
-set smartcase
-set noshowmode
+set timeoutlen=50
+
+" Leader
+let mapleader = ","
+let g:mapleader = ","
