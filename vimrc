@@ -20,7 +20,8 @@ colorscheme desert
 set number
 set noshowmode
 set nocompatible
-set timeoutlen=30
+set timeoutlen=666
+set showcmd
 
 " Leader
 let mapleader = ","
