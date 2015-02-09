@@ -1,29 +1,32 @@
 "" Pathogen Configuration
 execute pathogen#infect()
 
-" Always show statusline
-set laststatus=2
-
-" airline configuration
-"let g:airline_powerline_fonts = 1
-set t_Co=256 " Use 256 colours
-"let g:airline_mode_map = { '__' : '-', 'n' : 'N', 'i' : 'I', 'R' : 'R', 'c' : 'C', 'v' : 'V', 'V' : 'V', '' : 'V', 's' : 'S', 'S' : 'S', '' : 'S'}
-"let g:airline#extensions#tabline#enabled = 1
-
-
-" Vim-specific configurations
+" Color Scheme
+colorscheme desert
 syntax on
 filetype plugin indent on
-colorscheme desert
 
 " Set options
-"set number
 set noshowmode
 set nocompatible
-set timeoutlen=500
-"set showcmd
 set nowrap
+
+set t_Co=256 " Use 256 colours
+set timeoutlen=500 " Short timeout length
 
 " Leader
 let mapleader = ","
 let g:mapleader = ","
+
+" Disable arrow keys
+inoremap <Left> <NOP>
+inoremap <Up> <NOP>
+inoremap <Right> <NOP>
+inoremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Up> <NOP>
+noremap <Right> <NOP>
+noremap <Down> <NOP>
+
+" different escape
+inoremap jk <ESC>
