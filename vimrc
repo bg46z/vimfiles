@@ -1,7 +1,27 @@
-"" Pathogen Configuration
+" Pathogen Configuration
 execute pathogen#infect()
 
 " Colorscheme
-let g:solarized_termcolors=256
-colorscheme solarized
-set background=dark
+colorscheme desert
+" Vim-specific configurations
+syntax on
+filetype indent on
+
+" Set options
+set nocompatible
+set nowrap
+
+set timeoutlen=500
+set t_Co=256 " Use 256 colours
+
+" Keyboard related mappings and other exciting happenings
+" Leader
+let mapleader = ","
+let g:mapleader = ","
+
+
+" normal mode remaps
+noremap jk <ESC>
+
+" insert mode remaps
+inoremap jk <ESC>
