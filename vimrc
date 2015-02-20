@@ -14,6 +14,7 @@ set nowrap
 set timeoutlen=500
 set t_Co=256 " Use 256 colours
 
+
 " Keyboard related mappings and other exciting happenings
 " Leader
 let mapleader = ","
