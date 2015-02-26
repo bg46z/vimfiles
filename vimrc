@@ -21,9 +21,5 @@ set backspace=2 " fix annoying backspace restrictions.
 let mapleader = ","
 let g:mapleader = ","
 
-
-" normal mode remaps
-noremap jk <ESC>
-
 " insert mode remaps
 inoremap jk <ESC>

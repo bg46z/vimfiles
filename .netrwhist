@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/ztb/work/ubuntu/etc/apt'
+let g:netrw_dirhist_2='/home/ztb/work/ubuntu/archives'
+let g:netrw_dirhist_3='/home/ztb/.config'
