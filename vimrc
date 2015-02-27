@@ -17,7 +17,6 @@ set t_Co=256 " Use 256 colours
 set backspace=2 " fix annoying backspace restrictions.
 set mouse=a " let vim use the mouse.
 
-
 " Keyboard related mappings and other exciting happenings
 " Leader
 let mapleader = ","
