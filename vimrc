@@ -7,10 +7,19 @@ colorscheme desert
 syntax on
 filetype indent on
 
+
 " Set options
 set nocompatible
 set nowrap
-" set relativenumber number
+set autowrite
+set ignorecase
+set incsearch
+set mousehide
+set number
+set ruler
+set shiftwidth=4
+set tabstop=4
+set visualbell
 
 set timeoutlen=500
 set t_Co=256 " Use 256 colours
