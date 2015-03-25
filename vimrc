@@ -20,6 +20,8 @@ set ruler
 set shiftwidth=4
 set tabstop=4
 set visualbell
+set encoding=utf-8
+set fileencoding=utf-8
 
 set timeoutlen=500
 set t_Co=256 " Use 256 colours
