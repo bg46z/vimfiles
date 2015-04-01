@@ -1,8 +1,5 @@
 " Pathogen Configuration
 execute pathogen#infect()
-<<<<<<< HEAD
-=======
-
 " Colorscheme
 colorscheme desert
 " Vim-specific configurations
@@ -38,4 +35,3 @@ inoremap jk <ESC>
 
 " normal mode remaps
 nnoremap ; :
->>>>>>> ecae6d7a88d4cbbf57def198a63ab0d6d5edd509

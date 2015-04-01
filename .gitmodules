@@ -10,3 +10,6 @@
 [submodule "bundle/vimpager"]
 	path = bundle/vimpager
 	url = https://github.com/rkitover/vimpager.git
+[submodule "bundle/syntax"]
+	path = bundle/syntax
+	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
