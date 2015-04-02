@@ -1,6 +1,5 @@
 " Pathogen Configuration
 execute pathogen#infect()
-
 " Colorscheme
 colorscheme desert
 " Vim-specific configurations
