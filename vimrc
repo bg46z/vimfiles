@@ -6,6 +6,7 @@ colorscheme desert
 syntax on
 filetype indent on
 
+noremap <C-n> :NERDTreeToggle<CR>
 
 " Set options
 set nocompatible
