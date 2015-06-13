@@ -10,7 +10,7 @@ noremap <C-n> :NERDTreeToggle<CR>
 
 " Set options
 set nocompatible
-set nowrap
+set wrap
 set autowrite
 set ignorecase
 set incsearch
@@ -33,6 +33,6 @@ let g:mapleader = ","
 
 " insert mode remaps
 inoremap jk <ESC>
-
+noremap <leader>m i<space><esc> 
 " normal mode remaps
 nnoremap ; :
