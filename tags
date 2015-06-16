@@ -225,6 +225,7 @@ AnsiEsc	/home/ztb/.vim/bundle/vimpager/ansiesc/plugin/AnsiEscPlugin.vim	/^com! -
 AnsiEsc#AnsiEsc	/home/ztb/.vim/bundle/vimpager/ansiesc/autoload/AnsiEsc.vim	/^fun! AnsiEsc#AnsiEsc(rebuild)$/;"	f
 Apache::OTL	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl_handler/Apache/OTL.pm	/^package Apache::OTL;$/;"	p
 Args	/home/ztb/.vim/bundle/syntastic/syntax_checkers/html/tidy.vim	/^function! s:Args() " {{{2$/;"	f
+AutoClose	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:AutoClose() "{{{$/;"	f
 Backward	/home/ztb/.vim/bundle/vimpager/less.vim	/^fun! s:Backward()$/;"	f
 Beamer	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2latex/otl2latex.py	/^class Beamer(Manager):$/;"	c
 Blame	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Blame(bang,line1,line2,count,args) abort$/;"	f
@@ -232,6 +233,31 @@ BlameCommit	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s
 BlameJump	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BlameJump(suffix) abort$/;"	f
 BlameSyntax	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BlameSyntax() abort$/;"	f
 BodyText	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^function! BodyText(line)$/;"	f
+Bookmark.AddBookmark	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.AddBookmark(name, path)$/;"	f
+Bookmark.BookmarkExistsFor	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkExistsFor(name)$/;"	f
+Bookmark.BookmarkFor	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkFor(name)$/;"	f
+Bookmark.BookmarkNames	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkNames()$/;"	f
+Bookmark.Bookmarks	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Bookmarks()$/;"	f
+Bookmark.CacheBookmarks	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.CacheBookmarks(silent)$/;"	f
+Bookmark.ClearAll	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.ClearAll()$/;"	f
+Bookmark.GetNodeForName	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.GetNodeForName(name, searchFromAbsoluteRoot)$/;"	f
+Bookmark.GetSelected	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.GetSelected()$/;"	f
+Bookmark.InvalidBookmarks	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.InvalidBookmarks()$/;"	f
+Bookmark.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.New(name, path)$/;"	f
+Bookmark.Sort	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Sort()$/;"	f
+Bookmark.ToRoot	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.ToRoot(name)$/;"	f
+Bookmark.Write	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Write()$/;"	f
+Bookmark.activate	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.activate(...)$/;"	f
+Bookmark.compareTo	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.compareTo(otherbookmark)$/;"	f
+Bookmark.delete	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.delete()$/;"	f
+Bookmark.getNode	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.getNode(searchFromAbsoluteRoot)$/;"	f
+Bookmark.mustExist	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.mustExist()$/;"	f
+Bookmark.open	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.open(...)$/;"	f
+Bookmark.openInNewTab	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.openInNewTab(options)$/;"	f
+Bookmark.setPath	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.setPath(path)$/;"	f
+Bookmark.str	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.str()$/;"	f
+Bookmark.toRoot	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.toRoot()$/;"	f
+Bookmark.validate	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.validate()$/;"	f
 Browse	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Browse(bang,line1,count,...) abort$/;"	f
 BufEnterHook	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^function! s:BufEnterHook() abort " {{{2$/;"	f
 BufReadIndex	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BufReadIndex() abort$/;"	f
@@ -291,6 +317,27 @@ ConfigParser	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/
 ConfigureSnipWindow	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^function! s:ConfigureSnipWindow()$/;"	f
 CreateMapping	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^function! s:CreateMapping(key, action, ...) "{{{2$/;"	f
 CreateNewFile	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:CreateNewFile(...)$/;"	f
+Creator.BufNamePrefix	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.BufNamePrefix()$/;"	f
+Creator.CreateMirror	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreateMirror()$/;"	f
+Creator.CreatePrimary	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreatePrimary(name)$/;"	f
+Creator.CreateSecondary	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreateSecondary(dir)$/;"	f
+Creator.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.New()$/;"	f
+Creator.TogglePrimary	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.TogglePrimary(dir)$/;"	f
+Creator._bindMappings	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._bindMappings()$/;"	f
+Creator._broadcastInitEvent	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._broadcastInitEvent()$/;"	f
+Creator._createNERDTree	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._createNERDTree(path)$/;"	f
+Creator._createTreeWin	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._createTreeWin()$/;"	f
+Creator._nextBufferName	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._nextBufferName()$/;"	f
+Creator._nextBufferNumber	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._nextBufferNumber()$/;"	f
+Creator._pathForString	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._pathForString(str)$/;"	f
+Creator._setCommonBufOptions	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._setCommonBufOptions()$/;"	f
+Creator._setupStatusline	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._setupStatusline()$/;"	f
+Creator._tabpagevar	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._tabpagevar(tabnr, var)$/;"	f
+Creator._uniq	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._uniq(list)$/;"	f
+Creator.createMirror	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createMirror()$/;"	f
+Creator.createPrimary	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createPrimary(name)$/;"	f
+Creator.createSecondary	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createSecondary(dir)$/;"	f
+Creator.togglePrimary	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.togglePrimary(dir)$/;"	f
 CtrlP	/home/ztb/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=dir CtrlP         cal ctrlp#init(0, { 'dir': <q-args> })$/;"	c
 CtrlPAug	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^	aug CtrlPAug$/;"	a
 CtrlPBookmarkDir	/home/ztb/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPBookmarkDir cal ctrlp#init(ctrlp#bookmarkdir#id())$/;"	c
@@ -317,7 +364,9 @@ CtrlPUndo	/home/ztb/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPUndo
 DB_FILE	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set DB_FILE=%~2$/;"	v
 DB_FILE	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^set DB_FILE=scope.out$/;"	v
 DEBUG	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2docbook.pl	/^use constant DEBUG => 0;$/;"	c
+DESTDIR	/home/ztb/.vim/bundle/delimitMate/Makefile	/^DESTDIR  =  $(HOME)\/.vim$/;"	m
 DM	/home/ztb/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^com! -bar -nargs=1 DM	call DestroyMark(<q-args>)$/;"	c
+DOC	/home/ztb/.vim/bundle/delimitMate/Makefile	/^DOC      =  $(wildcard doc\/*.txt)$/;"	m
 DeHoist	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/prev/votl_hoist.vim	/^function! DeHoist()$/;"	f
 DeHoist	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_newhoist.vim	/^function! DeHoist()$/;"	f
 DeHoistAll	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_newhoist.vim	/^function! DeHoistAll()$/;"	f
@@ -329,6 +378,11 @@ DeleteCheckbox	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_gtd.vim
 DeleteChildren	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/prev/votl_hoist.vim	/^function! DeleteChildren(line)$/;"	f
 DeleteHoistFile	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/prev/votl_hoist.vim	/^function! DeleteHoistFile(line)$/;"	f
 DeleteHoistFilename	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/prev/votl_hoist.vim	/^function! DeleteHoistFilename(line)$/;"	f
+DelimitMateOff	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateOff call s:setup(0)$/;"	c
+DelimitMateOn	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateOn call s:setup(1)$/;"	c
+DelimitMateReload	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateReload call s:setup(1)$/;"	c
+DelimitMateSwitch	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateSwitch call s:setup(2)$/;"	c
+DelimitMateTest	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateTest call s:test()$/;"	c
 DestroyMark	/home/ztb/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! DestroyMark(markname)$/;"	f
 DetectSls	/home/ztb/.vim/bundle/salt-vim/ftdetect/sls.vim	/^function! DetectSls()$/;"	f
 Diff	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Diff(vert,...) abort$/;"	f
@@ -344,9 +398,12 @@ EditConfig	/home/ztb/.vim/bundle/syntastic/syntax_checkers/java/javac.vim	/^func
 EditRunComplete	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:EditRunComplete(A,L,P) abort$/;"	f
 End	/home/ztb/.vim/bundle/vimpager/less.vim	/^fun! s:End()$/;"	f
 Errors	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^command! Errors              call SyntasticErrors()$/;"	c
+Event.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/event.vim	/^function! s:Event.New(nerdtree, subject, action, params) abort$/;"	f
 ExecuteInTree	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:ExecuteInTree(cmd) abort$/;"	f
+ExtraMappings	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:ExtraMappings() "{{{$/;"	f
 ExtractHoistFilename	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/prev/votl_hoist.vim	/^function! ExtractHoistFilename(line)$/;"	f
 F	/home/ztb/.vim/bundle/vimpager/less.vim	/^map F :e<CR>G<SID>L:sleep 1<CR>F$/;"	m
+FILENAME	/home/ztb/.vim/bundle/delimitMate/Makefile	/^FILENAME =  $(NAME)-$(VERSION)$/;"	m
 FileRead	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:FileRead() abort$/;"	f
 FindBottomHoist	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_newhoist.vim	/^function! FindBottomHoist(line)$/;"	f
 FindIncompleteTimestamps	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^function! s:FindIncompleteTimestamps()$/;"	f
@@ -369,6 +426,12 @@ FindTaskStart	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^funct
 FindTopHoist	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_newhoist.vim	/^function! FindTopHoist(line)$/;"	f
 Findcomplete	/home/ztb/.vim/bundle/vim-pathogen/autoload/pathogen.vim	/^function! s:Findcomplete(A,L,P)$/;"	f
 FinishCommit	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:FinishCommit() abort$/;"	f
+FlagSet.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.New()$/;"	f
+FlagSet._flagsForScope	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet._flagsForScope(scope)$/;"	f
+FlagSet.addFlag	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.addFlag(scope, flag)$/;"	f
+FlagSet.clearFlags	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.clearFlags(scope)$/;"	f
+FlagSet.removeFlag	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.removeFlag(scope, flag)$/;"	f
+FlagSet.renderToString	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.renderToString()$/;"	f
 ForceUpdate	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ForceUpdate()$/;"	f
 FormatDate	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^function! FormatDate(datestring)$/;"	f
 FormatDateWord	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^function! FormatDateWord()$/;"	f
@@ -459,6 +522,16 @@ IsParent	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_smart_paste.v
 IsShellValid	/home/ztb/.vim/bundle/syntastic/syntax_checkers/sh/sh.vim	/^function! s:IsShellValid() " {{{2$/;"	f
 JumpInit	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:JumpInit() abort$/;"	f
 KeyLoop	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:KeyLoop()$/;"	f
+KeyMap.Add	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Add(keymap)$/;"	f
+KeyMap.All	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.All()$/;"	f
+KeyMap.BindAll	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.BindAll()$/;"	f
+KeyMap.Create	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Create(options)$/;"	f
+KeyMap.FindFor	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.FindFor(key, scope)$/;"	f
+KeyMap.Invoke	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Invoke(key)$/;"	f
+KeyMap.Remove	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Remove(key, scope)$/;"	f
+KeyMap.bind	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.bind()$/;"	f
+KeyMap.invoke	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.invoke(...)$/;"	f
+LIB	/home/ztb/.vim/bundle/delimitMate/Makefile	/^LIB      =  $(wildcard autoload\/*.vim)$/;"	m
 LOG_FILE	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set LOG_FILE=%~2$/;"	v
 LOG_FILE	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^if [%LOG_FILE%]==[] set LOG_FILE=CON$/;"	v
 LOG_FILE	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set LOG_FILE=$/;"	v
@@ -485,6 +558,7 @@ MakeTabs	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_newhoist.vim	
 MakeTempFilename	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/prev/votl_hoist.vim	/^function! MakeTempFilename(line)$/;"	f
 MakeText	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_format.vim	/^function! MakeText()$/;"	f
 Manager	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2latex/otl2latex.py	/^class Manager:$/;"	c
+Map	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:Map() "{{{$/;"	f
 MapNorms	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MapNorms()$/;"	f
 MapSpecs	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MapSpecs()$/;"	f
 MarkToOpen	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MarkToOpen()$/;"	f
@@ -492,6 +566,27 @@ MarkValues	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_math.vim	/^
 MatchIt	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MatchIt(items, pat, limit, exc)$/;"	f
 MatchedItems	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MatchedItems(items, pat, limit)$/;"	f
 MavenOutputDirectory	/home/ztb/.vim/bundle/syntastic/syntax_checkers/java/javac.vim	/^function! s:MavenOutputDirectory() " {{{2$/;"	f
+MenuController.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController.New(menuItems)$/;"	f
+MenuController._allIndexesFor	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._allIndexesFor(shortcut)$/;"	f
+MenuController._current	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._current()$/;"	f
+MenuController._cursorDown	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._cursorDown()$/;"	f
+MenuController._cursorUp	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._cursorUp()$/;"	f
+MenuController._echoPrompt	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._echoPrompt()$/;"	f
+MenuController._handleKeypress	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._handleKeypress(key)$/;"	f
+MenuController._nextIndexFor	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._nextIndexFor(shortcut)$/;"	f
+MenuController._restoreOptions	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._restoreOptions()$/;"	f
+MenuController._saveOptions	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._saveOptions()$/;"	f
+MenuController._setCmdheight	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._setCmdheight()$/;"	f
+MenuController.showMenu	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController.showMenu()$/;"	f
+MenuItem.All	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.All()$/;"	f
+MenuItem.AllEnabled	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.AllEnabled()$/;"	f
+MenuItem.Create	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.Create(options)$/;"	f
+MenuItem.CreateSeparator	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.CreateSeparator(options)$/;"	f
+MenuItem.CreateSubmenu	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.CreateSubmenu(options)$/;"	f
+MenuItem.enabled	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.enabled()$/;"	f
+MenuItem.execute	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.execute()$/;"	f
+MenuItem.isSeparator	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.isSeparator()$/;"	f
+MenuItem.isSubmenu	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.isSubmenu()$/;"	f
 Merge	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Merge(cmd, bang, args) abort$/;"	f
 Modules	/home/ztb/.vim/bundle/syntastic/syntax_checkers/yaml/yamlxs.vim	/^function s:Modules()$/;"	f
 Move	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Move(force,destination) abort$/;"	f
@@ -507,6 +602,30 @@ MyFoldText	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^function MyFold
 MyFoldText	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_newhoist.vim	/^function! MyFoldText()$/;"	f
 MyHoistableFoldLevel	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_newhoist.vim	/^function! MyHoistableFoldLevel(line)$/;"	f
 MyLineage	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_math.vim	/^function! MyLineage(lnum)$/;"	f
+NAME	/home/ztb/.vim/bundle/delimitMate/Makefile	/^NAME     =  delimitMate$/;"	m
+NERDTree	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^augroup NERDTree$/;"	a
+NERDTree.ExistsForBuf	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ExistsForBuf()$/;"	f
+NERDTree.ExistsForTab	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ExistsForTab()$/;"	f
+NERDTree.ForCurrentBuf	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ForCurrentBuf()$/;"	f
+NERDTree.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.New(path)$/;"	f
+NERDTree.render	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.render()$/;"	f
+NERDTreeAddKeyMap	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddKeyMap(options)$/;"	f
+NERDTreeAddMenuItem	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuItem(options)$/;"	f
+NERDTreeAddMenuSeparator	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuSeparator(...)$/;"	f
+NERDTreeAddNode	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeAddNode()$/;"	f
+NERDTreeAddSubmenu	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddSubmenu(options)$/;"	f
+NERDTreeCWD	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeCWD()$/;"	f
+NERDTreeCopyNode	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeCopyNode()$/;"	f
+NERDTreeDeleteNode	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeDeleteNode()$/;"	f
+NERDTreeExecFile	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFile()$/;"	f
+NERDTreeExecFileActive	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFileActive()$/;"	f
+NERDTreeExecuteFile	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeExecuteFile()$/;"	f
+NERDTreeFocus	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeFocus()$/;"	f
+NERDTreeHijackNetrw	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    augroup NERDTreeHijackNetrw$/;"	a
+NERDTreeMoveNode	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeMoveNode()$/;"	f
+NERDTreeQuickLook	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeQuickLook()$/;"	f
+NERDTreeRender	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeRender()$/;"	f
+NERDTreeRevealInFinder	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeRevealInFinder()$/;"	f
 NewHMD	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_checkbox.vim	/^function! NewHMD(line)$/;"	f
 NewHMD	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_gtd.vim	/^function! NewHMD(line)$/;"	f
 NewTags	/home/ztb/.vim/bundle/syntastic/syntax_checkers/html/tidy.vim	/^function! s:NewTags(name) " {{{2$/;"	f
@@ -514,7 +633,12 @@ NextHead	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^function! NextHea
 NextListIdx	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_checkbox.vim	/^function! NextListIdx(lidx)$/;"	f
 NextPage	/home/ztb/.vim/bundle/vimpager/less.vim	/^fun! s:NextPage()$/;"	f
 NextTagIdx	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_checkbox.vim	/^function! NextTagIdx(lidx,tidx)$/;"	f
+NoAutoClose	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:NoAutoClose() "{{{$/;"	f
 Node	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/Node.pm	/^package Node;$/;"	p
+Notifier.AddListener	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.AddListener(event, funcname)$/;"	f
+Notifier.GetListenersForEvent	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.GetListenersForEvent(name)$/;"	f
+Notifier.GetListenersMap	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.GetListenersMap()$/;"	f
+Notifier.NotifyListeners	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.NotifyListeners(event, path, params)$/;"	f
 Open	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Open()$/;"	f
 OpenDocument	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2odp.rb	/^class OpenDocument::Manifest$/;"	c
 OpenDocument	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2odp.rb	/^module OpenDocument$/;"	m
@@ -523,6 +647,21 @@ OpenFoldIfClosed	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^fu
 OpenMulti	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:OpenMulti(...)$/;"	f
 OpenNoMarks	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:OpenNoMarks(md, line)$/;"	f
 OpenSnip	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^function! s:OpenSnip()$/;"	f
+Opener.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener.New(path, opts)$/;"	f
+Opener._bufInWindows	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._bufInWindows(bnum)$/;"	f
+Opener._checkToCloseTree	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._checkToCloseTree(newtab)$/;"	f
+Opener._firstUsableWindow	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._firstUsableWindow()$/;"	f
+Opener._gotoTargetWin	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._gotoTargetWin()$/;"	f
+Opener._isWindowUsable	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._isWindowUsable(winnumber)$/;"	f
+Opener._newSplit	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._newSplit()$/;"	f
+Opener._newVSplit	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._newVSplit()$/;"	f
+Opener._openDirectory	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._openDirectory(node)$/;"	f
+Opener._openFile	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._openFile()$/;"	f
+Opener._previousWindow	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._previousWindow()$/;"	f
+Opener._restoreCursorPos	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._restoreCursorPos()$/;"	f
+Opener._reuseWindow	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._reuseWindow()$/;"	f
+Opener._saveCursorPos	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._saveCursorPos()$/;"	f
+Opener.open	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener.open(target)$/;"	f
 Outline	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind.py	/^class Outline:                     # The target object of the parser$/;"	c
 Outline	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind_outline.py	/^class Outline:                     # The target object of the parser$/;"	c
 OutlineParser	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/Node.pm	/^package OutlineParser;$/;"	p
@@ -535,7 +674,9 @@ OutlineToXoxo	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2xo.rb	/^c
 P	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_smart_paste.vim	/^map <buffer>P ]P$/;"	m
 PAUSE_BEFORE_EXIT	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set PAUSE_BEFORE_EXIT=1$/;"	v
 PAUSE_BEFORE_EXIT	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set PAUSE_BEFORE_EXIT=0$/;"	v
+PERL	/home/ztb/.vim/bundle/delimitMate/Makefile	/^PERL     =  perl$/;"	m
 PIPE	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^from subprocess import Popen, PIPE$/;"	i
+PLUGIN	/home/ztb/.vim/bundle/delimitMate/Makefile	/^PLUGIN   =  $(wildcard plugin\/*.vim)$/;"	m
 PREFIX	/home/ztb/.vim/bundle/vimpager/Makefile	/^PREFIX?= \/usr\/local$/;"	m
 PROJECT_ROOT	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set PROJECT_ROOT=%~2$/;"	v
 PROJECT_ROOT	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set PROJECT_ROOT=$/;"	v
@@ -546,6 +687,49 @@ PadInfo	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad.py	/^class PadInfo(obj
 PadInfo	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^from vim_pad.pad import PadInfo$/;"	i
 ParseArgs	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^:ParseArgs$/;"	l
 ParseArgs	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:ParseArgs$/;"	l
+Path.AbsolutePathFor	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.AbsolutePathFor(str)$/;"	f
+Path.CopyingSupported	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.CopyingSupported()$/;"	f
+Path.Create	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Create(fullpath)$/;"	f
+Path.JoinPathStrings	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.JoinPathStrings(...)$/;"	f
+Path.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.New(path)$/;"	f
+Path.Resolve	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Resolve(path)$/;"	f
+Path.Slash	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Slash()$/;"	f
+Path.WinToUnixPath	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.WinToUnixPath(pathstr)$/;"	f
+Path._escChars	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._escChars()$/;"	f
+Path._ignorePatternMatches	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._ignorePatternMatches(pattern)$/;"	f
+Path._str	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._str()$/;"	f
+Path._strForCd	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForCd()$/;"	f
+Path._strForEdit	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForEdit()$/;"	f
+Path._strForGlob	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForGlob()$/;"	f
+Path._strForUI	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForUI()$/;"	f
+Path.bookmarkNames	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.bookmarkNames()$/;"	f
+Path.cacheDisplayString	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.cacheDisplayString() abort$/;"	f
+Path.changeToDir	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.changeToDir()$/;"	f
+Path.compareTo	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.compareTo(path)$/;"	f
+Path.copy	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.copy(dest)$/;"	f
+Path.copyingWillOverwrite	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.copyingWillOverwrite(dest)$/;"	f
+Path.createParentDirectories	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.createParentDirectories(path)$/;"	f
+Path.delete	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.delete()$/;"	f
+Path.displayString	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.displayString()$/;"	f
+Path.edit	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.edit()$/;"	f
+Path.equals	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.equals(path)$/;"	f
+Path.exists	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.exists()$/;"	f
+Path.extractDriveLetter	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.extractDriveLetter(fullpath)$/;"	f
+Path.getDir	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getDir()$/;"	f
+Path.getLastPathComponent	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getLastPathComponent(dirSlash)$/;"	f
+Path.getParent	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getParent()$/;"	f
+Path.getSortOrderIndex	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getSortOrderIndex()$/;"	f
+Path.ignore	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.ignore()$/;"	f
+Path.isUnder	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnder(path)$/;"	f
+Path.isUnixHiddenFile	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnixHiddenFile()$/;"	f
+Path.isUnixHiddenPath	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnixHiddenPath()$/;"	f
+Path.readInfoFromDisk	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.readInfoFromDisk(fullpath)$/;"	f
+Path.refresh	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.refresh()$/;"	f
+Path.refreshFlags	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.refreshFlags()$/;"	f
+Path.rename	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.rename(newPath)$/;"	f
+Path.str	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.str(...)$/;"	f
+Path.strTrunk	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.strTrunk()$/;"	f
+Path.tabnr	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.tabnr()$/;"	f
 Popen	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^from subprocess import Popen, PIPE$/;"	i
 PreformattedBodyText	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^function! PreformattedBodyText(line)$/;"	f
 PreformattedTable	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^function! PreformattedTable(line)$/;"	f
@@ -598,8 +782,11 @@ RestoreUserMaps	/home/ztb/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun!
 RestoreWinPosn	/home/ztb/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! RestoreWinPosn(...)$/;"	f
 RevisionComplete	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:RevisionComplete(A, L, P) abort$/;"	f
 RootParents	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_math.vim	/^function! RootParents()$/;"	f
+SED	/home/ztb/.vim/bundle/delimitMate/Makefile	/^SED      =  $(shell command -v gsed || command -v sed)$/;"	m
+SID	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function s:SID()$/;"	f
 SM	/home/ztb/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^com! -bar -nargs=1 SM	call SaveMark(<q-args>)$/;"	c
 SORT_TYPES	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^SORT_TYPES = {$/;"	v
+SOURCES	/home/ztb/.vim/bundle/delimitMate/Makefile	/^SOURCES  =  $(PLUGIN)$/;"	m
 SWP	/home/ztb/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^com! -bar -nargs=0 SWP	call SaveWinPosn()$/;"	c
 SYSCONFDIR	/home/ztb/.vim/bundle/vimpager/Makefile	/^SYSCONFDIR?= ${PREFIX}\/etc$/;"	m
 SafeAddPercent	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_gtd.vim	/^function! SafeAddPercent()$/;"	f
@@ -615,6 +802,7 @@ SaveUserMaps	/home/ztb/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! Sa
 SaveWinPosn	/home/ztb/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! SaveWinPosn(...)$/;"	f
 SelectTask	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^function! s:SelectTask()$/;"	f
 SetBox	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_checkbox.vim	/^function! SetBox(char)$/;"	f
+SetCompilerType	/home/ztb/.vim/bundle/syntastic/syntax_checkers/fortran/gfortran.vim	/^function! s:SetCompilerType(exe) " {{{2$/;"	f
 SetDefTxt	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SetDefTxt()$/;"	f
 SetNextList	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_checkbox.vim	/^function! SetNextList()$/;"	f
 SetNextTag	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_checkbox.vim	/^function! SetNextTag()$/;"	f
@@ -794,6 +982,7 @@ SyntaxCheckers_coq_coqtop_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_chec
 SyntaxCheckers_cpp_cpplint_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/cpplint.vim	/^function! SyntaxCheckers_cpp_cpplint_GetLocList() dict$/;"	f
 SyntaxCheckers_cpp_gcc_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/gcc.vim	/^function! SyntaxCheckers_cpp_gcc_GetLocList() dict$/;"	f
 SyntaxCheckers_cpp_gcc_IsAvailable	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/gcc.vim	/^function! SyntaxCheckers_cpp_gcc_IsAvailable() dict$/;"	f
+SyntaxCheckers_cpp_verapp_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/verapp.vim	/^function! SyntaxCheckers_cpp_verapp_GetLocList() dict$/;"	f
 SyntaxCheckers_cs_mcs_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cs/mcs.vim	/^function! SyntaxCheckers_cs_mcs_GetLocList() dict$/;"	f
 SyntaxCheckers_css_csslint_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/css/csslint.vim	/^function! SyntaxCheckers_css_csslint_GetLocList() dict$/;"	f
 SyntaxCheckers_css_prettycss_GetHighlightRegex	/home/ztb/.vim/bundle/syntastic/syntax_checkers/css/prettycss.vim	/^function! SyntaxCheckers_css_prettycss_GetHighlightRegex(item)$/;"	f
@@ -812,8 +1001,8 @@ SyntaxCheckers_erlang_escript_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_
 SyntaxCheckers_erlang_syntaxerl_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/erlang/syntaxerl.vim	/^function! SyntaxCheckers_erlang_syntaxerl_GetLocList() dict$/;"	f
 SyntaxCheckers_eruby_ruby_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/eruby/ruby.vim	/^function! SyntaxCheckers_eruby_ruby_GetLocList() dict$/;"	f
 SyntaxCheckers_eruby_ruby_IsAvailable	/home/ztb/.vim/bundle/syntastic/syntax_checkers/eruby/ruby.vim	/^function! SyntaxCheckers_eruby_ruby_IsAvailable() dict$/;"	f
-SyntaxCheckers_fortran_gfortran_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/fortran/gfortran.vim	/^function! SyntaxCheckers_fortran_gfortran_GetLocList() dict$/;"	f
-SyntaxCheckers_fortran_gfortran_IsAvailable	/home/ztb/.vim/bundle/syntastic/syntax_checkers/fortran/gfortran.vim	/^function! SyntaxCheckers_fortran_gfortran_IsAvailable() dict$/;"	f
+SyntaxCheckers_fortran_gfortran_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/fortran/gfortran.vim	/^function! SyntaxCheckers_fortran_gfortran_GetLocList() dict " {{{1$/;"	f
+SyntaxCheckers_fortran_gfortran_IsAvailable	/home/ztb/.vim/bundle/syntastic/syntax_checkers/fortran/gfortran.vim	/^function! SyntaxCheckers_fortran_gfortran_IsAvailable() dict " {{{1$/;"	f
 SyntaxCheckers_glsl_cgc_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/glsl/cgc.vim	/^function! SyntaxCheckers_glsl_cgc_GetLocList() dict " {{{1$/;"	f
 SyntaxCheckers_go_go_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/go/go.vim	/^function! SyntaxCheckers_go_go_GetLocList() dict$/;"	f
 SyntaxCheckers_go_go_IsAvailable	/home/ztb/.vim/bundle/syntastic/syntax_checkers/go/go.vim	/^function! SyntaxCheckers_go_go_IsAvailable() dict$/;"	f
@@ -847,6 +1036,7 @@ SyntaxCheckers_javascript_closurecompiler_IsAvailable	/home/ztb/.vim/bundle/synt
 SyntaxCheckers_javascript_eslint_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/javascript/eslint.vim	/^function! SyntaxCheckers_javascript_eslint_GetLocList() dict$/;"	f
 SyntaxCheckers_javascript_eslint_IsAvailable	/home/ztb/.vim/bundle/syntastic/syntax_checkers/javascript/eslint.vim	/^function! SyntaxCheckers_javascript_eslint_IsAvailable() dict$/;"	f
 SyntaxCheckers_javascript_flow_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/javascript/flow.vim	/^function! SyntaxCheckers_javascript_flow_GetLocList() dict$/;"	f
+SyntaxCheckers_javascript_flow_IsAvailable	/home/ztb/.vim/bundle/syntastic/syntax_checkers/javascript/flow.vim	/^function! SyntaxCheckers_javascript_flow_IsAvailable() dict$/;"	f
 SyntaxCheckers_javascript_gjslint_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/javascript/gjslint.vim	/^function! SyntaxCheckers_javascript_gjslint_GetLocList() dict$/;"	f
 SyntaxCheckers_javascript_jscs_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/javascript/jscs.vim	/^function! SyntaxCheckers_javascript_jscs_GetLocList() dict$/;"	f
 SyntaxCheckers_javascript_jshint_GetLocList	/home/ztb/.vim/bundle/syntastic/syntax_checkers/javascript/jshint.vim	/^function! SyntaxCheckers_javascript_jshint_GetLocList() dict$/;"	f
@@ -997,9 +1187,86 @@ ToggleLess	/home/ztb/.vim/bundle/vimpager/less.vim	/^  fun! s:ToggleLess()$/;"	f
 ToggleMRURelative	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleMRURelative()$/;"	f
 ToggleRegex	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleRegex()$/;"	f
 ToggleType	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleType(dir)$/;"	f
+TreeDirNode.AbsoluteTreeRoot	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.AbsoluteTreeRoot()$/;"	f
+TreeDirNode.GetSelected	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.GetSelected()$/;"	f
+TreeDirNode.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.New(path)$/;"	f
+TreeDirNode._initChildren	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._initChildren(silent)$/;"	f
+TreeDirNode._openInNewTab	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._openInNewTab()$/;"	f
+TreeDirNode._openRecursively2	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._openRecursively2(forceOpen)$/;"	f
+TreeDirNode.activate	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.activate(...)$/;"	f
+TreeDirNode.addChild	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.addChild(treenode, inOrder)$/;"	f
+TreeDirNode.close	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.close()$/;"	f
+TreeDirNode.closeChildren	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.closeChildren()$/;"	f
+TreeDirNode.createChild	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.createChild(path, inOrder)$/;"	f
+TreeDirNode.findNode	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.findNode(path)$/;"	f
+TreeDirNode.getChild	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChild(path)$/;"	f
+TreeDirNode.getChildByIndex	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildByIndex(indx, visible)$/;"	f
+TreeDirNode.getChildCount	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildCount()$/;"	f
+TreeDirNode.getChildIndex	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildIndex(path)$/;"	f
+TreeDirNode.getVisibleChildCount	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getVisibleChildCount()$/;"	f
+TreeDirNode.getVisibleChildren	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getVisibleChildren()$/;"	f
+TreeDirNode.hasVisibleChildren	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.hasVisibleChildren()$/;"	f
+TreeDirNode.open	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.open(...)$/;"	f
+TreeDirNode.openAlong	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openAlong(...)$/;"	f
+TreeDirNode.openExplorer	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openExplorer()$/;"	f
+TreeDirNode.openInNewTab	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openInNewTab(options)$/;"	f
+TreeDirNode.openRecursively	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openRecursively()$/;"	f
+TreeDirNode.refresh	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.refresh()$/;"	f
+TreeDirNode.refreshDirFlags	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.refreshDirFlags()$/;"	f
+TreeDirNode.refreshFlags	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.refreshFlags()$/;"	f
+TreeDirNode.removeChild	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.removeChild(treenode)$/;"	f
+TreeDirNode.reveal	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.reveal(path)$/;"	f
+TreeDirNode.sortChildren	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.sortChildren()$/;"	f
+TreeDirNode.toggleOpen	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.toggleOpen(...)$/;"	f
+TreeDirNode.transplantChild	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.transplantChild(newNode)$/;"	f
+TreeFileNode.GetRootForTab	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetRootForTab()$/;"	f
+TreeFileNode.GetSelected	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetSelected()$/;"	f
+TreeFileNode.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.New(path)$/;"	f
+TreeFileNode._renderToString	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode._renderToString(depth, drawText, vertMap, isLastChild)$/;"	f
+TreeFileNode.activate	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.activate(...)$/;"	f
+TreeFileNode.bookmark	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.bookmark(name)$/;"	f
+TreeFileNode.cacheParent	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.cacheParent()$/;"	f
+TreeFileNode.clearBookmarks	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.clearBookmarks()$/;"	f
+TreeFileNode.copy	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.copy(dest)$/;"	f
+TreeFileNode.delete	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.delete()$/;"	f
+TreeFileNode.displayString	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.displayString()$/;"	f
+TreeFileNode.equals	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.equals(treenode)$/;"	f
+TreeFileNode.findNode	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findNode(path)$/;"	f
+TreeFileNode.findOpenDirSiblingWithVisibleChildren	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findOpenDirSiblingWithVisibleChildren(direction)$/;"	f
+TreeFileNode.findSibling	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findSibling(direction)$/;"	f
+TreeFileNode.isRoot	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.isRoot()$/;"	f
+TreeFileNode.isVisible	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.isVisible()$/;"	f
+TreeFileNode.makeRoot	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.makeRoot()$/;"	f
+TreeFileNode.open	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.open(...)$/;"	f
+TreeFileNode.openInNewTab	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openInNewTab(options)$/;"	f
+TreeFileNode.openSplit	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openSplit()$/;"	f
+TreeFileNode.openVSplit	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openVSplit()$/;"	f
+TreeFileNode.putCursorHere	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.putCursorHere(isJump, recurseUpward)$/;"	f
+TreeFileNode.refresh	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.refresh()$/;"	f
+TreeFileNode.refreshFlags	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.refreshFlags()$/;"	f
+TreeFileNode.rename	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.rename(newName)$/;"	f
+TreeFileNode.renderToString	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.renderToString()$/;"	f
+TriggerAbb	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:TriggerAbb() "{{{$/;"	f
+UI.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.New(nerdtree)$/;"	f
+UI._indentLevelFor	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI._indentLevelFor(line)$/;"	f
+UI.centerView	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.centerView()$/;"	f
+UI.getLineNum	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getLineNum(file_node)$/;"	f
+UI.getPath	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getPath(ln)$/;"	f
+UI.getRootLineNum	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getRootLineNum()$/;"	f
+UI.lolcats	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.lolcats()$/;"	f
+UI.render	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.render()$/;"	f
+UI.renderViewSavingPosition	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.renderViewSavingPosition()$/;"	f
+UI.restoreScreenState	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.restoreScreenState()$/;"	f
+UI.saveScreenState	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.saveScreenState()$/;"	f
+UI.toggleIgnoreFilter	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleIgnoreFilter()$/;"	f
+UI.toggleShowBookmarks	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleShowBookmarks()$/;"	f
+UI.toggleShowFiles	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleShowFiles()$/;"	f
+UI.toggleShowHidden	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleShowHidden()$/;"	f
+UI.toggleZoom	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleZoom()$/;"	f
 UPDATED_SOURCE	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set UPDATED_SOURCE=%~2$/;"	v
 UPDATED_SOURCE	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set UPDATED_SOURCE=$/;"	v
 Unlock	/home/ztb/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:Unlock$/;"	l
+Unmap	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:Unmap() " {{{$/;"	f
 Update	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Update(str)$/;"	f
 UpdateErrors	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^function! s:UpdateErrors(auto_invoked, checker_names) abort " {{{2$/;"	f
 UpdateTimes	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_clock.vim	/^function! UpdateTimes()$/;"	f
@@ -1009,6 +1276,8 @@ UserCmd	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:UserCmd(lscmd
 UserText	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^function! UserText(line)$/;"	f
 UserTextLabeled	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^function! UserTextLabeled(line)$/;"	f
 UserTextSpace	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^function! UserTextSpace(line)$/;"	f
+VERSION	/home/ztb/.vim/bundle/delimitMate/Makefile	/^VERSION  =  $(shell $(SED) -n -e '\/Current \\+release\/{s\/^ \\+\\([0-9.]\\+\\).*\/\\1\/;p;}' $(firstword $(DOC)))$/;"	m
+VIM	/home/ztb/.vim/bundle/delimitMate/Makefile	/^VIM      =  vim$/;"	m
 VOcop	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_smart_paste.vim	/^function! VOcop()$/;"	f
 VOcut	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_smart_paste.vim	/^function! VOcut()$/;"	f
 VOindentleft	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_format.vim	/^function! VOindentleft()$/;"	f
@@ -1080,6 +1349,10 @@ _translateElement	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/util.vim	/^
 _translateFilter	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! s:_translateFilter(filters) abort " {{{2$/;"	f
 abbrev	/home/ztb/.vim/bundle/vim-endwise/plugin/endwise.vim	/^function! s:abbrev()$/;"	f
 abspath	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad.py	/^from os.path import abspath, basename, dirname, relpath$/;"	i
+activateAll	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateAll()$/;"	f
+activateBookmark	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateBookmark(bm)$/;"	f
+activateDirNode	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateDirNode(node)$/;"	f
+activateFileNode	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateFileNode(node)$/;"	f
 add	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2odp.rb	/^  def add(path, type)$/;"	f	class:OpenDocument
 addPostamble	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def addPostamble():$/;"	f
 addPreamble	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def addPreamble():$/;"	f
@@ -1129,6 +1402,7 @@ b:pad_query	/home/ztb/.vim/bundle/vim-pad/ftplugin/pad.vim	/^    let b:pad_query
 b:quicktask_did_mappings	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^    let b:quicktask_did_mappings = 1$/;"	v
 b:undo_ftplugin	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^  let b:undo_ftplugin = ''$/;"	v
 b:undo_ftplugin	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^let b:undo_ftplugin .= '|setlocal comments< formatoptions< spell< wrap< textwidth< expandtab< shiftwidth< tabstop< iskeyword< foldmethod< foldexpr< fillchars< foldtext<'$/;"	v
+balance_matchpairs	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:balance_matchpairs(char) "{{{$/;"	f
 base36encode	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/timestamps.py	/^def base36encode(number, alphabet='0123456789abcdefghijklmnopqrstuvxxyz'):$/;"	f
 basename	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^from os.path import join, basename, exists$/;"	i
 basename	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad.py	/^from os.path import abspath, basename, dirname, relpath$/;"	i
@@ -1193,6 +1467,8 @@ cbPrintNode	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/example_i
 cbPrintNode	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/example_parse.pl	/^sub cbPrintNode()$/;"	s
 cbPrintNodeDiagnostic	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/example_insert.pl	/^sub cbPrintNodeDiagnostic()$/;"	s
 cbPrintTag	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/example_otl2markup.pl	/^sub cbPrintTag()$/;"	s
+chCwd	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:chCwd(node)$/;"	f
+chRoot	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:chRoot(node)$/;"	f
 changelist	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! s:changelist(bufnr)$/;"	f
 charEscape	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def charEscape(line):$/;"	f
 charval	/home/ztb/.vim/bundle/vimpager/prototypes/uudecode_gawk.awk	/^function charval(char) {$/;"	f
@@ -1204,8 +1480,11 @@ chop	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:chop(mr
 clone	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/Node.pm	/^sub clone()$/;"	s
 close	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind.py	/^    def close(self):    # Called when all data has been parsed.$/;"	m	class:Outline
 close	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind_outline.py	/^    def close(self):    # Called when all data has been parsed.$/;"	m	class:Outline
+closeChildren	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeChildren(node)$/;"	f
+closeCurrentDir	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeCurrentDir(node)$/;"	f
 closeLevels	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def closeLevels():$/;"	f
 closeLevels	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2table.py	/^def closeLevels():$/;"	f
+closeTreeWindow	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeTreeWindow()$/;"	f
 codecs	/home/ztb/.vim/bundle/syntastic/syntax_checkers/python/codec.py	/^import codecs$/;"	i
 codecs	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind.py	/^import codecs$/;"	i
 codecs	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind_outline.py	/^import codecs$/;"	i
@@ -1213,7 +1492,10 @@ codecs	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/ou
 colonStrip	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def colonStrip(line):$/;"	f
 colonStrip	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2ooimpress.py	/^def colonStrip(line):$/;"	f
 columns	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2table.py	/^columns = []$/;"	v
+comma	/home/ztb/.vim/bundle/delimitMate/Makefile	/^comma    := ,$/;"	m
 command	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:command(definition) abort$/;"	f
+commands	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^  let commands = []$/;"	v
+commands	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^let commands = []$/;"	v
 comment_style_map	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/modelines.py	/^comment_style_map = {$/;"	v
 comparent	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:comparent(...)$/;"	f
 compfnlen	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compfnlen(...)$/;"	f
@@ -1324,6 +1606,7 @@ ctrlp#utils#readfile	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^
 ctrlp#utils#writecache	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#writecache(lines, ...)$/;"	f
 current_tag	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind.py	/^    current_tag = None$/;"	v	class:Outline
 current_tag	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind_outline.py	/^    current_tag = None$/;"	v	class:Outline
+cursor_idx	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:cursor_idx() "{{{$/;"	f
 d	/home/ztb/.vim/bundle/vimpager/less.vim	/^noremap <script> d <C-D><SID>L$/;"	m
 dashStrip	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def dashStrip(line):$/;"	f
 data	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind.py	/^    def data(self, data):$/;"	m	class:Outline
@@ -1341,11 +1624,29 @@ defaultdict	/home/ztb/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py
 define_commands	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:define_commands() abort$/;"	f
 delent	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:delent(rfunc)$/;"	f
 delete	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^def delete():$/;"	f
+deleteBookmark	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:deleteBookmark(bm)$/;"	f
 deleteDoubleDots	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/votl_maketags.pl	/^sub deleteDoubleDots($)$/;"	s
 deleteSelf	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/Node.pm	/^sub deleteSelf()$/;"	s
 deleteTree	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/Node.pm	/^sub deleteTree()$/;"	s
 delete_lock_files	/home/ztb/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^function! s:delete_lock_files() abort$/;"	f
 delete_pad	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^def delete_pad():  # {{{1$/;"	f
+delimitMate	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^augroup delimitMate$/;"	a
+delimitMate#BS	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#BS() " {{{$/;"	f
+delimitMate#ExpandReturn	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ExpandReturn() "{{{$/;"	f
+delimitMate#ExpandSpace	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ExpandSpace() "{{{$/;"	f
+delimitMate#Get	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#Get(...) "{{{$/;"	f
+delimitMate#IsEmptyPair	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#IsEmptyPair(str) "{{{$/;"	f
+delimitMate#JumpAny	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpAny(...) " {{{$/;"	f
+delimitMate#JumpMany	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpMany() " {{{$/;"	f
+delimitMate#JumpOut	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpOut(char) "{{{$/;"	f
+delimitMate#ParenDelim	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ParenDelim(right) " {{{$/;"	f
+delimitMate#QuoteDelim	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#QuoteDelim(char) "{{{$/;"	f
+delimitMate#Set	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#Set(...) "{{{$/;"	f
+delimitMate#ShouldJump	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ShouldJump(...) "{{{$/;"	f
+delimitMate#SkipDelim	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#SkipDelim(char) "{{{$/;"	f
+delimitMate#Test	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#Test() "{{{$/;"	f
+delimitMate#WithinEmptyPair	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#WithinEmptyPair() "{{{$/;"	f
+delimitMate_version	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^let delimitMate_version = "2.8"$/;"	v
 depth	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind.py	/^    depth = -1$/;"	v	class:Outline
 depth	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind.py	/^depth = 99$/;"	v
 depth	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind_outline.py	/^    depth = -1$/;"	v	class:Outline
@@ -1367,6 +1668,7 @@ dirname	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^from os.pat
 dismrk	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dismrk()$/;"	f
 dispatch	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2latex/otl2latex.py	/^dispatch={}$/;"	v
 display	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^def display(query, archive): # {{{1$/;"	f
+displayHelp	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:displayHelp()$/;"	f
 div	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^div = 0$/;"	v
 divName	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def divName(line):$/;"	f
 do_ptree	/home/ztb/.vim/bundle/vimpager/vimpager	/^do_ptree() {$/;"	f
@@ -1378,8 +1680,11 @@ dprint	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def d
 dprint	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otlgrep.py	/^def dprint(*vals):$/;"	f
 dprint	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otlsplit.py	/^def dprint(*vals):$/;"	f
 e	/home/ztb/.vim/bundle/vimpager/less.vim	/^map e <CR>$/;"	m
+echo	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echo(msg)$/;"	f
+echoWarning	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echoWarning(msg)$/;"	f
 edit_pad	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^def edit_pad():  # {{{1$/;"	f
 elapsed	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:elapsed(nr)$/;"	f
+empty	/home/ztb/.vim/bundle/delimitMate/Makefile	/^empty    :=$/;"	m
 end	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind.py	/^    def end(self, tag):            # Called for each closing tag.$/;"	m	class:Outline
 end	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind_outline.py	/^    def end(self, tag):            # Called for each closing tag.$/;"	m	class:Outline
 end_article	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2docbook.pl	/^sub end_article {$/;"	s
@@ -1394,12 +1699,15 @@ et	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemi
 et	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/outline_freemind.py	/^import xml.etree.ElementTree as et$/;"	i
 etree	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind.py	/^import xml.etree.ElementTree as et$/;"	i
 etree	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/outline_freemind.py	/^import xml.etree.ElementTree as et$/;"	i
+evaluate	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^let evaluate = 0$/;"	v
+evaluate	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^let evaluate = 0$/;"	v
 excl	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:excl(fn)$/;"	f
 exeTmpl	/home/ztb/.vim/bundle/haskell-vim/ftplugin/cabal.vim	/^function! s:exeTmpl(name, src)$/;"	f
 execProgram	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def execProgram(line):$/;"	f
 execextvar	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:execextvar(key)$/;"	f
 exectags	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:exectags(cmd)$/;"	f
 exectagsonfile	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:exectagsonfile(fname, ftype)$/;"	f
+exists	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:exists(name, ...) "{{{$/;"	f
 exists	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^from os.path import join, getmtime, isfile, isdir, exists$/;"	i
 exists	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^from os.path import join, basename, exists$/;"	i
 exists	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^from os.path import expanduser, exists, join, splitext, isfile, basename, dirname$/;"	i
@@ -1407,6 +1715,14 @@ exit	/home/ztb/.vim/bundle/syntastic/syntax_checkers/python/codec.py	/^from sys 
 exit	/home/ztb/.vim/bundle/syntastic/syntax_checkers/python/compile.py	/^from sys import argv, exit$/;"	i
 expanduser	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^from os.path import expanduser, exists, join, splitext, isfile, basename, dirname$/;"	i
 expanduser	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/utils.py	/^from os.path import expanduser, split$/;"	i
+expect	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^    let expect = 0$/;"	v
+expect	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^    let expect = 1$/;"	v
+expect	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^let expect = 0$/;"	v
+expect	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^    let expect = 0$/;"	v
+expect	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^    let expect = 1$/;"	v
+expect	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^let expect = 0$/;"	v
+expected	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^    let expected = []$/;"	v
+expected	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^    let expected = []$/;"	v
 extract_bundled_scripts	/home/ztb/.vim/bundle/vimpager/vimpager	/^extract_bundled_scripts() {$/;"	f
 f	/home/ztb/.vim/bundle/vimpager/less.vim	/^map f <Space>$/;"	m
 fallback_opts	/home/ztb/.vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^fallback_opts() ->$/;"	f
@@ -1421,6 +1737,7 @@ fill_list	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^from vim
 filter	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! s:filter(tags)$/;"	f
 filter	/home/ztb/.vim/bundle/vimpager/vimpager	/^filter() {$/;"	f
 find	/home/ztb/.vim/bundle/vim-pathogen/autoload/pathogen.vim	/^function! s:find(count,cmd,file,lcd)$/;"	f
+findAndRevealPath	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:findAndRevealPath()$/;"	f
 find_rc	/home/ztb/.vim/bundle/vimpager/vimpager	/^find_rc() {$/;"	f
 find_vim_dir	/home/ztb/.vim/bundle/vimpager/vimpager	/^find_vim_dir() {$/;"	f
 findcommon	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:findcommon(items, seed)$/;"	f
@@ -1473,6 +1790,24 @@ function	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:fu
 g	/home/ztb/.vim/bundle/vimpager/less.vim	/^noremap <script> g gg<SID>L$/;"	m
 g:DrChipTopLvlMenu	/home/ztb/.vim/bundle/vimpager/ansiesc/plugin/AnsiEscPlugin.vim	/^   let g:DrChipTopLvlMenu= "DrChip."$/;"	v
 g:NERDCustomDelimiters	/home/ztb/.vim/bundle/salt-vim/syntax/sls.vim	/^let g:NERDCustomDelimiters = {$/;"	v
+g:NERDTree	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^let g:NERDTree = s:NERDTree$/;"	v
+g:NERDTreeAutoDeleteBuffer	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^    let g:NERDTreeAutoDeleteBuffer = 0$/;"	v
+g:NERDTreeBookmark	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^let g:NERDTreeBookmark = s:Bookmark$/;"	v
+g:NERDTreeCreator	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^let g:NERDTreeCreator = s:Creator$/;"	v
+g:NERDTreeDirNode	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^let g:NERDTreeDirNode = s:TreeDirNode$/;"	v
+g:NERDTreeEvent	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/event.vim	/^let g:NERDTreeEvent = s:Event$/;"	v
+g:NERDTreeFileNode	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^let g:NERDTreeFileNode = s:TreeFileNode$/;"	v
+g:NERDTreeFlagSet	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^let g:NERDTreeFlagSet = s:FlagSet$/;"	v
+g:NERDTreeIgnore	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeIgnore = ['\\~$']$/;"	v
+g:NERDTreeKeyMap	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^let g:NERDTreeKeyMap = s:KeyMap$/;"	v
+g:NERDTreeMenuController	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^let g:NERDTreeMenuController = s:MenuController$/;"	v
+g:NERDTreeMenuItem	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^let g:NERDTreeMenuItem = s:MenuItem$/;"	v
+g:NERDTreeOpener	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^let g:NERDTreeOpener = s:Opener$/;"	v
+g:NERDTreePath	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^let g:NERDTreePath = s:Path$/;"	v
+g:NERDTreePathNotifier	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^let g:NERDTreePathNotifier = deepcopy(s:Notifier)$/;"	v
+g:NERDTreeSortOrder	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeSortOrder = ['\\\/$', '*', '\\.swp$',  '\\.bak$', '\\~$']$/;"	v
+g:NERDTreeStatusline	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeStatusline = "%{exists('b:NERDTreeRoot')?b:NERDTreeRoot.path.str():''}"$/;"	v
+g:NERDTreeUI	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^let g:NERDTreeUI = s:UI$/;"	v
 g:SyntasticAutoloclistNotifier	/home/ztb/.vim/bundle/syntastic/plugin/syntastic/autoloclist.vim	/^let g:SyntasticAutoloclistNotifier = {}$/;"	v
 g:SyntasticBalloonsNotifier	/home/ztb/.vim/bundle/syntastic/plugin/syntastic/balloons.vim	/^let g:SyntasticBalloonsNotifier = {}$/;"	v
 g:SyntasticChecker	/home/ztb/.vim/bundle/syntastic/plugin/syntastic/checker.vim	/^let g:SyntasticChecker = {}$/;"	v
@@ -1495,12 +1830,23 @@ g:_SYNTASTIC_UNAME	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^      
 g:_SYNTASTIC_UNAME	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^        let g:_SYNTASTIC_UNAME = split(syntastic#util#system('uname'), "\\n")[0]$/;"	v
 g:_SYNTASTIC_UNAME	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^    let g:_SYNTASTIC_UNAME = 'Unknown'$/;"	v
 g:_SYNTASTIC_UNAME	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^    let g:_SYNTASTIC_UNAME = 'Windows'$/;"	v
-g:_SYNTASTIC_VERSION	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^let g:_SYNTASTIC_VERSION = '3.6.0-67'$/;"	v
+g:_SYNTASTIC_VERSION	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^let g:_SYNTASTIC_VERSION = '3.6.0-93'$/;"	v
 g:cabal_indent_section	/home/ztb/.vim/bundle/haskell-vim/indent/cabal.vim	/^  let g:cabal_indent_section = 2$/;"	v
 g:cabal_indent_section	/home/ztb/.vim/bundle/haskell-vim/indent/cabal.vim	/^  let g:cabal_indent_section = 4$/;"	v
 g:colors_name	/home/ztb/.vim/bundle/vimoutliner/colors/votl_dark.vim	/^let g:colors_name="VO Dark"$/;"	v
 g:colors_name	/home/ztb/.vim/bundle/vimoutliner/colors/votl_light.vim	/^let g:colors_name="VO Light"$/;"	v
 g:colors_name	/home/ztb/.vim/bundle/vimoutliner/colors/votl_test.vim	/^let g:colors_name="VO Light"$/;"	v
+g:delimitMate_eol_marker	/home/ztb/.vim/bundle/delimitMate/test/eol_marker.vim	/^let g:delimitMate_eol_marker = ';'$/;"	v
+g:delimitMate_eol_marker	/home/ztb/.vim/bundle/delimitMate/test/first_buffer_no_ft.vim	/^let g:delimitMate_eol_marker = ';'$/;"	v
+g:delimitMate_expand_cr	/home/ztb/.vim/bundle/delimitMate/test/eol_marker.vim	/^let g:delimitMate_expand_cr = 1$/;"	v
+g:delimitMate_expand_cr	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^let g:delimitMate_expand_cr = 1$/;"	v
+g:delimitMate_expand_cr	/home/ztb/.vim/bundle/delimitMate/test/first_buffer_no_ft.vim	/^let g:delimitMate_expand_cr = 1$/;"	v
+g:delimitMate_expand_space	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^let g:delimitMate_expand_space = 1$/;"	v
+g:delimitMate_insert_eol_marker	/home/ztb/.vim/bundle/delimitMate/test/eol_marker.vim	/^let g:delimitMate_insert_eol_marker = 0$/;"	v
+g:delimitMate_insert_eol_marker	/home/ztb/.vim/bundle/delimitMate/test/eol_marker.vim	/^let g:delimitMate_insert_eol_marker = 1$/;"	v
+g:delimitMate_insert_eol_marker	/home/ztb/.vim/bundle/delimitMate/test/eol_marker.vim	/^let g:delimitMate_insert_eol_marker = 2$/;"	v
+g:delimitMate_matchpairs	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let g:delimitMate_matchpairs = '(:),{:},[:],<:>,¿:?,¡:!,,::'$/;"	v
+g:delimitMate_quotes	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let g:delimitMate_quotes = '" '' ` « |'$/;"	v
 g:did_vo_hoist	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/prev/votl_hoist.vim	/^let g:did_vo_hoist = 1$/;"	v
 g:did_vo_hoist	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_newhoist.vim	/^let g:did_vo_hoist = 1$/;"	v
 g:fugitive_browse_handlers	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^  let g:fugitive_browse_handlers = []$/;"	v
@@ -1551,11 +1897,16 @@ g:loaded_ctrlp_line	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^le
 g:loaded_ctrlp_quickfix	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^let g:loaded_ctrlp_quickfix = 1$/;"	v
 g:loaded_ctrlp_tag	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^let g:loaded_ctrlp_tag = 1$/;"	v
 g:loaded_ctrlp_undo	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^let g:loaded_ctrlp_undo = 1$/;"	v
+g:loaded_delimitMate	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^let g:loaded_delimitMate = 1$/;"	v
 g:loaded_endwise	/home/ztb/.vim/bundle/vim-endwise/plugin/endwise.vim	/^let g:loaded_endwise = 1$/;"	v
 g:loaded_fugitive	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let g:loaded_fugitive = 1$/;"	v
 g:loaded_gutentags	/home/ztb/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:loaded_gutentags = 1$/;"	v
 g:loaded_haskellvim_cabal	/home/ztb/.vim/bundle/haskell-vim/ftplugin/cabal.vim	/^let g:loaded_haskellvim_cabal = 1$/;"	v
 g:loaded_haskellvim_haskell	/home/ztb/.vim/bundle/haskell-vim/ftplugin/haskell.vim	/^let g:loaded_haskellvim_haskell = 1$/;"	v
+g:loaded_nerdtree_autoload	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^let g:loaded_nerdtree_autoload = 1$/;"	v
+g:loaded_nerdtree_exec_menuitem	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^let g:loaded_nerdtree_exec_menuitem = 1$/;"	v
+g:loaded_nerdtree_fs_menu	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^let g:loaded_nerdtree_fs_menu = 1$/;"	v
+g:loaded_nerdtree_ui_glue_autoload	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^let g:loaded_nerdtree_ui_glue_autoload = 1$/;"	v
 g:loaded_pad	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^let g:loaded_pad = 1 "}}}$/;"	v
 g:loaded_pathogen	/home/ztb/.vim/bundle/vim-pathogen/autoload/pathogen.vim	/^let g:loaded_pathogen = 1$/;"	v
 g:loaded_syntastic_actionscript_mxmlc_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/actionscript/mxmlc.vim	/^let g:loaded_syntastic_actionscript_mxmlc_checker = 1$/;"	v
@@ -1593,6 +1944,7 @@ g:loaded_syntastic_cpp_cpplint_checker	/home/ztb/.vim/bundle/syntastic/syntax_ch
 g:loaded_syntastic_cpp_gcc_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/gcc.vim	/^let g:loaded_syntastic_cpp_gcc_checker = 1$/;"	v
 g:loaded_syntastic_cpp_oclint_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/oclint.vim	/^let g:loaded_syntastic_cpp_oclint_checker = 1$/;"	v
 g:loaded_syntastic_cpp_pc_lint_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/pc_lint.vim	/^let g:loaded_syntastic_cpp_pc_lint_checker = 1$/;"	v
+g:loaded_syntastic_cpp_verapp_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/verapp.vim	/^let g:loaded_syntastic_cpp_verapp_checker = 1$/;"	v
 g:loaded_syntastic_cs_mcs_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cs/mcs.vim	/^let g:loaded_syntastic_cs_mcs_checker = 1$/;"	v
 g:loaded_syntastic_css_csslint_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/css/csslint.vim	/^let g:loaded_syntastic_css_csslint_checker = 1$/;"	v
 g:loaded_syntastic_css_phpcs_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/css/phpcs.vim	/^let g:loaded_syntastic_css_phpcs_checker = 1$/;"	v
@@ -1609,7 +1961,7 @@ g:loaded_syntastic_elixir_elixir_checker	/home/ztb/.vim/bundle/syntastic/syntax_
 g:loaded_syntastic_erlang_erlang_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/erlang/escript.vim	/^let g:loaded_syntastic_erlang_erlang_checker = 1$/;"	v
 g:loaded_syntastic_erlang_syntaxerl_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/erlang/syntaxerl.vim	/^let g:loaded_syntastic_erlang_syntaxerl_checker = 1$/;"	v
 g:loaded_syntastic_eruby_ruby_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/eruby/ruby.vim	/^let g:loaded_syntastic_eruby_ruby_checker = 1$/;"	v
-g:loaded_syntastic_fortran_gfortran_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/fortran/gfortran.vim	/^let g:loaded_syntastic_fortran_gfortran_checker=1$/;"	v
+g:loaded_syntastic_fortran_gfortran_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/fortran/gfortran.vim	/^let g:loaded_syntastic_fortran_gfortran_checker = 1$/;"	v
 g:loaded_syntastic_glsl_cgc_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/glsl/cgc.vim	/^let g:loaded_syntastic_glsl_cgc_checker = 1$/;"	v
 g:loaded_syntastic_go_go_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/go/go.vim	/^let g:loaded_syntastic_go_go_checker = 1$/;"	v
 g:loaded_syntastic_go_gofmt_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/go/gofmt.vim	/^let g:loaded_syntastic_go_gofmt_checker = 1$/;"	v
@@ -1751,7 +2103,6 @@ g:loaded_syntastic_yaml_jsyaml_checker	/home/ztb/.vim/bundle/syntastic/syntax_ch
 g:loaded_syntastic_yaml_yamlxs_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/yaml/yamlxs.vim	/^let g:loaded_syntastic_yaml_yamlxs_checker = 1$/;"	v
 g:loaded_syntastic_z80_z80syntaxchecker_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/z80/z80syntaxchecker.vim	/^let g:loaded_syntastic_z80_z80syntaxchecker_checker = 1$/;"	v
 g:loaded_syntastic_zpt_zptlint_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/zpt/zptlint.vim	/^let g:loaded_syntastic_zpt_zptlint_checker = 1$/;"	v
-g:loaded_syntastic_zsh_shellcheck_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/zsh/shellcheck.vim	/^let g:loaded_syntastic_zsh_shellcheck_checker = 1$/;"	v
 g:loaded_syntastic_zsh_zsh_checker	/home/ztb/.vim/bundle/syntastic/syntax_checkers/zsh/zsh.vim	/^let g:loaded_syntastic_zsh_zsh_checker = 1$/;"	v
 g:loaded_votl_format	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_format.vim	/^let g:loaded_votl_format= 1$/;"	v
 g:pad#default_file_extension	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^    let g:pad#default_file_extension = ''$/;"	v
@@ -1880,10 +2231,13 @@ g:syntastic_tex_chktex_sort	/home/ztb/.vim/bundle/syntastic/syntax_checkers/tex/
 g:syntastic_text_atdtool_sort	/home/ztb/.vim/bundle/syntastic/syntax_checkers/text/atdtool.vim	/^    let g:syntastic_text_atdtool_sort = 1$/;"	v
 g:syntastic_typescript_tsc_sort	/home/ztb/.vim/bundle/syntastic/syntax_checkers/typescript/tsc.vim	/^    let g:syntastic_typescript_tsc_sort = 1$/;"	v
 g:syntastic_typescript_tslint_sort	/home/ztb/.vim/bundle/syntastic/syntax_checkers/typescript/tslint.vim	/^    let g:syntastic_typescript_tslint_sort = 1$/;"	v
+g:syntastic_verapp_config_file	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/verapp.vim	/^    let g:syntastic_verapp_config_file = '.syntastic_verapp_config'$/;"	v
 g:syntastic_verilog_compiler_options	/home/ztb/.vim/bundle/syntastic/syntax_checkers/verilog/verilator.vim	/^    let g:syntastic_verilog_compiler_options = '-Wall'$/;"	v
 g:syntastic_vim_vint_sort	/home/ztb/.vim/bundle/syntastic/syntax_checkers/vim/vint.vim	/^    let g:syntastic_vim_vint_sort = 1$/;"	v
 g:syntastic_xhtml_tidy_ignore_errors	/home/ztb/.vim/bundle/syntastic/syntax_checkers/xhtml/tidy.vim	/^    let g:syntastic_xhtml_tidy_ignore_errors = []$/;"	v
 generate_tags	/home/ztb/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:generate_tags(bang, ...) abort$/;"	f
+get	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:get(name, ...) "{{{$/;"	f
+get	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:get(...) " {{{$/;"	f
 getArgs	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def getArgs():$/;"	f
 getArgs	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2ooimpress.py	/^def getArgs():$/;"	f
 getArgs	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2table.py	/^def getArgs():$/;"	f
@@ -1936,6 +2290,7 @@ getWarnings	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/example_i
 getWarnings	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/example_otl2markup.pl	/^sub getWarnings(){return $_[0]->{'warnings'};}$/;"	s
 getWarnings	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/example_parse.pl	/^sub getWarnings(){return $_[0]->{'warnings'};}$/;"	s
 get_absolute_path	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_tags.vim	/^function! s:get_absolute_path(baseDir, fileName)$/;"	f
+get_char	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:get_char(...) "{{{$/;"	f
 get_filelist	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^def get_filelist(query=None, archive=None):  # {{{1$/;"	f
 get_filelist	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^from vim_pad.handler import open_pad, get_filelist, fill_list$/;"	i
 get_line	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2html.rb	/^  def get_line$/;"	f	class:OutlineParser
@@ -1954,6 +2309,7 @@ get_save_dir	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^from v
 get_save_dir	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/utils.py	/^def get_save_dir():$/;"	f
 get_save_dir	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/vim_globals.py	/^from vim_pad.utils import get_save_dir$/;"	i
 get_selected_path	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^def get_selected_path():  # {{{1$/;"	f
+get_syn_name	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:get_syn_name() "{{{$/;"	f
 getbookmarks	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:getbookmarks()$/;"	f
 getenv	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getenv()$/;"	f
 getextvar	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getextvar(key)$/;"	f
@@ -2002,6 +2358,8 @@ handleBodyText	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py
 handleBulleted	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def handleBulleted(linenum, enum):$/;"	f
 handleHeaderRow	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def handleHeaderRow(row):$/;"	f
 handleHeading	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def handleHeading(linenum, enum):$/;"	f
+handleLeftClick	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:handleLeftClick()$/;"	f
+handleMiddleMouse	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:handleMiddleMouse()$/;"	f
 handleNumbered	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def handleNumbered(linenum, enum):$/;"	f
 handleObject	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def handleObject(linenum, enum):$/;"	f
 handleObjects	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def handleObjects(objs):$/;"	f
@@ -2034,6 +2392,9 @@ hasValue	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/Node.pm	/^su
 hash_style	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/modelines.py	/^hash_style = ("# ", '')$/;"	v
 haskell#makeModuleCommentBlock	/home/ztb/.vim/bundle/haskell-vim/ftplugin/haskell.vim	/^function! haskell#makeModuleCommentBlock()$/;"	f
 head_n	/home/ztb/.vim/bundle/vimpager/vimpager	/^head_n() {$/;"	f
+header	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^    let header = empty(header) ? item[1:] : 'Lines should match.'$/;"	v
+header	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^  let header = ''$/;"	v
+header	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^let header = ''$/;"	v
 heading	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2html.rb	/^  def heading(text, nesting)$/;"	f	class:OutlineToHTML
 heading	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2odp.rb	/^  def heading(text, nesting)$/;"	f	class:OutlineToODP
 heading	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2xo.rb	/^  def heading(text, nesting)$/;"	f	class:OutlineToXoxo
@@ -2044,6 +2405,7 @@ highlight	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:highlight(p
 hlevel	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_newhoist.vim	/^	let hlevel = 20$/;"	v
 html_style	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/modelines.py	/^html_style = ("<!-- ", " -->")$/;"	v
 http	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl_handler/Apache/OTL.pm	/^        http:\/\/projects.martini.nu\/apache-otl\/$/;"	l
+i(	/home/ztb/.vim/bundle/delimitMate/test/eol_marker.vim	/^normal i($/;"	m
 ifilter	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ifilter(list, str)$/;"	f
 ignore	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ignore()$/;"	f
 ignorecase	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otlgrep.py	/^ignorecase = 0$/;"	v
@@ -2058,6 +2420,8 @@ indent	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/fr
 indent	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind_outline.py	/^    indent = '\\t'$/;"	v	class:Outline
 indent	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/outline_freemind.py	/^indent = '  '$/;"	v
 indentLevel	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def indentLevel(line):$/;"	f
+init	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:init() "{{{$/;"	f
+initVariable	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initVariable(var, value)$/;"	f
 initialize	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_calendar/vo_calendar_generator.rb	/^  def initialize(path)$/;"	f	class:Shelf
 initialize	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2html.rb	/^  def initialize(file)$/;"	f	class:OutlineParser
 initialize	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2html.rb	/^  def initialize(input_file, head_insert, body_insert, tail_insert)$/;"	f	class:OutlineToHTML
@@ -2067,10 +2431,13 @@ initialize	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2odp.rb	/^  d
 initialize	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2xo.rb	/^  def initialize(file)$/;"	f	class:OutlineParser
 initialize	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2xo.rb	/^  def initialize(input_file, head_insert, body_insert)$/;"	f	class:OutlineToXoxo
 inlineStyle	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^inlineStyle = 0$/;"	v
+input2	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let input2 = substitute(input, '(', s:l, 'g')$/;"	v
+input2	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let input2 = substitute(input2, ')', s:r, 'g')$/;"	v
 inputFile	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^inputFile = ""$/;"	v
 inputFile	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2ooimpress.py	/^inputFile = ""$/;"	v
 inputFile	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2table.py	/^inputFile = ""$/;"	v
 inputFileName	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2latex/otl2latex.py	/^inputFileName=None$/;"	v
+input_q	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^    let input_q = substitute(input,"'" , escape(escape(quote, '"'), '\\'), 'g')$/;"	v
 inputfile	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^inputfile = ""$/;"	v
 inputfile	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otlsplit.py	/^inputfile = ""$/;"	v
 inputfiles	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otlgrep.py	/^inputfiles = []$/;"	v
@@ -2092,18 +2459,35 @@ isAlignRight	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/
 is_body	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/otl.py	/^def is_body(line):$/;"	f
 is_bodynowrap	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/otl.py	/^def is_bodynowrap(line):$/;"	f
 is_bodywrap	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/otl.py	/^def is_bodywrap(line):$/;"	f
+is_cr_expansion	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_cr_expansion(...) " {{{$/;"	f
+is_empty_matchpair	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_empty_matchpair() "{{{$/;"	f
+is_empty_quotes	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_empty_quotes() "{{{$/;"	f
+is_forbidden	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_forbidden(char) "{{{$/;"	f
 is_heading	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/otl.py	/^def is_heading(line):$/;"	f
+is_jump	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_jump(...) "{{{$/;"	f
+is_smart_quote	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_smart_quote(char) "{{{$/;"	f
+is_space_expansion	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_space_expansion() " {{{$/;"	f
 iscmdwin	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:iscmdwin()$/;"	f
 isdir	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^from os.path import join, getmtime, isfile, isdir, exists$/;"	i
 isfile	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^from os.path import join, getmtime, isfile, isdir, exists$/;"	i
 isfile	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^from os.path import expanduser, exists, join, splitext, isfile, basename, dirname$/;"	i
 ispathitem	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ispathitem()$/;"	f
 itemize	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2latex/otl2latex.py	/^    def itemize(self,line):$/;"	f
+itemsnumber	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let itemsnumber = len(split(g:delimitMate_matchpairs, '.:.\\zs,\\ze.:.'))$/;"	v
+itemsnumber	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let itemsnumber = len(split(g:delimitMate_quotes, ' '))$/;"	v
 j	/home/ztb/.vim/bundle/vimpager/less.vim	/^map j <CR>$/;"	m
 join	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^from os.path import join, getmtime, isfile, isdir, exists$/;"	i
 join	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^from os.path import join, basename, exists$/;"	i
 join	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^from os.path import expanduser, exists, join, splitext, isfile, basename, dirname$/;"	i
 join	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/vim_globals.py	/^from os.path import join$/;"	i
+jumpToChild	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToChild(currentNode, direction)$/;"	f
+jumpToFirstChild	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToFirstChild(node)$/;"	f
+jumpToLastChild	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToLastChild(node)$/;"	f
+jumpToNextSibling	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToNextSibling(node)$/;"	f
+jumpToParent	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToParent(node)$/;"	f
+jumpToPrevSibling	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToPrevSibling(node)$/;"	f
+jumpToRoot	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToRoot()$/;"	f
+jumpToSibling	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToSibling(currentNode, forward)$/;"	f
 jump_back	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_tags.vim	/^function! s:jump_back()$/;"	f
 k	/home/ztb/.vim/bundle/vimpager/less.vim	/^noremap <script> k <C-Y><SID>L$/;"	m
 lash	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lash(...)$/;"	f
@@ -2122,20 +2506,31 @@ level	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/otl
 level	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/outline_freemind.py	/^    level = otl.level(heading)$/;"	v
 leveldiff	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/outline_freemind.py	/^        leveldiff = oldlevel - level$/;"	v
 libTmpl	/home/ztb/.vim/bundle/haskell-vim/ftplugin/cabal.vim	/^function! s:libTmpl(name)$/;"	f
+line	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let line = getline('.')$/;"	v
 linechars	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:linechars(pattern) abort$/;"	f
 linecount	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^linecount = 0        # outline size in lines$/;"	v
 lineno	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/outline_freemind.py	/^lineno = 0$/;"	v
+linenr	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^  let linenr += 1$/;"	v
+linenr	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let linenr = 0$/;"	v
 lineout	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! s:lineout(dict)$/;"	f
+lines	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
+lines	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
+lines	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^  let lines = getline(1, line('$'))$/;"	v
+lines	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
+lines	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^  let lines = getline(1, line('$'))$/;"	v
+lines	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
 linkOrImage	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def linkOrImage(line):$/;"	f
 list_done	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2docbook.pl	/^sub list_done {$/;"	s
 list_local	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/__init__.py	/^import vim_pad.list_local$/;"	i
 listdir_external	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^def listdir_external(path, archive, query): # {{{1$/;"	f
 listdir_recursive_nohidden	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^def listdir_recursive_nohidden(path, archive):  # {{{1$/;"	f
 loadNodeModule	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/example_nodepath.pl	/^sub loadNodeModule()$/;"	s
+loaded_nerd_tree	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let loaded_nerd_tree = 1$/;"	v
 loaded_steveoutliner_functions	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^	let loaded_steveoutliner_functions=1$/;"	v
 loaded_vimoutliner_functions	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^let loaded_vimoutliner_functions=1$/;"	v
 log	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:log(m)$/;"	f
 lookup	/home/ztb/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py	/^lookup = defaultdict(list)$/;"	v
+lquote	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:lquote(char) "{{{$/;"	f
 lsCmd	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lsCmd()$/;"	f
 main	/home/ztb/.vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^main([File]) ->$/;"	f
 main	/home/ztb/.vim/bundle/syntastic/syntax_checkers/erlang/erlang_check_file.erl	/^main(_) ->$/;"	f
@@ -2205,6 +2600,43 @@ nargs	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2latex/otl2latex.
 narrowable	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:narrowable()$/;"	f
 natural_timestamp	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^from vim_pad.timestamps import natural_timestamp$/;"	i
 natural_timestamp	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/timestamps.py	/^def natural_timestamp(timestamp):$/;"	f
+nerdtree#checkForBrowse	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#checkForBrowse(dir)$/;"	f
+nerdtree#closeTree	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTree()$/;"	f
+nerdtree#closeTreeIfOpen	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTreeIfOpen()$/;"	f
+nerdtree#closeTreeIfQuitOnOpen	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTreeIfQuitOnOpen()$/;"	f
+nerdtree#compareBookmarks	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareBookmarks(first, second)$/;"	f
+nerdtree#compareNodes	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareNodes(n1, n2)$/;"	f
+nerdtree#completeBookmarks	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#completeBookmarks(A,L,P)$/;"	f
+nerdtree#deprecated	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#deprecated(func, ...)$/;"	f
+nerdtree#dumpHelp	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#dumpHelp()$/;"	f
+nerdtree#echo	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echo(msg)$/;"	f
+nerdtree#echoError	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoError(msg)$/;"	f
+nerdtree#echoWarning	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoWarning(msg)$/;"	f
+nerdtree#exec	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#exec(cmd)$/;"	f
+nerdtree#getTreeWinNum	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#getTreeWinNum()$/;"	f
+nerdtree#has_opt	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#has_opt(options, name)$/;"	f
+nerdtree#isTreeOpen	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#isTreeOpen()$/;"	f
+nerdtree#loadClassFiles	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#loadClassFiles()$/;"	f
+nerdtree#postSourceActions	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#postSourceActions()$/;"	f
+nerdtree#putCursorInTreeWin	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#putCursorInTreeWin()$/;"	f
+nerdtree#putCursorOnBookmarkTable	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#putCursorOnBookmarkTable()$/;"	f
+nerdtree#renderBookmarks	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderBookmarks()$/;"	f
+nerdtree#renderView	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderView()$/;"	f
+nerdtree#runningWindows	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#runningWindows()$/;"	f
+nerdtree#stripMarkupFromLine	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#stripMarkupFromLine(line, removeLeadingSpaces)$/;"	f
+nerdtree#treeMarkupReg	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeMarkupReg()$/;"	f
+nerdtree#treeUpDirLine	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeUpDirLine()$/;"	f
+nerdtree#treeWid	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeWid()$/;"	f
+nerdtree#ui_glue#bookmarkNode	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#bookmarkNode(...)$/;"	f
+nerdtree#ui_glue#chRootCwd	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#chRootCwd()$/;"	f
+nerdtree#ui_glue#clearBookmarks	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#clearBookmarks(bookmarks)$/;"	f
+nerdtree#ui_glue#createDefaultBindings	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#createDefaultBindings()$/;"	f
+nerdtree#ui_glue#invokeKeyMap	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#invokeKeyMap(key)$/;"	f
+nerdtree#ui_glue#openBookmark	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#openBookmark(name)$/;"	f
+nerdtree#ui_glue#revealBookmark	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#revealBookmark(name)$/;"	f
+nerdtree#ui_glue#setupCommands	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#setupCommands()$/;"	f
+nerdtree#ui_glue#upDir	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#upDir(keepState)$/;"	f
+nerdtree#version	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#version()$/;"	f
 nest	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2html.rb	/^  def nest(nesting)$/;"	f	class:OutlineToHTML
 nest	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2odp.rb	/^  def nest(nesting)$/;"	f	class:OutlineToODP
 nest	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2xo.rb	/^  def nest(nesting)$/;"	f	class:OutlineToXoxo
@@ -2233,9 +2665,16 @@ offset	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:offset(lines, 
 oldheading	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/outline_freemind.py	/^    oldheading = heading$/;"	v
 oldheading	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/outline_freemind.py	/^oldheading = ''$/;"	v
 oldlevel	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/outline_freemind.py	/^    oldlevel = otl.level(oldheading)$/;"	v
+openExplorer	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openExplorer(node)$/;"	f
+openHSplit	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openHSplit(target)$/;"	f
+openInNewTab	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openInNewTab(target)$/;"	f
+openInNewTabSilent	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openInNewTabSilent(target)$/;"	f
+openNodeRecursively	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openNodeRecursively(node)$/;"	f
+openVSplit	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openVSplit(target)$/;"	f
 open_pad	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^def open_pad(path=None, first_line="", query=''):  # {{{1$/;"	f
 open_pad	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^from vim_pad.handler import open_pad, get_filelist, fill_list$/;"	i
 openfile	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:openfile(cmd, fid, tail, chkmod, ...)$/;"	f
+option_init	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:option_init(name, default) "{{{$/;"	f
 opts	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:opts(...)$/;"	f
 os	/home/ztb/.vim/bundle/syntastic/syntax_checkers/python/codec.py	/^import os$/;"	i
 os	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^import os$/;"	i
@@ -2250,7 +2689,10 @@ outline	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2ooimpress.py	/
 outline	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^outline = []        # line tuples (value, indent)$/;"	v
 outline	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind_outline.py	/^outline = Outline()$/;"	v
 output	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^output = []        # output outline$/;"	v
+output2	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let output2 = substitute(output, '(', s:l, 'g')$/;"	v
+output2	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let output2 = substitute(output2, ')', s:r, 'g')$/;"	v
 outputFileName	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2latex/otl2latex.py	/^outputFileName=None$/;"	v
+output_q	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^    let output_q = substitute(output,"'" , escape(escape(quote, '"'), '\\'), 'g')$/;"	v
 p	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_smart_paste.vim	/^map <buffer>p :call VOput()<cr>$/;"	m
 p	/home/ztb/.vim/bundle/vimpager/less.vim	/^map p %$/;"	m
 pad#AddModeline	/home/ztb/.vim/bundle/vim-pad/autoload/pad.vim	/^function! pad#AddModeline()$/;"	f
@@ -2294,6 +2736,9 @@ parse	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2xo.rb	/^  def par
 parseline	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:parseline(line)$/;"	f
 parser	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/freemind_outline.py	/^parser = XMLParser(target=outline, encoding='utf-8')$/;"	v
 parts	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:parts(str)$/;"	f
+passed	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let passed = line == eval(output2)$/;"	v
+passed	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^  let passed = lines == expected$/;"	v
+passed	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^  let passed = lines == expected$/;"	v
 pathogen#cycle_filetype	/home/ztb/.vim/bundle/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#cycle_filetype() abort$/;"	f
 pathogen#execute	/home/ztb/.vim/bundle/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#execute(...) abort$/;"	f
 pathogen#expand	/home/ztb/.vim/bundle/vim-pathogen/autoload/pathogen.vim	/^function! pathogen#expand(pattern) abort$/;"	f
@@ -2322,6 +2767,9 @@ perldoc_vim	/home/ztb/.vim/bundle/vimpager/vimpager	/^perldoc_vim() {$/;"	f
 pipeStrip	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def pipeStrip(line):$/;"	f
 plusStrip	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def plusStrip(line):$/;"	f
 presentation_style	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/vo2odp.rb	/^  def presentation_style(x, name, parent, min_font_height, additional = {})$/;"	f	class:OpenDocument
+previewNodeCurrent	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeCurrent(node)$/;"	f
+previewNodeHSplit	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeHSplit(node)$/;"	f
+previewNodeVSplit	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeVSplit(node)$/;"	f
 printConfig	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2tags.py	/^def printConfig():$/;"	f
 printFirstLine	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def printFirstLine(linein):$/;"	f
 printFooter	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def printFooter():$/;"	f
@@ -2340,10 +2788,13 @@ processFile	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otlsplit.py	/^
 processLine	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def processLine(linein):$/;"	f
 processLine	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2ooimpress.py	/^def processLine(linein):$/;"	f
 processLine	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2table.py	/^def processLine(linein):$/;"	f
+promptToDelBuffer	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f
+promptToRenameBuffer	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToRenameBuffer(bufnum, msg, newFileName)$/;"	f
 protect	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/timestamps.py	/^def protect(id):$/;"	f
 q	/home/ztb/.vim/bundle/vim-pad/ftplugin/pad.vim	/^noremap <buffer> <silent> q :bw<cr>$/;"	m
 q	/home/ztb/.vim/bundle/vimpager/less.vim	/^noremap q :<C-u>q<CR>$/;"	m
 quicktask	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^    augroup quicktask$/;"	a
+quotes	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^  let quotes = split(g:delimitMate_quotes, '\\s')$/;"	v
 r	/home/ztb/.vim/bundle/vimpager/less.vim	/^noremap <script> r <C-L><SID>L$/;"	m
 rcs	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^let rcs = split(globpath('$HOME,$HOME\/.vimoutliner','.vimoutlinerrc'), "\\n") +$/;"	v
 re	/home/ztb/.vim/bundle/syntastic/syntax_checkers/python/codec.py	/^import re$/;"	i
@@ -2361,8 +2812,16 @@ recall	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:reca
 record	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:record(bufnr)$/;"	f
 recordFileAsProcessed	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/votl_maketags.pl	/^sub recordFileAsProcessed($$)$/;"	s
 reformat	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:reformat(mrufs, ...)$/;"	f
+refreshCurrent	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:refreshCurrent(node)$/;"	f
+refreshRoot	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:refreshRoot()$/;"	f
 regexfilter	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:regexfilter(str)$/;"	f
 regisfilter	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:regisfilter(reg)$/;"	f
+reload	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let reload = 0$/;"	v
+reload	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let reload = 1$/;"	v
+reload	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let reload = 1$/;"	v
+reload	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^    let reload = 0$/;"	v
+reload	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^    let reload = 1$/;"	v
+reload	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let reload = 1$/;"	v
 relpath	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad.py	/^from os.path import abspath, basename, dirname, relpath$/;"	i
 remarksigns	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:remarksigns()$/;"	f
 remove	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^from os import remove, mkdir$/;"	i
@@ -2391,10 +2850,27 @@ right	/home/ztb/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py	/^rig
 right	/home/ztb/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup_v1.py	/^right  = {}$/;"	v
 rightpart	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2aft.awk	/^function rightpart(str,regex) {$/;"	f
 rmdir	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/utils.py	/^from os import rmdir$/;"	i
+rquote	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:rquote(char) "{{{$/;"	f
+runVimTests	/home/ztb/.vim/bundle/delimitMate/test/_setup.vim	/^let runVimTests = expand('<sfile>:p:h').'\/build\/runVimTests'$/;"	v
 s:BLOCKLEVEL_TAGS	/home/ztb/.vim/bundle/syntastic/syntax_checkers/html/tidy.vim	/^let s:BLOCKLEVEL_TAGS = [$/;"	v
+s:Bookmark	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^let s:Bookmark = {}$/;"	v
+s:Creator	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^let s:Creator = {}$/;"	v
 s:EMPTY_TAGS	/home/ztb/.vim/bundle/syntastic/syntax_checkers/html/tidy.vim	/^let s:EMPTY_TAGS = [$/;"	v
+s:Event	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/event.vim	/^let s:Event = {}$/;"	v
+s:FlagSet	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^let s:FlagSet = {}$/;"	v
 s:IGNORE_ERRORS	/home/ztb/.vim/bundle/syntastic/syntax_checkers/html/tidy.vim	/^let s:IGNORE_ERRORS = [$/;"	v
 s:INLINE_TAGS	/home/ztb/.vim/bundle/syntastic/syntax_checkers/html/tidy.vim	/^let s:INLINE_TAGS = [$/;"	v
+s:KeyMap	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^let s:KeyMap = {}$/;"	v
+s:MenuController	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^let s:MenuController = {}$/;"	v
+s:MenuItem	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^let s:MenuItem = {}$/;"	v
+s:NERDTree	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^let s:NERDTree = {}$/;"	v
+s:NERDTreeSortStarIndex	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^let s:NERDTreeSortStarIndex = index(g:NERDTreeSortOrder, '*')$/;"	v
+s:Notifier	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^let s:Notifier = {}$/;"	v
+s:Opener	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^let s:Opener = {}$/;"	v
+s:Path	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^let s:Path = {}$/;"	v
+s:TreeDirNode	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^let s:TreeDirNode = copy(g:NERDTreeFileNode)$/;"	v
+s:TreeFileNode	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^let s:TreeFileNode = {}$/;"	v
+s:UI	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^let s:UI = {}$/;"	v
 s:_DEBUG_DUMP_OPTIONS	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^let s:_DEBUG_DUMP_OPTIONS = [$/;"	v
 s:_DEFAULT_CHECKERS	/home/ztb/.vim/bundle/syntastic/plugin/syntastic/registry.vim	/^let s:_DEFAULT_CHECKERS = {$/;"	v
 s:_DEFAULT_FILETYPE_MAP	/home/ztb/.vim/bundle/syntastic/plugin/syntastic/registry.vim	/^let s:_DEFAULT_FILETYPE_MAP = {$/;"	v
@@ -2463,6 +2939,7 @@ s:load_jinja_syntax	/home/ztb/.vim/bundle/salt-vim/syntax/sls.vim	/^let s:load_j
 s:loaded	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_checkbox.vim	/^let s:loaded = 1$/;"	v
 s:loaded	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_smart_paste.vim	/^let s:loaded = 1$/;"	v
 s:loaded	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_tags.vim	/^let s:loaded = 1$/;"	v
+s:loaded_delimitMate	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^let s:loaded_delimitMate = 1$/;"	v
 s:lz	/home/ztb/.vim/bundle/vimpager/less.vim	/^let s:lz = &lz$/;"	v
 s:maybe_in_progress	/home/ztb/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^    let s:maybe_in_progress[module] = {}$/;"	v
 s:maybe_in_progress	/home/ztb/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:maybe_in_progress = {}$/;"	v
@@ -2474,8 +2951,10 @@ s:node_file	/home/ztb/.vim/bundle/syntastic/syntax_checkers/less/lessc.vim	/^let
 s:notifiers	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^let s:notifiers = g:SyntasticNotifiers.Instance()$/;"	v
 s:ocamlpp	/home/ztb/.vim/bundle/syntastic/syntax_checkers/ocaml/camlp4o.vim	/^    let s:ocamlpp='camlp4o'$/;"	v
 s:ocamlpp	/home/ztb/.vim/bundle/syntastic/syntax_checkers/ocaml/camlp4o.vim	/^    let s:ocamlpp='camlp4r'$/;"	v
+s:old_cpo	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:old_cpo = &cpo$/;"	v
 s:one_indent	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^let s:one_indent = repeat(" ", &tabstop)$/;"	v
 s:one_time_notices_issued	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/log.vim	/^let s:one_time_notices_issued = []$/;"	v
+s:options	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^  let s:options = {}$/;"	v
 s:path2scripts	/home/ztb/.vim/bundle/vimoutliner/ftplugin/votl.vim	/^let s:path2scripts = expand('<sfile>:p:h:h').'\/vimoutliner\/scripts'$/;"	v
 s:path_sep	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^    let s:path_sep = '\/'$/;"	v
 s:path_sep	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^    let s:path_sep = '\\'$/;"	v
@@ -2522,6 +3001,7 @@ s:save_cpo	/home/ztb/.vim/bundle/syntastic/syntax_checkers/coffee/coffeelint.vim
 s:save_cpo	/home/ztb/.vim/bundle/syntastic/syntax_checkers/coq/coqtop.vim	/^let s:save_cpo = &cpo$/;"	v
 s:save_cpo	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/cpplint.vim	/^let s:save_cpo = &cpo$/;"	v
 s:save_cpo	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/gcc.vim	/^let s:save_cpo = &cpo$/;"	v
+s:save_cpo	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cpp/verapp.vim	/^let s:save_cpo = &cpo$/;"	v
 s:save_cpo	/home/ztb/.vim/bundle/syntastic/syntax_checkers/cs/mcs.vim	/^let s:save_cpo = &cpo$/;"	v
 s:save_cpo	/home/ztb/.vim/bundle/syntastic/syntax_checkers/css/csslint.vim	/^let s:save_cpo = &cpo$/;"	v
 s:save_cpo	/home/ztb/.vim/bundle/syntastic/syntax_checkers/css/prettycss.vim	/^let s:save_cpo = &cpo$/;"	v
@@ -2661,6 +3141,8 @@ s:setup_done	/home/ztb/.vim/bundle/syntastic/plugin/syntastic/highlighting.vim	/
 s:setup_done	/home/ztb/.vim/bundle/syntastic/plugin/syntastic/signs.vim	/^let s:setup_done = 0$/;"	v
 s:temp_files	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^  let s:temp_files = {}$/;"	v
 s:text	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^let s:text = map(['second', 'seconds', 'minutes', 'hours', 'days', 'weeks',$/;"	v
+s:tree_up_dir_line	/home/ztb/.vim/bundle/nerdtree/syntax/nerdtree.vim	/^let s:tree_up_dir_line = '.. (up a dir)'$/;"	v
+s:type_map	/home/ztb/.vim/bundle/syntastic/syntax_checkers/fortran/gfortran.vim	/^let s:type_map = {}$/;"	v
 s:types	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^let s:types = {$/;"	v
 s:update_queue	/home/ztb/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^    let s:update_queue[module] = []$/;"	v
 s:update_queue	/home/ztb/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:update_queue = {}$/;"	v
@@ -2671,10 +3153,13 @@ s:worktree_for_dir	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let 
 samerootsyml	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:samerootsyml(each, isfile, cwd)$/;"	f
 sanstail	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:sanstail(str)$/;"	f
 save	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_calendar/vo_calendar_generator.rb	/^  def save()$/;"	f	class:Shelf
+save_cpo	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^let save_cpo = &cpo$/;"	v
 savebookmark	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:savebookmark(name, cwd)$/;"	f
 savetofile	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:savetofile(mrufs)$/;"	f
 search_pads	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^def search_pads(): # {{{1$/;"	f
 semicolonStrip	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def semicolonStrip(line):$/;"	f
+set	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:set(name, value, ...) "{{{$/;"	f
+set	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:set(...) " {{{$/;"	f
 setAttribute	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/Node.pm	/^sub setAttribute()$/;"	s
 setAttributes	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/Node.pm	/^sub setAttributes()$/;"	s
 setChildrenAtLevel	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/example_bylevel.pl	/^sub setChildrenAtLevel(){$_[0]->{'childrenatlevel'} = $_[1];}$/;"	s
@@ -2691,10 +3176,12 @@ setValue	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/Node/Node.pm	/^su
 set_vim_globals	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/vim_globals.py	/^def set_vim_globals():$/;"	f
 setentries	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:setentries()$/;"	f
 settype	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:settype(type)$/;"	f
+setup	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:setup(...) "{{{$/;"	f
 setupblank	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:setupblank()$/;"	f
 shellesc	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:shellesc(arg) abort$/;"	f
 shellslash	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:shellslash(path) abort$/;"	f
 shortest	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:shortest(lens)$/;"	f
+showMenu	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:showMenu(node)$/;"	f
 showSyntax	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def showSyntax():$/;"	f
 showTitle	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^showTitle = 1$/;"	v
 showUsage	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def showUsage():$/;"	f
@@ -2709,6 +3196,7 @@ slides	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^slide
 sort	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^def sort(key="1"):  # {{{1$/;"	f
 sortAndDeleteDupsFromTagFile	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/votl_maketags.pl	/^sub sortAndDeleteDupsFromTagFile()$/;"	s
 sorter	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl_handler/Apache/OTL.pm	/^sub sorter$/;"	s
+space	/home/ztb/.vim/bundle/delimitMate/Makefile	/^space    := $(empty) $(empty)$/;"	m
 split	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/utils.py	/^from os.path import expanduser, split$/;"	i
 split_for_pad	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^    def split_for_pad():$/;"	f	function:open_pad
 splitext	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^from os.path import expanduser, exists, join, splitext, isfile, basename, dirname$/;"	i
@@ -2777,7 +3265,7 @@ syntastic#util#dictFilter	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/uti
 syntastic#util#findInParent	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! syntastic#util#findInParent(what, where) abort " {{{2$/;"	f
 syntastic#util#isRunningWindows	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! syntastic#util#isRunningWindows() abort " {{{2$/;"	f
 syntastic#util#parseShebang	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! syntastic#util#parseShebang() abort " {{{2$/;"	f
-syntastic#util#parseVersion	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! syntastic#util#parseVersion(version) abort " {{{2$/;"	f
+syntastic#util#parseVersion	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! syntastic#util#parseVersion(version, ...) abort " {{{2$/;"	f
 syntastic#util#redraw	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! syntastic#util#redraw(full) abort " {{{2$/;"	f
 syntastic#util#rmrf	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! syntastic#util#rmrf(what) abort " {{{2$/;"	f
 syntastic#util#screenWidth	/home/ztb/.vim/bundle/syntastic/autoload/syntastic/util.vim	/^function! syntastic#util#screenWidth(str, tabstop) abort " {{{2$/;"	f
@@ -2811,7 +3299,22 @@ tabs	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^def tab
 tagvout	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_calendar/vo_calendar_ui.sh	/^function tagvout() {$/;"	f
 tail	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:tail()$/;"	f
 tail_n	/home/ztb/.vim/bundle/vimpager/vimpager	/^tail_n() {$/;"	f
+tcount	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let tcount += 1$/;"	v
+tcount	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let tcount = 1$/;"	v
+tcount	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^      let tcount += 1$/;"	v
+tcount	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^    let tcount += 1$/;"	v
+tcount	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let tcount = 1$/;"	v
+tcount	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^  let tcount += 1$/;"	v
+tcount	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^let tcount = 1$/;"	v
+tcount	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^  let tcount += 1$/;"	v
+tcount	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^let tcount = 1$/;"	v
 td	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_calendar/vo_calendar_ui.sh	/^function td() {$/;"	f
+test	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:test() "{{{$/;"	f
+test_mappings	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:test_mappings(list, is_matchpair) "{{{$/;"	f
+testsnumber	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^"'''))$/;"	v
+testsnumber	/home/ztb/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^"'''))$/;"	v
+testsnumber	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^=\\{80}$'''))$/;"	v
+testsnumber	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^=\\{80}$'''))$/;"	v
 text	/home/ztb/.vim/bundle/syntastic/syntax_checkers/python/codec.py	/^            text = codecs.lookup(match.groupdict()["coding"]).incrementaldecoder().decode($/;"	v
 text	/home/ztb/.vim/bundle/syntastic/syntax_checkers/python/codec.py	/^        text = ''.join(text).encode('utf-8')$/;"	v
 text	/home/ztb/.vim/bundle/syntastic/syntax_checkers/python/codec.py	/^        text = fle.readlines()$/;"	v
@@ -2826,12 +3329,19 @@ time	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2html.py	/^import 
 timestamp	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad.py	/^from vim_pad.timestamps import timestamp$/;"	i
 timestamp	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/timestamps.py	/^def timestamp():$/;"	f
 title	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otlsplit.py	/^title = 0$/;"	v
+toggleIgnoreFilter	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleIgnoreFilter()$/;"	f
+toggleShowBookmarks	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowBookmarks()$/;"	f
+toggleShowFiles	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowFiles()$/;"	f
+toggleShowHidden	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowHidden()$/;"	f
+toggleZoom	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleZoom()$/;"	f
 topnode	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_freemind/outline_freemind.py	/^topnode = et.SubElement(mapnode, 'node')$/;"	v
 trim	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/otl2aft.awk	/^function trim(str) {$/;"	f
 u	/home/ztb/.vim/bundle/vimpager/less.vim	/^noremap <script> u <C-U><SID>L$/;"	m
 unarchive	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^def unarchive():$/;"	f
 unarchive_pad	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/list_local.py	/^def unarchive_pad():  # {{{1$/;"	f
 unmarksigns	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:unmarksigns()$/;"	f
+upDirCurrentRootClosed	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:upDirCurrentRootClosed()$/;"	f
+upDirCurrentRootOpen	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:upDirCurrentRootOpen()$/;"	f
 update	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^def update():$/;"	f
 update	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_calendar/vo_calendar_generator.rb	/^  def update(year)$/;"	f
 update_jump_list	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_tags.vim	/^function! s:update_jump_list()$/;"	f
@@ -2853,6 +3363,7 @@ vim	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad.py	/^import vim$/;"	i
 vim	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/pad_local.py	/^import vim$/;"	i
 vim	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/utils.py	/^import vim$/;"	i
 vim	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/vim_globals.py	/^import vim$/;"	i
+vimTAP	/home/ztb/.vim/bundle/delimitMate/test/_setup.vim	/^let vimTAP = expand('<sfile>:p:h').'\/build\/VimTAP'$/;"	v
 vim_globals	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/__init__.py	/^import vim_pad.vim_globals$/;"	i
 vim_less	/home/ztb/.vim/bundle/vimpager/vimpager	/^vim_less() {$/;"	f
 vim_pad	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/__init__.py	/^import vim_pad.handler$/;"	i
