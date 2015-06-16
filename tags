@@ -604,15 +604,25 @@ MyHoistableFoldLevel	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_n
 MyLineage	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/plugin/votl_math.vim	/^function! MyLineage(lnum)$/;"	f
 NAME	/home/ztb/.vim/bundle/delimitMate/Makefile	/^NAME     =  delimitMate$/;"	m
 NERDTree	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^augroup NERDTree$/;"	a
+NERDTree.AddPathFilter	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.AddPathFilter(callback)$/;"	f
+NERDTree.Close	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.Close()$/;"	f
+NERDTree.CloseIfQuitOnOpen	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.CloseIfQuitOnOpen()$/;"	f
+NERDTree.CursorToBookmarkTable	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.CursorToBookmarkTable()$/;"	f
+NERDTree.CursorToTreeWin	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.CursorToTreeWin()$/;"	f
 NERDTree.ExistsForBuf	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ExistsForBuf()$/;"	f
 NERDTree.ExistsForTab	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ExistsForTab()$/;"	f
 NERDTree.ForCurrentBuf	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ForCurrentBuf()$/;"	f
+NERDTree.GetWinNum	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.GetWinNum()$/;"	f
+NERDTree.IsOpen	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.IsOpen()$/;"	f
+NERDTree.MustBeOpen	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.MustBeOpen()$/;"	f
 NERDTree.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.New(path)$/;"	f
+NERDTree.PathFilters	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.PathFilters()$/;"	f
 NERDTree.render	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.render()$/;"	f
 NERDTreeAddKeyMap	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddKeyMap(options)$/;"	f
 NERDTreeAddMenuItem	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuItem(options)$/;"	f
 NERDTreeAddMenuSeparator	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuSeparator(...)$/;"	f
 NERDTreeAddNode	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeAddNode()$/;"	f
+NERDTreeAddPathFilter	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddPathFilter(callback)$/;"	f
 NERDTreeAddSubmenu	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddSubmenu(options)$/;"	f
 NERDTreeCWD	/home/ztb/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeCWD()$/;"	f
 NERDTreeCopyNode	/home/ztb/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeCopyNode()$/;"	f
@@ -718,6 +728,7 @@ Path.extractDriveLetter	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^f
 Path.getDir	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getDir()$/;"	f
 Path.getLastPathComponent	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getLastPathComponent(dirSlash)$/;"	f
 Path.getParent	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getParent()$/;"	f
+Path.getSortKey	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getSortKey()$/;"	f
 Path.getSortOrderIndex	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getSortOrderIndex()$/;"	f
 Path.ignore	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.ignore()$/;"	f
 Path.isUnder	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnder(path)$/;"	f
@@ -1247,13 +1258,18 @@ TreeFileNode.refreshFlags	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_
 TreeFileNode.rename	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.rename(newName)$/;"	f
 TreeFileNode.renderToString	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.renderToString()$/;"	f
 TriggerAbb	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:TriggerAbb() "{{{$/;"	f
+UI.IndentWid	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.IndentWid()$/;"	f
+UI.MarkupReg	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.MarkupReg()$/;"	f
 UI.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.New(nerdtree)$/;"	f
+UI.UpDirLine	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.UpDirLine()$/;"	f
+UI._dumpHelp	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI._dumpHelp()$/;"	f
 UI._indentLevelFor	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI._indentLevelFor(line)$/;"	f
+UI._renderBookmarks	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI._renderBookmarks()$/;"	f
+UI._stripMarkup	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI._stripMarkup(line, removeLeadingSpaces)$/;"	f
 UI.centerView	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.centerView()$/;"	f
 UI.getLineNum	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getLineNum(file_node)$/;"	f
 UI.getPath	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getPath(ln)$/;"	f
 UI.getRootLineNum	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getRootLineNum()$/;"	f
-UI.lolcats	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.lolcats()$/;"	f
 UI.render	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.render()$/;"	f
 UI.renderViewSavingPosition	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.renderViewSavingPosition()$/;"	f
 UI.restoreScreenState	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.restoreScreenState()$/;"	f
@@ -2601,32 +2617,20 @@ narrowable	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:narrowable
 natural_timestamp	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/handler.py	/^from vim_pad.timestamps import natural_timestamp$/;"	i
 natural_timestamp	/home/ztb/.vim/bundle/vim-pad/pythonx/vim_pad/timestamps.py	/^def natural_timestamp(timestamp):$/;"	f
 nerdtree#checkForBrowse	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#checkForBrowse(dir)$/;"	f
-nerdtree#closeTree	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTree()$/;"	f
-nerdtree#closeTreeIfOpen	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTreeIfOpen()$/;"	f
-nerdtree#closeTreeIfQuitOnOpen	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTreeIfQuitOnOpen()$/;"	f
 nerdtree#compareBookmarks	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareBookmarks(first, second)$/;"	f
 nerdtree#compareNodes	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareNodes(n1, n2)$/;"	f
+nerdtree#compareNodesBySortKey	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareNodesBySortKey(n1, n2)$/;"	f
 nerdtree#completeBookmarks	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#completeBookmarks(A,L,P)$/;"	f
 nerdtree#deprecated	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#deprecated(func, ...)$/;"	f
-nerdtree#dumpHelp	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#dumpHelp()$/;"	f
 nerdtree#echo	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echo(msg)$/;"	f
 nerdtree#echoError	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoError(msg)$/;"	f
 nerdtree#echoWarning	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoWarning(msg)$/;"	f
 nerdtree#exec	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#exec(cmd)$/;"	f
-nerdtree#getTreeWinNum	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#getTreeWinNum()$/;"	f
 nerdtree#has_opt	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#has_opt(options, name)$/;"	f
-nerdtree#isTreeOpen	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#isTreeOpen()$/;"	f
 nerdtree#loadClassFiles	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#loadClassFiles()$/;"	f
 nerdtree#postSourceActions	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#postSourceActions()$/;"	f
-nerdtree#putCursorInTreeWin	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#putCursorInTreeWin()$/;"	f
-nerdtree#putCursorOnBookmarkTable	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#putCursorOnBookmarkTable()$/;"	f
-nerdtree#renderBookmarks	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderBookmarks()$/;"	f
 nerdtree#renderView	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderView()$/;"	f
 nerdtree#runningWindows	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#runningWindows()$/;"	f
-nerdtree#stripMarkupFromLine	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#stripMarkupFromLine(line, removeLeadingSpaces)$/;"	f
-nerdtree#treeMarkupReg	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeMarkupReg()$/;"	f
-nerdtree#treeUpDirLine	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeUpDirLine()$/;"	f
-nerdtree#treeWid	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeWid()$/;"	f
 nerdtree#ui_glue#bookmarkNode	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#bookmarkNode(...)$/;"	f
 nerdtree#ui_glue#chRootCwd	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#chRootCwd()$/;"	f
 nerdtree#ui_glue#clearBookmarks	/home/ztb/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#clearBookmarks(bookmarks)$/;"	f
@@ -3139,6 +3143,7 @@ s:search_for_jinja_syntax	/home/ztb/.vim/bundle/salt-vim/syntax/sls.vim	/^  let 
 s:search_for_jinja_syntax	/home/ztb/.vim/bundle/salt-vim/syntax/sls.vim	/^let s:search_for_jinja_syntax = 1$/;"	v
 s:setup_done	/home/ztb/.vim/bundle/syntastic/plugin/syntastic/highlighting.vim	/^let s:setup_done = 0$/;"	v
 s:setup_done	/home/ztb/.vim/bundle/syntastic/plugin/syntastic/signs.vim	/^let s:setup_done = 0$/;"	v
+s:sortKeyFormat	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^let s:sortKeyFormat = "%0" . float2nr(ceil(log10(len(g:NERDTreeSortOrder)))) . "d"$/;"	v
 s:temp_files	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^  let s:temp_files = {}$/;"	v
 s:text	/home/ztb/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^let s:text = map(['second', 'seconds', 'minutes', 'hours', 'days', 'weeks',$/;"	v
 s:tree_up_dir_line	/home/ztb/.vim/bundle/nerdtree/syntax/nerdtree.vim	/^let s:tree_up_dir_line = '.. (up a dir)'$/;"	v
