@@ -30,6 +30,10 @@ set mouse=a " let vim use the mouse.
 let mapleader = "\<space>"
 let g:mapleader ="\<space>"
 
+" CtrlP
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
+
 " insert mode remaps
 inoremap jk <ESC>
 noremap <leader>m i<space><esc> 

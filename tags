@@ -58,14 +58,14 @@
 <Leader>tv	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^    nmap <unique><buffer> <Leader>tv  <Plug>SelectTask$/;"	m
 <Leader>tw	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^    nmap <unique><buffer> <Leader>tw  <Plug>ShowWatchedTasksOnly$/;"	m
 <Leader>ty	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^    nmap <unique><buffer> <Leader>ty  <Plug>ShowTodayTasksOnly$/;"	m
-<PLug>(pad-incremental-new-note)	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^noremap <silent> <unique> <PLug>(pad-incremental-new-note) :call pad#GlobalIncrementalSearch(0)<cr>$/;"	m
 <PageDown>	/home/ztb/.vim/bundle/vimpager/less.vim	/^map <PageDown> <Space>$/;"	m
 <PageUp>	/home/ztb/.vim/bundle/vimpager/less.vim	/^map <PageUp> b$/;"	m
+<Plug>(pad-incremental-new-note)	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^noremap <silent> <unique> <Plug>(pad-incremental-new-note) :call pad#GlobalIncrementalSearch(0)<cr>$/;"	m
 <Plug>(pad-incremental-search)	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^noremap <silent> <unique> <Plug>(pad-incremental-search) :call pad#GlobalIncrementalSearch(1)<cr>$/;"	m
-<Plug>(pad-list)	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^inoremap <silent> <unique> <Plug>(pad-list) <esc>:Pad ls<CR>$/;"	m
+<Plug>(pad-list)	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^    inoremap <silent> <unique> <Plug>(pad-list) <esc>:Pad ls<CR>$/;"	m
 <Plug>(pad-list)	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^noremap <silent> <unique> <Plug>(pad-list) <esc>:Pad ls<CR>$/;"	m
-<Plug>(pad-new)	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^inoremap <silent> <unique> <Plug>(pad-new) <esc>:Pad new<CR>$/;"	m
-<Plug>(pad-new)	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^noremap <silent> <unique>  <Plug>(pad-new) <esc>:Pad new<CR>$/;"	m
+<Plug>(pad-new)	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^    inoremap <silent> <unique> <Plug>(pad-new) <esc>:Pad new<CR>$/;"	m
+<Plug>(pad-new)	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^noremap <silent> <unique> <Plug>(pad-new) <esc>:Pad new<CR>$/;"	m
 <Plug>(pad-search)	/home/ztb/.vim/bundle/vim-pad/plugin/pad.vim	/^noremap <silent> <unique> <Plug>(pad-search) :call pad#SearchPads()<cr>$/;"	m
 <Plug>AddChildTask	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^nmap <silent> <Plug>AddChildTask             :call <SID>AddChildTask()<CR>$/;"	m
 <Plug>AddNextTimeToTask	/home/ztb/.vim/bundle/vim-quicktask/ftplugin/quicktask.vim	/^nmap <silent> <Plug>AddNextTimeToTask        :call <SID>AddNextTimeToTask()<CR>$/;"	m
@@ -397,6 +397,8 @@ EditComplete	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! 
 EditConfig	/home/ztb/.vim/bundle/syntastic/syntax_checkers/java/javac.vim	/^function! s:EditConfig() " {{{2$/;"	f
 EditRunComplete	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:EditRunComplete(A,L,P) abort$/;"	f
 End	/home/ztb/.vim/bundle/vimpager/less.vim	/^fun! s:End()$/;"	f
+EndwiseAlways	/home/ztb/.vim/bundle/vim-endwise/plugin/endwise.vim	/^function! EndwiseAlways()$/;"	f
+EndwiseDiscretionary	/home/ztb/.vim/bundle/vim-endwise/plugin/endwise.vim	/^function! EndwiseDiscretionary()$/;"	f
 Errors	/home/ztb/.vim/bundle/syntastic/plugin/syntastic.vim	/^command! Errors              call SyntasticErrors()$/;"	c
 Event.New	/home/ztb/.vim/bundle/nerdtree/lib/nerdtree/event.vim	/^function! s:Event.New(nerdtree, subject, action, params) abort$/;"	f
 ExecuteInTree	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:ExecuteInTree(cmd) abort$/;"	f
@@ -1800,6 +1802,7 @@ fugitive_files	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup 
 fugitive_foldtext	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_foldtext$/;"	a
 fugitive_remove	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_remove$/;"	a
 fugitive_status	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_status$/;"	a
+fugitive_statusline	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_statusline$/;"	a
 fugitive_temp	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_temp$/;"	a
 fugitive_utility	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_utility$/;"	a
 function	/home/ztb/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:function(name) abort$/;"	f
@@ -3314,6 +3317,7 @@ tcount	/home/ztb/.vim/bundle/delimitMate/test/expand_cr.vim	/^let tcount = 1$/;"
 tcount	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^  let tcount += 1$/;"	v
 tcount	/home/ztb/.vim/bundle/delimitMate/test/expand_space.vim	/^let tcount = 1$/;"	v
 td	/home/ztb/.vim/bundle/vimoutliner/vimoutliner/scripts/outline_calendar/vo_calendar_ui.sh	/^function td() {$/;"	f
+teardownMappings	/home/ztb/.vim/bundle/vim-endwise/plugin/endwise.vim	/^function! s:teardownMappings()$/;"	f
 test	/home/ztb/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:test() "{{{$/;"	f
 test_mappings	/home/ztb/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:test_mappings(list, is_matchpair) "{{{$/;"	f
 testsnumber	/home/ztb/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^"'''))$/;"	v
