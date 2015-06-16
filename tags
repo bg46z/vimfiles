@@ -1,0 +1,1294 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+%	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> % %<SID>L$/;"	m
+/	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> \/ H$:call <SID>Forward()<CR>\/$/;"	m
+<	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map < g$/;"	m
+<C-B>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <C-B> b$/;"	m
+<C-D>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <C-D> d$/;"	m
+<C-E>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <C-E> <CR>$/;"	m
+<C-F>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <C-F> <Space>$/;"	m
+<C-J>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <C-J> <CR>$/;"	m
+<C-K>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <C-K> k$/;"	m
+<C-N>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <C-N> <CR>$/;"	m
+<C-P>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <C-P> k$/;"	m
+<C-R>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> <C-R> <C-L><SID>L$/;"	m
+<C-U>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> <C-U> <C-U><SID>L$/;"	m
+<C-V>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <C-V> <Space>$/;"	m
+<C-X><CR>	/Users/zbridges/.vim/bundle/vim-endwise/plugin/endwise.vim	/^    imap <script> <C-X><CR> <CR><SID>AlwaysEnd$/;"	m
+<C-Y>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <C-Y> k$/;"	m
+<CR>	/Users/zbridges/.vim/bundle/vim-endwise/plugin/endwise.vim	/^    imap <CR> <CR><Plug>DiscretionaryEnd$/;"	m
+<CR>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> <CR> <C-E><SID>L$/;"	m
+<Down>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <Down> 1<C-d>$/;"	m
+<ESC>u	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^nnoremap <ESC>u :nohlsearch<CR>$/;"	m
+<End>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <End> G$/;"	m
+<Esc><	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <Esc>< g$/;"	m
+<Esc><Space>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <Esc><Space> <Space>$/;"	m
+<Esc>>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <Esc>> G$/;"	m
+<Esc>v	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <Esc>v b$/;"	m
+<Home>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <Home> g$/;"	m
+<Leader>rwp	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^  map <unique> <Leader>rwp <Plug>RestoreWinPosn$/;"	m
+<Leader>swp	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^  map <unique> <Leader>swp <Plug>SaveWinPosn$/;"	m
+<PageDown>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <PageDown> <Space>$/;"	m
+<PageUp>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <PageUp> b$/;"	m
+<Plug>AlwaysEnd	/Users/zbridges/.vim/bundle/vim-endwise/plugin/endwise.vim	/^  imap    <script> <Plug>AlwaysEnd        <SID>AlwaysEnd$/;"	m
+<Plug>DiscretionaryEnd	/Users/zbridges/.vim/bundle/vim-endwise/plugin/endwise.vim	/^  imap    <script> <Plug>DiscretionaryEnd <SID>DiscretionaryEnd$/;"	m
+<Plug>RestoreWinPosn	:call	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^nmap <silent> <Plug>RestoreWinPosn	:call RestoreWinPosn()<CR>$/;"	m
+<Plug>SaveWinPosn		:call	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^nmap <silent> <Plug>SaveWinPosn		:call SaveWinPosn()<CR>$/;"	m
+<S-Down>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <S-Down> <Space>$/;"	m
+<S-Up>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <S-Up> b$/;"	m
+<SID>AlwaysEnd	/Users/zbridges/.vim/bundle/vim-endwise/plugin/endwise.vim	/^  inoremap <silent> <SID>AlwaysEnd        <C-R>=<SID>crend(1)<CR>$/;"	m
+<SID>DiscretionaryEnd	/Users/zbridges/.vim/bundle/vim-endwise/plugin/endwise.vim	/^  inoremap <silent> <SID>DiscretionaryEnd <C-R>=<SID>crend(0)<CR>$/;"	m
+<SID>L	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^  noremap <SID>L L0:redraw<CR>:file<CR>$/;"	m
+<SID>L	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^  noremap <SID>L Lg0:redraw<CR>:file<CR>$/;"	m
+<Space>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> <Space> :call <SID>NextPage()<CR><SID>L$/;"	m
+<Up>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <Up> 1<C-u>$/;"	m
+<kEnd>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <kEnd> G$/;"	m
+<kHome>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <kHome> g$/;"	m
+<kPageDown>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <kPageDown> <Space>$/;"	m
+<kPageUp>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map <kPageUp> b$/;"	m
+>	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map > G$/;"	m
+?	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^  noremap <script> ? H0:call <SID>Backward()<CR>?$/;"	m
+?	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^  noremap <script> ? Hg0:call <SID>Backward()<CR>?$/;"	m
+AcceptSelection	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:AcceptSelection(action)$/;"	f
+Ansi2Gui	/Users/zbridges/.vim/bundle/vimpager/ansiesc/autoload/AnsiEsc.vim	/^fun! s:Ansi2Gui(code)$/;"	f
+AnsiEsc	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/AnsiEscPlugin.vim	/^com! -bang -nargs=0 AnsiEsc	:call AnsiEsc#AnsiEsc(<bang>0)$/;"	c
+AnsiEsc#AnsiEsc	/Users/zbridges/.vim/bundle/vimpager/ansiesc/autoload/AnsiEsc.vim	/^fun! AnsiEsc#AnsiEsc(rebuild)$/;"	f
+AutoClose	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:AutoClose() "{{{$/;"	f
+Backward	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^fun! s:Backward()$/;"	f
+Blame	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Blame(bang,line1,line2,count,args) abort$/;"	f
+BlameCommit	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BlameCommit(cmd) abort$/;"	f
+BlameJump	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BlameJump(suffix) abort$/;"	f
+BlameSyntax	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BlameSyntax() abort$/;"	f
+Bookmark.AddBookmark	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.AddBookmark(name, path)$/;"	f
+Bookmark.BookmarkExistsFor	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkExistsFor(name)$/;"	f
+Bookmark.BookmarkFor	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkFor(name)$/;"	f
+Bookmark.BookmarkNames	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.BookmarkNames()$/;"	f
+Bookmark.Bookmarks	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Bookmarks()$/;"	f
+Bookmark.CacheBookmarks	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.CacheBookmarks(silent)$/;"	f
+Bookmark.ClearAll	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.ClearAll()$/;"	f
+Bookmark.GetNodeForName	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.GetNodeForName(name, searchFromAbsoluteRoot)$/;"	f
+Bookmark.GetSelected	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.GetSelected()$/;"	f
+Bookmark.InvalidBookmarks	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.InvalidBookmarks()$/;"	f
+Bookmark.New	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.New(name, path)$/;"	f
+Bookmark.Sort	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Sort()$/;"	f
+Bookmark.ToRoot	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.ToRoot(name)$/;"	f
+Bookmark.Write	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.Write()$/;"	f
+Bookmark.activate	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.activate(...)$/;"	f
+Bookmark.compareTo	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.compareTo(otherbookmark)$/;"	f
+Bookmark.delete	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.delete()$/;"	f
+Bookmark.getNode	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.getNode(searchFromAbsoluteRoot)$/;"	f
+Bookmark.mustExist	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.mustExist()$/;"	f
+Bookmark.open	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.open(...)$/;"	f
+Bookmark.openInNewTab	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.openInNewTab(options)$/;"	f
+Bookmark.setPath	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.setPath(path)$/;"	f
+Bookmark.str	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.str()$/;"	f
+Bookmark.toRoot	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.toRoot()$/;"	f
+Bookmark.validate	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^function! s:Bookmark.validate()$/;"	f
+Browse	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Browse(bang,line1,count,...) abort$/;"	f
+BufReadIndex	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BufReadIndex() abort$/;"	f
+BufReadIndexFile	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BufReadIndexFile() abort$/;"	f
+BufReadObject	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BufReadObject() abort$/;"	f
+BufWriteIndexFile	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:BufWriteIndexFile() abort$/;"	f
+BuildPrompt	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:BuildPrompt(upd)$/;"	f
+COPYFILE	/Users/zbridges/.vim/bundle/vimpager/Makefile	/^COPYFILE?= ${INSTALL} -m 644$/;"	m
+CSCOPE_EXE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set CSCOPE_EXE=%~2$/;"	v
+CSCOPE_EXE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^set CSCOPE_EXE=cscope$/;"	v
+CTAGS_ARGS	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^        set CTAGS_ARGS=%CTAGS_ARGS% --append "%UPDATED_SOURCE%"$/;"	v
+CTAGS_ARGS	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_ARGS=%CTAGS_ARGS% --exclude=%2$/;"	v
+CTAGS_ARGS	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_ARGS=%CTAGS_ARGS% --options=%2$/;"	v
+CTAGS_ARGS	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set CTAGS_ARGS=$/;"	v
+CTAGS_EXE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set CTAGS_EXE=%~2$/;"	v
+CTAGS_EXE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set CTAGS_EXE=ctags$/;"	v
+ClearAllCtrlPCaches	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar ClearAllCtrlPCaches cal ctrlp#clra()$/;"	c
+ClearCtrlPCache	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar ClearCtrlPCache     cal ctrlp#clr()$/;"	c
+Close	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Close()$/;"	f
+Commit	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Commit(args, ...) abort$/;"	f
+CommitComplete	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:CommitComplete(A,L,P) abort$/;"	f
+CreateNewFile	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:CreateNewFile(...)$/;"	f
+Creator.BufNamePrefix	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.BufNamePrefix()$/;"	f
+Creator.CreateMirror	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreateMirror()$/;"	f
+Creator.CreatePrimary	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreatePrimary(name)$/;"	f
+Creator.CreateSecondary	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.CreateSecondary(dir)$/;"	f
+Creator.New	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.New()$/;"	f
+Creator.TogglePrimary	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.TogglePrimary(dir)$/;"	f
+Creator._bindMappings	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._bindMappings()$/;"	f
+Creator._broadcastInitEvent	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._broadcastInitEvent()$/;"	f
+Creator._createNERDTree	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._createNERDTree(path)$/;"	f
+Creator._createTreeWin	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._createTreeWin()$/;"	f
+Creator._nextBufferName	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._nextBufferName()$/;"	f
+Creator._nextBufferNumber	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._nextBufferNumber()$/;"	f
+Creator._pathForString	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._pathForString(str)$/;"	f
+Creator._setCommonBufOptions	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._setCommonBufOptions()$/;"	f
+Creator._setupStatusline	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._setupStatusline()$/;"	f
+Creator._tabpagevar	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._tabpagevar(tabnr, var)$/;"	f
+Creator._uniq	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator._uniq(list)$/;"	f
+Creator.createMirror	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createMirror()$/;"	f
+Creator.createPrimary	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createPrimary(name)$/;"	f
+Creator.createSecondary	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.createSecondary(dir)$/;"	f
+Creator.togglePrimary	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^function! s:Creator.togglePrimary(dir)$/;"	f
+CtrlP	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=dir CtrlP         cal ctrlp#init(0, { 'dir': <q-args> })$/;"	c
+CtrlPAug	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^	aug CtrlPAug$/;"	a
+CtrlPBookmarkDir	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPBookmarkDir cal ctrlp#init(ctrlp#bookmarkdir#id())$/;"	c
+CtrlPBookmarkDirAdd	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=dir CtrlPBookmarkDirAdd$/;"	c
+CtrlPBufTag	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=buffer CtrlPBufTag$/;"	c
+CtrlPBufTagAll	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPBufTagAll cal ctrlp#init(ctrlp#buffertag#cmd(1))$/;"	c
+CtrlPBuffer	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPBuffer   cal ctrlp#init(1)$/;"	c
+CtrlPChange	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=buffer CtrlPChange$/;"	c
+CtrlPChangeAll	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPChangeAll   cal ctrlp#init(ctrlp#changes#cmd(1))$/;"	c
+CtrlPClearAllCaches	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPClearAllCaches cal ctrlp#clra()$/;"	c
+CtrlPClearCache	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPClearCache     cal ctrlp#clr()$/;"	c
+CtrlPCurFile	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPCurFile cal ctrlp#init(0, { 'mode': 'c' })$/;"	c
+CtrlPCurWD	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPCurWD   cal ctrlp#init(0, { 'mode': '' })$/;"	c
+CtrlPDir	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=dir CtrlPDir$/;"	c
+CtrlPLastMode	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? CtrlPLastMode cal ctrlp#init(-1, { 'args': <q-args> })$/;"	c
+CtrlPLine	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=buffer CtrlPLine$/;"	c
+CtrlPMRUFiles	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -n=? -com=dir CtrlPMRUFiles cal ctrlp#init(2, { 'dir': <q-args> })$/;"	c
+CtrlPMixed	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPMixed       cal ctrlp#init(ctrlp#mixed#id())$/;"	c
+CtrlPQuickfix	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPQuickfix cal ctrlp#init(ctrlp#quickfix#id())$/;"	c
+CtrlPRTS	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPRTS       cal ctrlp#init(ctrlp#rtscript#id())$/;"	c
+CtrlPRoot	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPRoot    cal ctrlp#init(0, { 'mode': 'r' })$/;"	c
+CtrlPTag	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPTag      cal ctrlp#init(ctrlp#tag#id())$/;"	c
+CtrlPUndo	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^com! -bar CtrlPUndo      cal ctrlp#init(ctrlp#undo#id())$/;"	c
+DB_FILE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set DB_FILE=%~2$/;"	v
+DB_FILE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^set DB_FILE=scope.out$/;"	v
+DESTDIR	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^DESTDIR  =  $(HOME)\/.vim$/;"	m
+DM	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^com! -bar -nargs=1 DM	call DestroyMark(<q-args>)$/;"	c
+DOC	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^DOC      =  $(wildcard doc\/*.txt)$/;"	m
+DelimitMateOff	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateOff call s:setup(0)$/;"	c
+DelimitMateOn	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateOn call s:setup(1)$/;"	c
+DelimitMateReload	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateReload call s:setup(1)$/;"	c
+DelimitMateSwitch	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateSwitch call s:setup(2)$/;"	c
+DelimitMateTest	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^command! -bar DelimitMateTest call s:test()$/;"	c
+DestroyMark	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! DestroyMark(markname)$/;"	f
+Diff	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Diff(vert,...) abort$/;"	f
+DirComplete	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:DirComplete(A,L,P) abort$/;"	f
+Dispatch	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Dispatch(bang, args)$/;"	f
+DoneParseArgs	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^:DoneParseArgs$/;"	l
+DoneParseArgs	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:DoneParseArgs$/;"	l
+Edit	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Edit(cmd,bang,...) abort$/;"	f
+EditComplete	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:EditComplete(A,L,P) abort$/;"	f
+EditRunComplete	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:EditRunComplete(A,L,P) abort$/;"	f
+End	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^fun! s:End()$/;"	f
+Event.New	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/event.vim	/^function! s:Event.New(nerdtree, subject, action, params) abort$/;"	f
+ExecuteInTree	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:ExecuteInTree(cmd) abort$/;"	f
+ExtraMappings	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:ExtraMappings() "{{{$/;"	f
+F	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map F :e<CR>G<SID>L:sleep 1<CR>F$/;"	m
+FILENAME	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^FILENAME =  $(NAME)-$(VERSION)$/;"	m
+FileRead	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:FileRead() abort$/;"	f
+Findcomplete	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! s:Findcomplete(A,L,P)$/;"	f
+FinishCommit	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:FinishCommit() abort$/;"	f
+FlagSet.New	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.New()$/;"	f
+FlagSet._flagsForScope	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet._flagsForScope(scope)$/;"	f
+FlagSet.addFlag	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.addFlag(scope, flag)$/;"	f
+FlagSet.clearFlags	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.clearFlags(scope)$/;"	f
+FlagSet.removeFlag	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.removeFlag(scope, flag)$/;"	f
+FlagSet.renderToString	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^function! s:FlagSet.renderToString()$/;"	f
+ForceUpdate	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ForceUpdate()$/;"	f
+Forward	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^fun! s:Forward()$/;"	f
+G	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> G G<SID>L$/;"	m
+GF	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:GF(mode) abort$/;"	f
+Git	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Git(bang, args) abort$/;"	f
+GitComplete	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:GitComplete(A, L, P) abort$/;"	f
+GlobPath	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:GlobPath(dirs, depth)$/;"	f
+GoWinbufnr	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! GoWinbufnr(bufnum)$/;"	f
+Grep	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Grep(cmd,bang,arg) abort$/;"	f
+GutentagsGenerate	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^command! -bang -nargs=1 -complete=file GutentagsGenerate :call s:generate_tags(<bang>0, <f-args>)$/;"	c
+GutentagsToggleEnabled	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^command! GutentagsToggleEnabled :let g:gutentags_enabled=!g:gutentags_enabled$/;"	c
+GutentagsToggleFake	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    command! GutentagsToggleFake    :call gutentags#fake()$/;"	c
+GutentagsToggleTrace	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^command! GutentagsToggleTrace   :call gutentags#trace()$/;"	c
+GutentagsUnlock	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^command! GutentagsUnlock        :call s:delete_lock_files()$/;"	c
+Help	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^fun! s:Help()$/;"	f
+Helptags	/Users/zbridges/.vim/autoload/pathogen.vim	/^command! -bar Helptags :call pathogen#helptags()$/;"	c
+HiLink	/Users/zbridges/.vim/bundle/syntax/after/syntax/cpp.vim	/^    command -nargs=+ HiLink hi def link <args>$/;"	c
+HiLink	/Users/zbridges/.vim/bundle/syntax/after/syntax/cpp.vim	/^    command -nargs=+ HiLink hi link <args>$/;"	c
+HiLink	/Users/zbridges/.vim/bundle/vimpager/perldoc.vim	/^    command -nargs=+ HiLink hi def link <args>$/;"	c
+HiLink	/Users/zbridges/.vim/bundle/vimpager/perldoc.vim	/^    command -nargs=+ HiLink hi link <args>$/;"	c
+INSTALL	/Users/zbridges/.vim/bundle/vimpager/Makefile	/^INSTALL?= install$/;"	m
+INSTALLBIN	/Users/zbridges/.vim/bundle/vimpager/Makefile	/^INSTALLBIN?= ${INSTALL} -m 555$/;"	m
+INSTALLCONF	/Users/zbridges/.vim/bundle/vimpager/Makefile	/^INSTALLCONF?= ${INSTALL} -m 644$/;"	m
+INSTALLMAN	/Users/zbridges/.vim/bundle/vimpager/Makefile	/^INSTALLMAN?= ${INSTALL} -m 444$/;"	m
+JumpInit	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:JumpInit() abort$/;"	f
+KeyLoop	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:KeyLoop()$/;"	f
+KeyMap.Add	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Add(keymap)$/;"	f
+KeyMap.All	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.All()$/;"	f
+KeyMap.BindAll	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.BindAll()$/;"	f
+KeyMap.Create	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Create(options)$/;"	f
+KeyMap.FindFor	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.FindFor(key, scope)$/;"	f
+KeyMap.Invoke	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Invoke(key)$/;"	f
+KeyMap.Remove	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.Remove(key, scope)$/;"	f
+KeyMap.bind	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.bind()$/;"	f
+KeyMap.invoke	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^function! s:KeyMap.invoke(...)$/;"	f
+LIB	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^LIB      =  $(wildcard autoload\/*.vim)$/;"	m
+LOG_FILE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set LOG_FILE=%~2$/;"	v
+LOG_FILE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^if [%LOG_FILE%]==[] set LOG_FILE=CON$/;"	v
+LOG_FILE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set LOG_FILE=$/;"	v
+Log	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Log(cmd, line1, line2, ...) abort$/;"	f
+LoopParseArgs	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^:LoopParseArgs$/;"	l
+LoopParseArgs	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:LoopParseArgs$/;"	l
+MKPATH	/Users/zbridges/.vim/bundle/vimpager/Makefile	/^MKPATH?= mkdir -p$/;"	m
+Map	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:Map() "{{{$/;"	f
+MapNorms	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MapNorms()$/;"	f
+MapSpecs	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MapSpecs()$/;"	f
+MarkToOpen	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MarkToOpen()$/;"	f
+MatchIt	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MatchIt(items, pat, limit, exc)$/;"	f
+MatchedItems	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:MatchedItems(items, pat, limit)$/;"	f
+MenuController.New	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController.New(menuItems)$/;"	f
+MenuController._allIndexesFor	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._allIndexesFor(shortcut)$/;"	f
+MenuController._current	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._current()$/;"	f
+MenuController._cursorDown	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._cursorDown()$/;"	f
+MenuController._cursorUp	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._cursorUp()$/;"	f
+MenuController._echoPrompt	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._echoPrompt()$/;"	f
+MenuController._handleKeypress	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._handleKeypress(key)$/;"	f
+MenuController._nextIndexFor	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._nextIndexFor(shortcut)$/;"	f
+MenuController._restoreOptions	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._restoreOptions()$/;"	f
+MenuController._saveOptions	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._saveOptions()$/;"	f
+MenuController._setCmdheight	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController._setCmdheight()$/;"	f
+MenuController.showMenu	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^function! s:MenuController.showMenu()$/;"	f
+MenuItem.All	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.All()$/;"	f
+MenuItem.AllEnabled	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.AllEnabled()$/;"	f
+MenuItem.Create	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.Create(options)$/;"	f
+MenuItem.CreateSeparator	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.CreateSeparator(options)$/;"	f
+MenuItem.CreateSubmenu	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.CreateSubmenu(options)$/;"	f
+MenuItem.enabled	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.enabled()$/;"	f
+MenuItem.execute	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.execute()$/;"	f
+MenuItem.isSeparator	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.isSeparator()$/;"	f
+MenuItem.isSubmenu	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^function! s:MenuItem.isSubmenu()$/;"	f
+Merge	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Merge(cmd, bang, args) abort$/;"	f
+Move	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Move(force,destination) abort$/;"	f
+MoveComplete	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:MoveComplete(A,L,P) abort$/;"	f
+MultiElementHandler	/Users/zbridges/.vim/bundle/vimpager/ansiesc/autoload/AnsiEsc.vim	/^fun! s:MultiElementHandler()$/;"	f
+NAME	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^NAME     =  delimitMate$/;"	m
+NERDTree	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^augroup NERDTree$/;"	a
+NERDTree.ExistsForBuf	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ExistsForBuf()$/;"	f
+NERDTree.ExistsForTab	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ExistsForTab()$/;"	f
+NERDTree.ForCurrentBuf	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.ForCurrentBuf()$/;"	f
+NERDTree.New	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.New(path)$/;"	f
+NERDTree.render	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^function! s:NERDTree.render()$/;"	f
+NERDTreeAddKeyMap	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddKeyMap(options)$/;"	f
+NERDTreeAddMenuItem	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuItem(options)$/;"	f
+NERDTreeAddMenuSeparator	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddMenuSeparator(...)$/;"	f
+NERDTreeAddNode	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeAddNode()$/;"	f
+NERDTreeAddSubmenu	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeAddSubmenu(options)$/;"	f
+NERDTreeCWD	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeCWD()$/;"	f
+NERDTreeCopyNode	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeCopyNode()$/;"	f
+NERDTreeDeleteNode	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeDeleteNode()$/;"	f
+NERDTreeExecFile	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFile()$/;"	f
+NERDTreeExecFileActive	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^function! NERDTreeExecFileActive()$/;"	f
+NERDTreeExecuteFile	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeExecuteFile()$/;"	f
+NERDTreeFocus	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeFocus()$/;"	f
+NERDTreeHijackNetrw	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    augroup NERDTreeHijackNetrw$/;"	a
+NERDTreeMoveNode	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeMoveNode()$/;"	f
+NERDTreeQuickLook	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeQuickLook()$/;"	f
+NERDTreeRender	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! NERDTreeRender()$/;"	f
+NERDTreeRevealInFinder	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! NERDTreeRevealInFinder()$/;"	f
+NextPage	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^fun! s:NextPage()$/;"	f
+NoAutoClose	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:NoAutoClose() "{{{$/;"	f
+Notifier.AddListener	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.AddListener(event, funcname)$/;"	f
+Notifier.GetListenersForEvent	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.GetListenersForEvent(name)$/;"	f
+Notifier.GetListenersMap	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.GetListenersMap()$/;"	f
+Notifier.NotifyListeners	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^function! s:Notifier.NotifyListeners(event, path, params)$/;"	f
+Open	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Open()$/;"	f
+OpenMulti	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:OpenMulti(...)$/;"	f
+OpenNoMarks	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:OpenNoMarks(md, line)$/;"	f
+Opener.New	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener.New(path, opts)$/;"	f
+Opener._bufInWindows	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._bufInWindows(bnum)$/;"	f
+Opener._checkToCloseTree	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._checkToCloseTree(newtab)$/;"	f
+Opener._firstUsableWindow	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._firstUsableWindow()$/;"	f
+Opener._gotoTargetWin	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._gotoTargetWin()$/;"	f
+Opener._isWindowUsable	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._isWindowUsable(winnumber)$/;"	f
+Opener._newSplit	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._newSplit()$/;"	f
+Opener._newVSplit	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._newVSplit()$/;"	f
+Opener._openDirectory	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._openDirectory(node)$/;"	f
+Opener._openFile	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._openFile()$/;"	f
+Opener._previousWindow	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._previousWindow()$/;"	f
+Opener._restoreCursorPos	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._restoreCursorPos()$/;"	f
+Opener._reuseWindow	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._reuseWindow()$/;"	f
+Opener._saveCursorPos	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener._saveCursorPos()$/;"	f
+Opener.open	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^function! s:Opener.open(target)$/;"	f
+PAUSE_BEFORE_EXIT	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set PAUSE_BEFORE_EXIT=1$/;"	v
+PAUSE_BEFORE_EXIT	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set PAUSE_BEFORE_EXIT=0$/;"	v
+PERL	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^PERL     =  perl$/;"	m
+PLUGIN	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^PLUGIN   =  $(wildcard plugin\/*.vim)$/;"	m
+PREFIX	/Users/zbridges/.vim/bundle/vimpager/Makefile	/^PREFIX?= \/usr\/local$/;"	m
+PROJECT_ROOT	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set PROJECT_ROOT=%~2$/;"	v
+PROJECT_ROOT	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set PROJECT_ROOT=$/;"	v
+PROJ_ROOT	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^    set PROJ_ROOT=%~2$/;"	v
+ParseArgs	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^:ParseArgs$/;"	l
+ParseArgs	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:ParseArgs$/;"	l
+Path.AbsolutePathFor	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.AbsolutePathFor(str)$/;"	f
+Path.CopyingSupported	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.CopyingSupported()$/;"	f
+Path.Create	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Create(fullpath)$/;"	f
+Path.JoinPathStrings	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.JoinPathStrings(...)$/;"	f
+Path.New	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.New(path)$/;"	f
+Path.Resolve	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Resolve(path)$/;"	f
+Path.Slash	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.Slash()$/;"	f
+Path.WinToUnixPath	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.WinToUnixPath(pathstr)$/;"	f
+Path._escChars	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._escChars()$/;"	f
+Path._ignorePatternMatches	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._ignorePatternMatches(pattern)$/;"	f
+Path._str	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._str()$/;"	f
+Path._strForCd	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForCd()$/;"	f
+Path._strForEdit	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForEdit()$/;"	f
+Path._strForGlob	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForGlob()$/;"	f
+Path._strForUI	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path._strForUI()$/;"	f
+Path.bookmarkNames	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.bookmarkNames()$/;"	f
+Path.cacheDisplayString	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.cacheDisplayString() abort$/;"	f
+Path.changeToDir	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.changeToDir()$/;"	f
+Path.compareTo	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.compareTo(path)$/;"	f
+Path.copy	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.copy(dest)$/;"	f
+Path.copyingWillOverwrite	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.copyingWillOverwrite(dest)$/;"	f
+Path.createParentDirectories	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.createParentDirectories(path)$/;"	f
+Path.delete	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.delete()$/;"	f
+Path.displayString	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.displayString()$/;"	f
+Path.edit	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.edit()$/;"	f
+Path.equals	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.equals(path)$/;"	f
+Path.exists	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.exists()$/;"	f
+Path.extractDriveLetter	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.extractDriveLetter(fullpath)$/;"	f
+Path.getDir	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getDir()$/;"	f
+Path.getLastPathComponent	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getLastPathComponent(dirSlash)$/;"	f
+Path.getParent	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getParent()$/;"	f
+Path.getSortOrderIndex	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.getSortOrderIndex()$/;"	f
+Path.ignore	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.ignore()$/;"	f
+Path.isUnder	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnder(path)$/;"	f
+Path.isUnixHiddenFile	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnixHiddenFile()$/;"	f
+Path.isUnixHiddenPath	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.isUnixHiddenPath()$/;"	f
+Path.readInfoFromDisk	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.readInfoFromDisk(fullpath)$/;"	f
+Path.refresh	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.refresh()$/;"	f
+Path.refreshFlags	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.refreshFlags()$/;"	f
+Path.rename	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.rename(newPath)$/;"	f
+Path.str	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.str(...)$/;"	f
+Path.strTrunk	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.strTrunk()$/;"	f
+Path.tabnr	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^function! s:Path.tabnr()$/;"	f
+PrtAdd	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtAdd(char)$/;"	f
+PrtBS	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtBS()$/;"	f
+PrtClear	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtClear()$/;"	f
+PrtClearCache	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtClearCache()$/;"	f
+PrtCurEnd	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtCurEnd()$/;"	f
+PrtCurLeft	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtCurLeft()$/;"	f
+PrtCurRight	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtCurRight()$/;"	f
+PrtCurStart	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtCurStart()$/;"	f
+PrtDelete	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtDelete()$/;"	f
+PrtDeleteEnt	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtDeleteEnt()$/;"	f
+PrtDeleteMRU	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtDeleteMRU()$/;"	f
+PrtDeleteWord	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtDeleteWord()$/;"	f
+PrtExit	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtExit()$/;"	f
+PrtExpandDir	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtExpandDir()$/;"	f
+PrtFocusMap	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtFocusMap(char)$/;"	f
+PrtHistory	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtHistory(...)$/;"	f
+PrtInsert	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtInsert(...)$/;"	f
+PrtSelectJump	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtSelectJump(char)$/;"	f
+PrtSelectMove	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtSelectMove(dir)$/;"	f
+PrtSwitcher	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:PrtSwitcher()$/;"	f
+QArgSplitter	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! QArgSplitter(qarg)$/;"	f
+R	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> R <C-L><SID>L$/;"	m
+RM	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^com! -bar -nargs=1 RM	call RestoreMark(<q-args>)$/;"	c
+RWP	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^com! -bar -nargs=? RWP	call RestoreWinPosn(<args>)$/;"	c
+RehighlightBlame	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:RehighlightBlame() abort$/;"	f
+RemoteComplete	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:RemoteComplete(A, L, P) abort$/;"	f
+Remove	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Remove(force) abort$/;"	f
+Render	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Render(lines, pat)$/;"	f
+ReplaceCmd	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:ReplaceCmd(cmd,...) abort$/;"	f
+Reset	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Reset(args)$/;"	f
+RestoreMark	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! RestoreMark(markname)$/;"	f
+RestoreUserMaps	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! RestoreUserMaps(suffix)$/;"	f
+RestoreWinPosn	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! RestoreWinPosn(...)$/;"	f
+RevisionComplete	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:RevisionComplete(A, L, P) abort$/;"	f
+SED	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^SED      =  $(shell command -v gsed || command -v sed)$/;"	m
+SID	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function s:SID()$/;"	f
+SM	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^com! -bar -nargs=1 SM	call SaveMark(<q-args>)$/;"	c
+SOURCES	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^SOURCES  =  $(PLUGIN)$/;"	m
+SWP	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^com! -bar -nargs=0 SWP	call SaveWinPosn()$/;"	c
+SYSCONFDIR	/Users/zbridges/.vim/bundle/vimpager/Makefile	/^SYSCONFDIR?= ${PREFIX}\/etc$/;"	m
+SaveMark	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! SaveMark(markname)$/;"	f
+SaveUserMaps	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! SaveUserMaps(mapmode,maplead,mapchx,suffix)$/;"	f
+SaveWinPosn	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! SaveWinPosn(...)$/;"	f
+SetDefTxt	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SetDefTxt()$/;"	f
+SetWD	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SetWD(args)$/;"	f
+ShowUsage	/Users/zbridges/.vim/bundle/vim-gutentags/plat/unix/update_tags.sh	/^ShowUsage() {$/;"	f
+SpecInputs	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SpecInputs(str)$/;"	f
+SplitPattern	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:SplitPattern(str)$/;"	f
+StageDiff	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:StageDiff(diff) abort$/;"	f
+StageDiffEdit	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:StageDiffEdit() abort$/;"	f
+StageNext	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:StageNext(count) abort$/;"	f
+StagePatch	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:StagePatch(lnum1,lnum2) abort$/;"	f
+StagePrevious	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:StagePrevious(count) abort$/;"	f
+StageReloadSeek	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:StageReloadSeek(target,lnum1,lnum2) abort$/;"	f
+StageToggle	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:StageToggle(lnum1,lnum2) abort$/;"	f
+StageUndo	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:StageUndo() abort$/;"	f
+Status	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Status() abort$/;"	f
+TAGS_FILE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set TAGS_FILE=%~2$/;"	v
+TAGS_FILE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set TAGS_FILE=tags$/;"	v
+ToggleByFname	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleByFname()$/;"	f
+ToggleFocus	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleFocus()$/;"	f
+ToggleKeyLoop	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleKeyLoop()$/;"	f
+ToggleMRURelative	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleMRURelative()$/;"	f
+ToggleRegex	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleRegex()$/;"	f
+ToggleType	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ToggleType(dir)$/;"	f
+TreeDirNode.AbsoluteTreeRoot	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.AbsoluteTreeRoot()$/;"	f
+TreeDirNode.GetSelected	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.GetSelected()$/;"	f
+TreeDirNode.New	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.New(path)$/;"	f
+TreeDirNode._initChildren	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._initChildren(silent)$/;"	f
+TreeDirNode._openInNewTab	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._openInNewTab()$/;"	f
+TreeDirNode._openRecursively2	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode._openRecursively2(forceOpen)$/;"	f
+TreeDirNode.activate	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.activate(...)$/;"	f
+TreeDirNode.addChild	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.addChild(treenode, inOrder)$/;"	f
+TreeDirNode.close	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.close()$/;"	f
+TreeDirNode.closeChildren	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.closeChildren()$/;"	f
+TreeDirNode.createChild	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.createChild(path, inOrder)$/;"	f
+TreeDirNode.findNode	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.findNode(path)$/;"	f
+TreeDirNode.getChild	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChild(path)$/;"	f
+TreeDirNode.getChildByIndex	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildByIndex(indx, visible)$/;"	f
+TreeDirNode.getChildCount	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildCount()$/;"	f
+TreeDirNode.getChildIndex	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getChildIndex(path)$/;"	f
+TreeDirNode.getVisibleChildCount	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getVisibleChildCount()$/;"	f
+TreeDirNode.getVisibleChildren	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.getVisibleChildren()$/;"	f
+TreeDirNode.hasVisibleChildren	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.hasVisibleChildren()$/;"	f
+TreeDirNode.open	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.open(...)$/;"	f
+TreeDirNode.openAlong	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openAlong(...)$/;"	f
+TreeDirNode.openExplorer	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openExplorer()$/;"	f
+TreeDirNode.openInNewTab	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openInNewTab(options)$/;"	f
+TreeDirNode.openRecursively	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.openRecursively()$/;"	f
+TreeDirNode.refresh	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.refresh()$/;"	f
+TreeDirNode.refreshDirFlags	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.refreshDirFlags()$/;"	f
+TreeDirNode.refreshFlags	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.refreshFlags()$/;"	f
+TreeDirNode.removeChild	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.removeChild(treenode)$/;"	f
+TreeDirNode.reveal	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.reveal(path)$/;"	f
+TreeDirNode.sortChildren	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.sortChildren()$/;"	f
+TreeDirNode.toggleOpen	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.toggleOpen(...)$/;"	f
+TreeDirNode.transplantChild	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^function! s:TreeDirNode.transplantChild(newNode)$/;"	f
+TreeFileNode.GetRootForTab	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetRootForTab()$/;"	f
+TreeFileNode.GetSelected	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.GetSelected()$/;"	f
+TreeFileNode.New	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.New(path)$/;"	f
+TreeFileNode._renderToString	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode._renderToString(depth, drawText, vertMap, isLastChild)$/;"	f
+TreeFileNode.activate	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.activate(...)$/;"	f
+TreeFileNode.bookmark	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.bookmark(name)$/;"	f
+TreeFileNode.cacheParent	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.cacheParent()$/;"	f
+TreeFileNode.clearBookmarks	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.clearBookmarks()$/;"	f
+TreeFileNode.copy	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.copy(dest)$/;"	f
+TreeFileNode.delete	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.delete()$/;"	f
+TreeFileNode.displayString	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.displayString()$/;"	f
+TreeFileNode.equals	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.equals(treenode)$/;"	f
+TreeFileNode.findNode	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findNode(path)$/;"	f
+TreeFileNode.findOpenDirSiblingWithVisibleChildren	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findOpenDirSiblingWithVisibleChildren(direction)$/;"	f
+TreeFileNode.findSibling	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.findSibling(direction)$/;"	f
+TreeFileNode.isRoot	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.isRoot()$/;"	f
+TreeFileNode.isVisible	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.isVisible()$/;"	f
+TreeFileNode.makeRoot	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.makeRoot()$/;"	f
+TreeFileNode.open	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.open(...)$/;"	f
+TreeFileNode.openInNewTab	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openInNewTab(options)$/;"	f
+TreeFileNode.openSplit	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openSplit()$/;"	f
+TreeFileNode.openVSplit	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.openVSplit()$/;"	f
+TreeFileNode.putCursorHere	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.putCursorHere(isJump, recurseUpward)$/;"	f
+TreeFileNode.refresh	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.refresh()$/;"	f
+TreeFileNode.refreshFlags	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.refreshFlags()$/;"	f
+TreeFileNode.rename	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.rename(newName)$/;"	f
+TreeFileNode.renderToString	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^function! s:TreeFileNode.renderToString()$/;"	f
+TriggerAbb	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:TriggerAbb() "{{{$/;"	f
+UI.New	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.New(nerdtree)$/;"	f
+UI._indentLevelFor	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI._indentLevelFor(line)$/;"	f
+UI.centerView	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.centerView()$/;"	f
+UI.getLineNum	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getLineNum(file_node)$/;"	f
+UI.getPath	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getPath(ln)$/;"	f
+UI.getRootLineNum	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.getRootLineNum()$/;"	f
+UI.lolcats	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.lolcats()$/;"	f
+UI.render	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.render()$/;"	f
+UI.renderViewSavingPosition	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.renderViewSavingPosition()$/;"	f
+UI.restoreScreenState	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.restoreScreenState()$/;"	f
+UI.saveScreenState	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.saveScreenState()$/;"	f
+UI.toggleIgnoreFilter	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleIgnoreFilter()$/;"	f
+UI.toggleShowBookmarks	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleShowBookmarks()$/;"	f
+UI.toggleShowFiles	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleShowFiles()$/;"	f
+UI.toggleShowHidden	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleShowHidden()$/;"	f
+UI.toggleZoom	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^function! s:UI.toggleZoom()$/;"	f
+UPDATED_SOURCE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^    set UPDATED_SOURCE=%~2$/;"	v
+UPDATED_SOURCE	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^set UPDATED_SOURCE=$/;"	v
+Unlock	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:Unlock$/;"	l
+Unmap	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:Unmap() " {{{$/;"	f
+Update	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:Update(str)$/;"	f
+Usage	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_scopedb.cmd	/^:Usage$/;"	l
+Usage	/Users/zbridges/.vim/bundle/vim-gutentags/plat/win32/update_tags.cmd	/^:Usage$/;"	l
+UserCmd	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:UserCmd(lscmd)$/;"	f
+VERSION	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^VERSION  =  $(shell $(SED) -n -e '\/Current \\+release\/{s\/^ \\+\\([0-9.]\\+\\).*\/\\1\/;p;}' $(firstword $(DOC)))$/;"	m
+VIM	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^VIM      =  vim$/;"	m
+Ve	/Users/zbridges/.vim/autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Ve       :execute s:find(<count>,'edit<bang>',<q-args>,0)$/;"	c
+Vedit	/Users/zbridges/.vim/autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vedit    :execute s:find(<count>,'edit<bang>',<q-args>,0)$/;"	c
+Vopen	/Users/zbridges/.vim/autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vopen    :execute s:find(<count>,'edit<bang>',<q-args>,1)$/;"	c
+Vpedit	/Users/zbridges/.vim/autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vpedit   :execute s:find(<count>,'pedit',<q-args>,<bang>1)$/;"	c
+Vread	/Users/zbridges/.vim/autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vread    :execute s:find(<count>,'read',<q-args>,<bang>1)$/;"	c
+Vsplit	/Users/zbridges/.vim/autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vsplit   :execute s:find(<count>,'split',<q-args>,<bang>1)$/;"	c
+Vtabedit	/Users/zbridges/.vim/autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vtabedit :execute s:find(<count>,'tabedit',<q-args>,<bang>1)$/;"	c
+Vvsplit	/Users/zbridges/.vim/autoload/pathogen.vim	/^command! -bar -bang -range=1 -nargs=1 -complete=customlist,s:Findcomplete Vvsplit  :execute s:find(<count>,'vsplit',<q-args>,<bang>1)$/;"	c
+WLR	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^com! -bar -nargs=1 WLR	call s:WinLineRestore(<q-args>)$/;"	c
+WinLineRestore	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^fun! s:WinLineRestore(swwline)$/;"	f
+Wq	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Wq(force,...) abort$/;"	f
+Write	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:Write(force,...) abort$/;"	f
+_do_ptree	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^_do_ptree() {$/;"	f
+abbrev	/Users/zbridges/.vim/bundle/vim-endwise/plugin/endwise.vim	/^function! s:abbrev()$/;"	f
+activateAll	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateAll()$/;"	f
+activateBookmark	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateBookmark(bm)$/;"	f
+activateDirNode	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateDirNode(node)$/;"	f
+activateFileNode	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:activateFileNode(node)$/;"	f
+add_methods	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:add_methods(namespace, method_names) abort$/;"	f
+addtomrufs	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:addtomrufs(fname)$/;"	f
+ansi_filter	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^ansi_filter() {$/;"	f
+ansiesc_tar	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^ansiesc_tar() {$/;"	f
+argmaps	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:argmaps(md, i)$/;"	f
+at	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:at(str)$/;"	f
+autocmds	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:autocmds()$/;"	f
+awk	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^awk() {$/;"	f
+awk_pstree	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^awk_pstree() {$/;"	f
+awk_pstree_freebsd	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^awk_pstree_freebsd() {$/;"	f
+b	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> b <C-B><SID>L$/;"	m
+b:current_syntax	/Users/zbridges/.vim/bundle/vimpager/perldoc.vim	/^let b:current_syntax = "perl"$/;"	v
+b:current_syntax	/Users/zbridges/.vim/syntax/tmux.vim	/^let b:current_syntax = "tmux"$/;"	v
+balance_matchpairs	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:balance_matchpairs(char) "{{{$/;"	f
+bit_and	/Users/zbridges/.vim/bundle/vimpager/prototypes/bitwise.awk	/^function bit_and (a, b, r, i, c, ia, ib) {$/;"	f
+bit_and	/Users/zbridges/.vim/bundle/vimpager/prototypes/uudecode_slow.awk	/^function bit_and (a, b, r, i, c, ia, ib) {$/;"	f
+bit_left	/Users/zbridges/.vim/bundle/vimpager/prototypes/bitwise.awk	/^function bit_left (value, distance) {$/;"	f
+bit_left	/Users/zbridges/.vim/bundle/vimpager/prototypes/uudecode_slow.awk	/^function bit_left (value, distance) {$/;"	f
+bit_or	/Users/zbridges/.vim/bundle/vimpager/prototypes/bitwise.awk	/^function bit_or (a, b, r, i, ia, ib) {$/;"	f
+bit_or	/Users/zbridges/.vim/bundle/vimpager/prototypes/uudecode_slow.awk	/^function bit_or (a, b, r, i, ia, ib) {$/;"	f
+bit_right	/Users/zbridges/.vim/bundle/vimpager/prototypes/bitwise.awk	/^function bit_right (value, distance) {$/;"	f
+bit_right	/Users/zbridges/.vim/bundle/vimpager/prototypes/uudecode_slow.awk	/^function bit_right (value, distance) {$/;"	f
+bit_xor	/Users/zbridges/.vim/bundle/vimpager/prototypes/bitwise.awk	/^function bit_xor (a, b, r, i, ia, ib) {$/;"	f
+bit_xor	/Users/zbridges/.vim/bundle/vimpager/prototypes/uudecode_slow.awk	/^function bit_xor (a, b, r, i, ia, ib) {$/;"	f
+buffer	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer(...) abort$/;"	f
+buffer_commit	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_commit() dict abort$/;"	f
+buffer_compare_age	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_compare_age(commit) dict abort$/;"	f
+buffer_containing_commit	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_containing_commit() dict abort$/;"	f
+buffer_expand	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_expand(rev) dict abort$/;"	f
+buffer_getline	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_getline(lnum) dict abort$/;"	f
+buffer_getvar	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_getvar(var) dict abort$/;"	f
+buffer_name	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_name() dict abort$/;"	f
+buffer_path	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_path(...) dict abort$/;"	f
+buffer_repo	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_repo() dict abort$/;"	f
+buffer_rev	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_rev() dict abort$/;"	f
+buffer_setvar	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_setvar(var,value) dict abort$/;"	f
+buffer_sha1	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_sha1() dict abort$/;"	f
+buffer_spec	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^  function! s:buffer_spec() dict abort$/;"	f
+buffer_type	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_type(...) dict abort$/;"	f
+buffer_up	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:buffer_up(...) dict abort$/;"	f
+buffunc	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:buffunc(e)$/;"	f
+buftab	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:buftab(bufnr, md)$/;"	f
+bufwins	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:bufwins(bufnr)$/;"	f
+buildpat	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:buildpat(lst)$/;"	f
+byfname	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:byfname()$/;"	f
+cachefile	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:cachefile()$/;"	f
+can_diffoff	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:can_diffoff(buf) abort$/;"	f
+chCwd	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:chCwd(node)$/;"	f
+chRoot	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:chRoot(node)$/;"	f
+changelist	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! s:changelist(bufnr)$/;"	f
+charval	/Users/zbridges/.vim/bundle/vimpager/prototypes/uudecode_gawk.awk	/^function charval(char) {$/;"	f
+charval	/Users/zbridges/.vim/bundle/vimpager/prototypes/uudecode_slow.awk	/^function charval(char) {$/;"	f
+checkbuf	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:checkbuf()$/;"	f
+chknearby	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:chknearby(pat)$/;"	f
+choices	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:choices(str, choices, func, args)$/;"	f
+chop	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:chop(mrufs)$/;"	f
+closeChildren	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeChildren(node)$/;"	f
+closeCurrentDir	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeCurrentDir(node)$/;"	f
+closeTreeWindow	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:closeTreeWindow()$/;"	f
+comma	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^comma    := ,$/;"	m
+command	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:command(definition) abort$/;"	f
+commands	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^  let commands = []$/;"	v
+commands	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^let commands = []$/;"	v
+comparent	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:comparent(...)$/;"	f
+compfnlen	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compfnlen(...)$/;"	f
+compmatlen	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compmatlen(...)$/;"	f
+compmreb	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compmreb(...)$/;"	f
+compmref	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compmref(...)$/;"	f
+comptime	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:comptime(...)$/;"	f
+compval	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:compval(...)$/;"	f
+compval	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:compval(...)$/;"	f
+crend	/Users/zbridges/.vim/bundle/vim-endwise/plugin/endwise.vim	/^function! s:crend(always)$/;"	f
+ctrlp#acceptfile	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#acceptfile(...)$/;"	f
+ctrlp#bookmarkdir#accept	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! ctrlp#bookmarkdir#accept(mode, str)$/;"	f
+ctrlp#bookmarkdir#add	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! ctrlp#bookmarkdir#add(dir, ...)$/;"	f
+ctrlp#bookmarkdir#id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! ctrlp#bookmarkdir#id()$/;"	f
+ctrlp#bookmarkdir#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! ctrlp#bookmarkdir#init()$/;"	f
+ctrlp#bookmarkdir#remove	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! ctrlp#bookmarkdir#remove(entries)$/;"	f
+ctrlp#buffers	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#buffers(...)$/;"	f
+ctrlp#buffertag#accept	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! ctrlp#buffertag#accept(mode, str)$/;"	f
+ctrlp#buffertag#cmd	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! ctrlp#buffertag#cmd(mode, ...)$/;"	f
+ctrlp#buffertag#exit	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! ctrlp#buffertag#exit()$/;"	f
+ctrlp#buffertag#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! ctrlp#buffertag#init(fname)$/;"	f
+ctrlp#buffertag#opts	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! ctrlp#buffertag#opts()$/;"	f
+ctrlp#call	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#call(func, ...)$/;"	f
+ctrlp#changes#accept	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! ctrlp#changes#accept(mode, str)$/;"	f
+ctrlp#changes#cmd	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! ctrlp#changes#cmd(mode, ...)$/;"	f
+ctrlp#changes#exit	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! ctrlp#changes#exit()$/;"	f
+ctrlp#changes#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! ctrlp#changes#init(original_bufnr, bufnr)$/;"	f
+ctrlp#clr	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#clr(...)$/;"	f
+ctrlp#clra	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#clra()$/;"	f
+ctrlp#complen	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#complen(...)$/;"	f
+ctrlp#dir#accept	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! ctrlp#dir#accept(mode, str)$/;"	f
+ctrlp#dir#id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! ctrlp#dir#id()$/;"	f
+ctrlp#dir#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! ctrlp#dir#init(...)$/;"	f
+ctrlp#dirnfile	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#dirnfile(entries)$/;"	f
+ctrlp#exit	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#exit()$/;"	f
+ctrlp#files	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#files()$/;"	f
+ctrlp#getcline	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#getcline()$/;"	f
+ctrlp#getmarkedlist	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#getmarkedlist()$/;"	f
+ctrlp#getvar	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#getvar(var)$/;"	f
+ctrlp#hicheck	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#hicheck(grp, defgrp)$/;"	f
+ctrlp#igncwd	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#igncwd(cwd)$/;"	f
+ctrlp#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#init(type, ...)$/;"	f
+ctrlp#j2l	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#j2l(nr)$/;"	f
+ctrlp#line#accept	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^fu! ctrlp#line#accept(mode, str)$/;"	f
+ctrlp#line#cmd	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^fu! ctrlp#line#cmd(mode, ...)$/;"	f
+ctrlp#line#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^fu! ctrlp#line#init(bufnr)$/;"	f
+ctrlp#mixed#id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mixed.vim	/^fu! ctrlp#mixed#id()$/;"	f
+ctrlp#mixed#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mixed.vim	/^fu! ctrlp#mixed#init(clim)$/;"	f
+ctrlp#modfilecond	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#modfilecond(w)$/;"	f
+ctrlp#mrufiles#add	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#add(fn)$/;"	f
+ctrlp#mrufiles#bufs	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#bufs()$/;"	f
+ctrlp#mrufiles#cachefile	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#cachefile()$/;"	f
+ctrlp#mrufiles#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#init()$/;"	f
+ctrlp#mrufiles#list	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#list(...)$/;"	f
+ctrlp#mrufiles#opts	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#opts()$/;"	f
+ctrlp#mrufiles#refresh	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#refresh(...)$/;"	f
+ctrlp#mrufiles#remove	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#remove(files)$/;"	f
+ctrlp#mrufiles#tgrel	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! ctrlp#mrufiles#tgrel()$/;"	f
+ctrlp#normcmd	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#normcmd(cmd, ...)$/;"	f
+ctrlp#nosy	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#nosy()$/;"	f
+ctrlp#progress	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#progress(enum, ...)$/;"	f
+ctrlp#prtclear	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#prtclear()$/;"	f
+ctrlp#quickfix#accept	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! ctrlp#quickfix#accept(mode, str)$/;"	f
+ctrlp#quickfix#id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! ctrlp#quickfix#id()$/;"	f
+ctrlp#quickfix#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! ctrlp#quickfix#init()$/;"	f
+ctrlp#recordhist	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#recordhist()$/;"	f
+ctrlp#rmbasedir	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#rmbasedir(items)$/;"	f
+ctrlp#rtscript#id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/rtscript.vim	/^fu! ctrlp#rtscript#id()$/;"	f
+ctrlp#rtscript#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/rtscript.vim	/^fu! ctrlp#rtscript#init(caching)$/;"	f
+ctrlp#setdir	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#setdir(path, ...)$/;"	f
+ctrlp#setlcdir	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#setlcdir()$/;"	f
+ctrlp#setlines	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#setlines(...)$/;"	f
+ctrlp#statusline	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#statusline()$/;"	f
+ctrlp#switchtype	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#switchtype(id)$/;"	f
+ctrlp#syntax	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#syntax()$/;"	f
+ctrlp#tabcount	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! ctrlp#tabcount()$/;"	f
+ctrlp#tag#accept	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! ctrlp#tag#accept(mode, str)$/;"	f
+ctrlp#tag#enter	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! ctrlp#tag#enter()$/;"	f
+ctrlp#tag#id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! ctrlp#tag#id()$/;"	f
+ctrlp#tag#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! ctrlp#tag#init()$/;"	f
+ctrlp#undo#accept	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! ctrlp#undo#accept(mode, str)$/;"	f
+ctrlp#undo#enter	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! ctrlp#undo#enter()$/;"	f
+ctrlp#undo#exit	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! ctrlp#undo#exit()$/;"	f
+ctrlp#undo#id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! ctrlp#undo#id()$/;"	f
+ctrlp#undo#init	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! ctrlp#undo#init()$/;"	f
+ctrlp#utils#cachedir	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#cachedir()$/;"	f
+ctrlp#utils#cachefile	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#cachefile(...)$/;"	f
+ctrlp#utils#fnesc	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#fnesc(path, type, ...)$/;"	f
+ctrlp#utils#glob	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#glob(...)$/;"	f
+ctrlp#utils#globpath	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#globpath(...)$/;"	f
+ctrlp#utils#lash	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#lash()$/;"	f
+ctrlp#utils#mkdir	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#mkdir(dir)$/;"	f
+ctrlp#utils#opts	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#opts()$/;"	f
+ctrlp#utils#readfile	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#readfile(file)$/;"	f
+ctrlp#utils#writecache	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! ctrlp#utils#writecache(lines, ...)$/;"	f
+cursor_idx	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:cursor_idx() "{{{$/;"	f
+d	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> d <C-D><SID>L$/;"	m
+defaultdict	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py	/^from collections import defaultdict$/;"	i
+define_commands	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:define_commands() abort$/;"	f
+delent	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:delent(rfunc)$/;"	f
+deleteBookmark	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:deleteBookmark(bm)$/;"	f
+delete_lock_files	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^function! s:delete_lock_files() abort$/;"	f
+delimitMate	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^augroup delimitMate$/;"	a
+delimitMate#BS	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#BS() " {{{$/;"	f
+delimitMate#ExpandReturn	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ExpandReturn() "{{{$/;"	f
+delimitMate#ExpandSpace	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ExpandSpace() "{{{$/;"	f
+delimitMate#Get	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#Get(...) "{{{$/;"	f
+delimitMate#IsEmptyPair	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#IsEmptyPair(str) "{{{$/;"	f
+delimitMate#JumpAny	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpAny(...) " {{{$/;"	f
+delimitMate#JumpMany	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpMany() " {{{$/;"	f
+delimitMate#JumpOut	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#JumpOut(char) "{{{$/;"	f
+delimitMate#ParenDelim	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ParenDelim(right) " {{{$/;"	f
+delimitMate#QuoteDelim	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#QuoteDelim(char) "{{{$/;"	f
+delimitMate#Set	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#Set(...) "{{{$/;"	f
+delimitMate#ShouldJump	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#ShouldJump(...) "{{{$/;"	f
+delimitMate#SkipDelim	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#SkipDelim(char) "{{{$/;"	f
+delimitMate#Test	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#Test() "{{{$/;"	f
+delimitMate#WithinEmptyPair	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! delimitMate#WithinEmptyPair() "{{{$/;"	f
+delimitMate_version	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^let delimitMate_version = "2.8"$/;"	v
+dict2list	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:dict2list(dict)$/;"	f
+dictindex	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dictindex(dict, expr)$/;"	f
+did_cpp_syntax_inits	/Users/zbridges/.vim/bundle/syntax/after/syntax/cpp.vim	/^    let did_cpp_syntax_inits = 1$/;"	v
+did_perl_syn_inits	/Users/zbridges/.vim/bundle/vimpager/perldoc.vim	/^    let did_perl_syn_inits = 1$/;"	v
+diff_modifier	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:diff_modifier(count) abort$/;"	f
+diff_restore	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:diff_restore() abort$/;"	f
+diff_window_count	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:diff_window_count() abort$/;"	f
+diffoff	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:diffoff() abort$/;"	f
+diffoff_all	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:diffoff_all(dir) abort$/;"	f
+diffthis	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:diffthis() abort$/;"	f
+dircompl	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dircompl(be, sd)$/;"	f
+dismrk	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dismrk()$/;"	f
+displayHelp	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:displayHelp()$/;"	f
+do_ptree	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^do_ptree() {$/;"	f
+dohighlight	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dohighlight()$/;"	f
+dosigns	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:dosigns()$/;"	f
+e	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map e <CR>$/;"	m
+echo	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echo(msg)$/;"	f
+echoWarning	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:echoWarning(msg)$/;"	f
+elapsed	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:elapsed(nr)$/;"	f
+empty	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^empty    :=$/;"	m
+escape	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py	/^def escape(s):$/;"	f
+escape	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup_v1.py	/^def escape(s):$/;"	f
+esctagscmd	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:esctagscmd(bin, args, ...)$/;"	f
+evaluate	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^let evaluate = 0$/;"	v
+evaluate	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^let evaluate = 0$/;"	v
+excl	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:excl(fn)$/;"	f
+execextvar	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:execextvar(key)$/;"	f
+exectags	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:exectags(cmd)$/;"	f
+exectagsonfile	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:exectagsonfile(fname, ftype)$/;"	f
+exists	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:exists(name, ...) "{{{$/;"	f
+expect	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^    let expect = 0$/;"	v
+expect	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^    let expect = 1$/;"	v
+expect	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^let expect = 0$/;"	v
+expect	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^    let expect = 0$/;"	v
+expect	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^    let expect = 1$/;"	v
+expect	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^let expect = 0$/;"	v
+expected	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^    let expected = []$/;"	v
+expected	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^    let expected = []$/;"	v
+extract_bundled_scripts	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^extract_bundled_scripts() {$/;"	f
+f	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map f <Space>$/;"	m
+filetypedetect	/Users/zbridges/.vim/filetype.vim	/^augroup filetypedetect$/;"	a
+filter	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! s:filter(tags)$/;"	f
+filter	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^filter() {$/;"	f
+find	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! s:find(count,cmd,file,lcd)$/;"	f
+findAndRevealPath	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:findAndRevealPath()$/;"	f
+find_rc	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^find_rc() {$/;"	f
+find_vim_dir	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^find_vim_dir() {$/;"	f
+findcommon	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:findcommon(items, seed)$/;"	f
+findcount	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! s:findcount(str)$/;"	f
+findroot	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:findroot(curr, mark, depth, type)$/;"	f
+flatten	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:flatten(tree, cur)$/;"	f
+fnameescape	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:fnameescape(file) abort$/;"	f
+fnesc	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:fnesc(...)$/;"	f
+format	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:format(...)$/;"	f
+formatline	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:formatline(str)$/;"	f
+formatul	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:formatul(...)$/;"	f
+fugitive	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive$/;"	a
+fugitive#buffer	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#buffer(...) abort$/;"	f
+fugitive#can_diffoff	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#can_diffoff(buf) abort$/;"	f
+fugitive#cwindow	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#cwindow() abort$/;"	f
+fugitive#detect	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#detect(path) abort$/;"	f
+fugitive#extract_git_dir	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#extract_git_dir(path) abort$/;"	f
+fugitive#foldtext	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#foldtext() abort$/;"	f
+fugitive#git_commands	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#git_commands() abort$/;"	f
+fugitive#git_version	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#git_version(...) abort$/;"	f
+fugitive#head	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#head(...) abort$/;"	f
+fugitive#is_git_dir	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#is_git_dir(path) abort$/;"	f
+fugitive#reload_status	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#reload_status() abort$/;"	f
+fugitive#repo	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#repo(...) abort$/;"	f
+fugitive#statusline	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! fugitive#statusline(...) abort$/;"	f
+fugitive_blame	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_blame$/;"	a
+fugitive_commit	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_commit$/;"	a
+fugitive_diff	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_diff$/;"	a
+fugitive_files	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_files$/;"	a
+fugitive_foldtext	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_foldtext$/;"	a
+fugitive_remove	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_remove$/;"	a
+fugitive_status	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_status$/;"	a
+fugitive_temp	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_temp$/;"	a
+fugitive_utility	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^augroup fugitive_utility$/;"	a
+function	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:function(name) abort$/;"	f
+g	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> g gg<SID>L$/;"	m
+g:DrChipTopLvlMenu	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/AnsiEscPlugin.vim	/^   let g:DrChipTopLvlMenu= "DrChip."$/;"	v
+g:NERDTree	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^let g:NERDTree = s:NERDTree$/;"	v
+g:NERDTreeAutoDeleteBuffer	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^    let g:NERDTreeAutoDeleteBuffer = 0$/;"	v
+g:NERDTreeBookmark	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^let g:NERDTreeBookmark = s:Bookmark$/;"	v
+g:NERDTreeCreator	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^let g:NERDTreeCreator = s:Creator$/;"	v
+g:NERDTreeDirNode	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^let g:NERDTreeDirNode = s:TreeDirNode$/;"	v
+g:NERDTreeEvent	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/event.vim	/^let g:NERDTreeEvent = s:Event$/;"	v
+g:NERDTreeFileNode	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^let g:NERDTreeFileNode = s:TreeFileNode$/;"	v
+g:NERDTreeFlagSet	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^let g:NERDTreeFlagSet = s:FlagSet$/;"	v
+g:NERDTreeIgnore	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeIgnore = ['\\~$']$/;"	v
+g:NERDTreeKeyMap	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^let g:NERDTreeKeyMap = s:KeyMap$/;"	v
+g:NERDTreeMenuController	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^let g:NERDTreeMenuController = s:MenuController$/;"	v
+g:NERDTreeMenuItem	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^let g:NERDTreeMenuItem = s:MenuItem$/;"	v
+g:NERDTreeOpener	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^let g:NERDTreeOpener = s:Opener$/;"	v
+g:NERDTreePath	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^let g:NERDTreePath = s:Path$/;"	v
+g:NERDTreePathNotifier	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^let g:NERDTreePathNotifier = deepcopy(s:Notifier)$/;"	v
+g:NERDTreeSortOrder	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeSortOrder = ['\\\/$', '*', '\\.swp$',  '\\.bak$', '\\~$']$/;"	v
+g:NERDTreeStatusline	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^    let g:NERDTreeStatusline = "%{exists('b:NERDTreeRoot')?b:NERDTreeRoot.path.str():''}"$/;"	v
+g:NERDTreeUI	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^let g:NERDTreeUI = s:UI$/;"	v
+g:delimitMate_eol_marker	/Users/zbridges/.vim/bundle/delimitMate/test/eol_marker.vim	/^let g:delimitMate_eol_marker = ';'$/;"	v
+g:delimitMate_eol_marker	/Users/zbridges/.vim/bundle/delimitMate/test/first_buffer_no_ft.vim	/^let g:delimitMate_eol_marker = ';'$/;"	v
+g:delimitMate_expand_cr	/Users/zbridges/.vim/bundle/delimitMate/test/eol_marker.vim	/^let g:delimitMate_expand_cr = 1$/;"	v
+g:delimitMate_expand_cr	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^let g:delimitMate_expand_cr = 1$/;"	v
+g:delimitMate_expand_cr	/Users/zbridges/.vim/bundle/delimitMate/test/first_buffer_no_ft.vim	/^let g:delimitMate_expand_cr = 1$/;"	v
+g:delimitMate_expand_space	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^let g:delimitMate_expand_space = 1$/;"	v
+g:delimitMate_insert_eol_marker	/Users/zbridges/.vim/bundle/delimitMate/test/eol_marker.vim	/^let g:delimitMate_insert_eol_marker = 0$/;"	v
+g:delimitMate_insert_eol_marker	/Users/zbridges/.vim/bundle/delimitMate/test/eol_marker.vim	/^let g:delimitMate_insert_eol_marker = 1$/;"	v
+g:delimitMate_insert_eol_marker	/Users/zbridges/.vim/bundle/delimitMate/test/eol_marker.vim	/^let g:delimitMate_insert_eol_marker = 2$/;"	v
+g:delimitMate_matchpairs	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let g:delimitMate_matchpairs = '(:),{:},[:],<:>,¿:?,¡:!,,::'$/;"	v
+g:delimitMate_quotes	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let g:delimitMate_quotes = '" '' ` « |'$/;"	v
+g:fugitive_browse_handlers	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^  let g:fugitive_browse_handlers = []$/;"	v
+g:fugitive_git_executable	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^  let g:fugitive_git_executable = 'git'$/;"	v
+g:fugitive_summary_format	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^  let g:fugitive_summary_format = '%s'$/;"	v
+g:gutentags_auto_add_cscope	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^    let g:gutentags_auto_add_cscope = 1$/;"	v
+g:gutentags_auto_set_tags	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^    let g:gutentags_auto_set_tags = 1$/;"	v
+g:gutentags_background_update	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_background_update = 1$/;"	v
+g:gutentags_cache_dir	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_cache_dir = ''$/;"	v
+g:gutentags_cache_dir	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_cache_dir = fnamemodify(g:gutentags_cache_dir, ':s?[\/\\\\]$??')$/;"	v
+g:gutentags_cscope_executable	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^    let g:gutentags_cscope_executable = 'cscope'$/;"	v
+g:gutentags_ctags_options_file	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^    let g:gutentags_ctags_options_file = ''$/;"	v
+g:gutentags_debug	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_debug = 0$/;"	v
+g:gutentags_enabled	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_enabled = 1$/;"	v
+g:gutentags_exclude	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_exclude = []$/;"	v
+g:gutentags_executable	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^    let g:gutentags_executable = 'ctags'$/;"	v
+g:gutentags_fake	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_fake = 0$/;"	v
+g:gutentags_generate_on_missing	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_generate_on_missing = 1$/;"	v
+g:gutentags_generate_on_new	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_generate_on_new = 1$/;"	v
+g:gutentags_generate_on_write	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_generate_on_write = 1$/;"	v
+g:gutentags_modules	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_modules = ['ctags']$/;"	v
+g:gutentags_pause_after_update	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_pause_after_update = 0$/;"	v
+g:gutentags_plat_dir	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_plat_dir = expand('<sfile>:h:h:p') . "\\\\plat\\\\win32\\\\"$/;"	v
+g:gutentags_plat_dir	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_plat_dir = expand('<sfile>:h:h:p') . '\/plat\/unix\/'$/;"	v
+g:gutentags_project_root	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_project_root = []$/;"	v
+g:gutentags_project_root	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:gutentags_project_root += ['.git', '.hg', '.svn', '.bzr', '_darcs']$/;"	v
+g:gutentags_scopefile	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^    let g:gutentags_scopefile = 'cscope.out'$/;"	v
+g:gutentags_script_ext	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_script_ext = '.cmd'$/;"	v
+g:gutentags_script_ext	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_script_ext = '.sh'$/;"	v
+g:gutentags_tagfile	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^    let g:gutentags_tagfile = 'tags'$/;"	v
+g:gutentags_trace	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^    let g:gutentags_trace = 0$/;"	v
+g:loaded_AnsiEsc	/Users/zbridges/.vim/bundle/vimpager/ansiesc/autoload/AnsiEsc.vim	/^let g:loaded_AnsiEsc = "v13e"$/;"	v
+g:loaded_AnsiEscPlugin	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/AnsiEscPlugin.vim	/^let g:loaded_AnsiEscPlugin = "v13e"$/;"	v
+g:loaded_cecutil	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^let g:loaded_cecutil = "v18i"$/;"	v
+g:loaded_ctrlp	/Users/zbridges/.vim/bundle/ctrlp.vim/plugin/ctrlp.vim	/^let g:loaded_ctrlp = 1$/;"	v
+g:loaded_ctrlp_bookmarkdir	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^let g:loaded_ctrlp_bookmarkdir = 1$/;"	v
+g:loaded_ctrlp_buftag	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^let g:loaded_ctrlp_buftag = 1$/;"	v
+g:loaded_ctrlp_changes	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^let g:loaded_ctrlp_changes = 1$/;"	v
+g:loaded_ctrlp_line	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^let g:loaded_ctrlp_line = 1$/;"	v
+g:loaded_ctrlp_quickfix	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^let g:loaded_ctrlp_quickfix = 1$/;"	v
+g:loaded_ctrlp_tag	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^let g:loaded_ctrlp_tag = 1$/;"	v
+g:loaded_ctrlp_undo	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^let g:loaded_ctrlp_undo = 1$/;"	v
+g:loaded_delimitMate	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^let g:loaded_delimitMate = 1$/;"	v
+g:loaded_endwise	/Users/zbridges/.vim/bundle/vim-endwise/plugin/endwise.vim	/^let g:loaded_endwise = 1$/;"	v
+g:loaded_fugitive	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let g:loaded_fugitive = 1$/;"	v
+g:loaded_gutentags	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^let g:loaded_gutentags = 1$/;"	v
+g:loaded_nerdtree_autoload	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^let g:loaded_nerdtree_autoload = 1$/;"	v
+g:loaded_nerdtree_exec_menuitem	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/exec_menuitem.vim	/^let g:loaded_nerdtree_exec_menuitem = 1$/;"	v
+g:loaded_nerdtree_fs_menu	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^let g:loaded_nerdtree_fs_menu = 1$/;"	v
+g:loaded_nerdtree_ui_glue_autoload	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^let g:loaded_nerdtree_ui_glue_autoload = 1$/;"	v
+g:loaded_pathogen	/Users/zbridges/.vim/autoload/pathogen.vim	/^let g:loaded_pathogen = 1$/;"	v
+g:mapleader	/Users/zbridges/.vim/plugin/options.vim	/^let g:mapleader = ","$/;"	v
+generate_tags	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:generate_tags(bang, ...) abort$/;"	f
+get	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:get(name, ...) "{{{$/;"	f
+get	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:get(...) " {{{$/;"	f
+get_char	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:get_char(...) "{{{$/;"	f
+get_syn_name	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:get_syn_name() "{{{$/;"	f
+getbookmarks	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:getbookmarks()$/;"	f
+getenv	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getenv()$/;"	f
+getextvar	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getextvar(key)$/;"	f
+gethistdata	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:gethistdata()$/;"	f
+gethistloc	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:gethistloc()$/;"	f
+getinput	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getinput(...)$/;"	f
+getinput	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:getinput(str, ...)$/;"	f
+getnewmix	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mixed.vim	/^fu! s:getnewmix(cwd, clim)$/;"	f
+getparent	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getparent(item)$/;"	f
+getregs	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:getregs()$/;"	f
+getundo	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:getundo()$/;"	f
+github_url	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:github_url(opts, ...) abort$/;"	f
+glbpath	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:glbpath(...)$/;"	f
+globdirs	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! s:globdirs(dirs, depth)$/;"	f
+grep_q	/Users/zbridges/.vim/bundle/vimpager/prototypes/debian_mawk_bug.sh	/^grep_q() {$/;"	f
+grep_q	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^grep_q() {$/;"	f
+gsub	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:gsub(str,pat,rep) abort$/;"	f
+gutentags#add_progress	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#add_progress(module, file) abort$/;"	f
+gutentags#cscope#generate	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^function! gutentags#cscope#generate(proj_dir, tags_file, write_mode) abort$/;"	f
+gutentags#cscope#init	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^function! gutentags#cscope#init(project_root) abort$/;"	f
+gutentags#ctags#generate	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^function! gutentags#ctags#generate(proj_dir, tags_file, write_mode) abort$/;"	f
+gutentags#ctags#init	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^function! gutentags#ctags#init(project_root) abort$/;"	f
+gutentags#fake	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#fake(...)$/;"	f
+gutentags#get_cachefile	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_cachefile(root_dir, filename) abort$/;"	f
+gutentags#get_execute_cmd	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_execute_cmd() abort$/;"	f
+gutentags#get_execute_cmd_suffix	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_execute_cmd_suffix() abort$/;"	f
+gutentags#get_plat_file	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_plat_file(filename) abort$/;"	f
+gutentags#get_project_root	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#get_project_root(path) abort$/;"	f
+gutentags#inprogress	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#inprogress()$/;"	f
+gutentags#normalizepath	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#normalizepath(path)$/;"	f
+gutentags#rescan	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#rescan(...)$/;"	f
+gutentags#setup_gutentags	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#setup_gutentags() abort$/;"	f
+gutentags#shellslash	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#shellslash(path)$/;"	f
+gutentags#statusline	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#statusline(...) abort$/;"	f
+gutentags#stripslash	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#stripslash(path)$/;"	f
+gutentags#throw	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#throw(message)$/;"	f
+gutentags#toggletrace	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#toggletrace(...)$/;"	f
+gutentags#trace	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! gutentags#trace(message, ...)$/;"	f
+gutentags_detect	/Users/zbridges/.vim/bundle/vim-gutentags/plugin/gutentags.vim	/^augroup gutentags_detect$/;"	a
+handleLeftClick	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:handleLeftClick()$/;"	f
+handleMiddleMouse	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:handleMiddleMouse()$/;"	f
+head_n	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^head_n() {$/;"	f
+header	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^    let header = empty(header) ? item[1:] : 'Lines should match.'$/;"	v
+header	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^  let header = ''$/;"	v
+header	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^let header = ''$/;"	v
+headntail	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:headntail(str)$/;"	f
+highlight	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:highlight(pat, grp)$/;"	f
+i(	/Users/zbridges/.vim/bundle/delimitMate/test/eol_marker.vim	/^normal i($/;"	m
+ifilter	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ifilter(list, str)$/;"	f
+ignore	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ignore()$/;"	f
+init	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:init() "{{{$/;"	f
+initVariable	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^function! s:initVariable(var, value)$/;"	f
+input2	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let input2 = substitute(input, '(', s:l, 'g')$/;"	v
+input2	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let input2 = substitute(input2, ')', s:r, 'g')$/;"	v
+input_q	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^    let input_q = substitute(input,"'" , escape(escape(quote, '"'), '\\'), 'g')$/;"	v
+insertcache	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:insertcache(str)$/;"	f
+insertstr	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:insertstr()$/;"	f
+instaweb_url	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:instaweb_url(opts) abort$/;"	f
+is_cr_expansion	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_cr_expansion(...) " {{{$/;"	f
+is_empty_matchpair	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_empty_matchpair() "{{{$/;"	f
+is_empty_quotes	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_empty_quotes() "{{{$/;"	f
+is_forbidden	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_forbidden(char) "{{{$/;"	f
+is_jump	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_jump(...) "{{{$/;"	f
+is_smart_quote	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_smart_quote(char) "{{{$/;"	f
+is_space_expansion	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:is_space_expansion() " {{{$/;"	f
+iscmdwin	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:iscmdwin()$/;"	f
+ispathitem	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:ispathitem()$/;"	f
+itemsnumber	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let itemsnumber = len(split(g:delimitMate_matchpairs, '.:.\\zs,\\ze.:.'))$/;"	v
+itemsnumber	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let itemsnumber = len(split(g:delimitMate_quotes, ' '))$/;"	v
+j	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map j <CR>$/;"	m
+jumpToChild	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToChild(currentNode, direction)$/;"	f
+jumpToFirstChild	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToFirstChild(node)$/;"	f
+jumpToLastChild	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToLastChild(node)$/;"	f
+jumpToNextSibling	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToNextSibling(node)$/;"	f
+jumpToParent	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToParent(node)$/;"	f
+jumpToPrevSibling	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToPrevSibling(node)$/;"	f
+jumpToRoot	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToRoot()$/;"	f
+jumpToSibling	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:jumpToSibling(currentNode, forward)$/;"	f
+k	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> k <C-Y><SID>L$/;"	m
+lash	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lash(...)$/;"	f
+lash	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^fu! s:lash(...)$/;"	f
+lastvisual	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lastvisual()$/;"	f
+leavepre	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:leavepre()$/;"	f
+left	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py	/^left   = {}$/;"	v
+left	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup_v1.py	/^left   = {}$/;"	v
+less_vim	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^less_vim() {$/;"	f
+line	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let line = getline('.')$/;"	v
+linechars	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:linechars(pattern) abort$/;"	f
+linenr	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^  let linenr += 1$/;"	v
+linenr	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let linenr = 0$/;"	v
+lineout	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! s:lineout(dict)$/;"	f
+lines	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
+lines	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
+lines	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^  let lines = getline(1, line('$'))$/;"	v
+lines	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
+lines	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^  let lines = getline(1, line('$'))$/;"	v
+lines	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^let lines = readfile(expand('<sfile>:t:r').'.txt')$/;"	v
+loaded_less	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^let loaded_less = 1$/;"	v
+loaded_nerd_tree	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let loaded_nerd_tree = 1$/;"	v
+log	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:log(m)$/;"	f
+lookup	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py	/^lookup = defaultdict(list)$/;"	v
+lquote	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:lquote(char) "{{{$/;"	f
+lsCmd	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lsCmd()$/;"	f
+main	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^main() {$/;"	f
+manual_update_tags	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:manual_update_tags(module, bang) abort$/;"	f
+mapleader	/Users/zbridges/.vim/plugin/options.vim	/^let mapleader = ","$/;"	v
+match_window_opts	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:match_window_opts()$/;"	f
+matchfname	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:matchfname(item, pat)$/;"	f
+matchlens	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:matchlens(str, pat, ...)$/;"	f
+matchtabe	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:matchtabe(item, pat)$/;"	f
+matchtabs	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:matchtabs(item, pat)$/;"	f
+max	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! s:max(len, max)$/;"	f
+maxf	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:maxf(len)$/;"	f
+mergelists	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:mergelists()$/;"	f
+mfunc	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:mfunc()$/;"	f
+middle	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py	/^middle = {}$/;"	v
+middle	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup_v1.py	/^middle = {}$/;"	v
+migemo	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:migemo(str)$/;"	f
+mixedsort	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:mixedsort(...)$/;"	f
+mmode	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:mmode()$/;"	f
+modevar	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:modevar()$/;"	f
+modify	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:modify(entry, type)$/;"	f
+msg	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:msg(name, cwd)$/;"	f
+mtype	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:mtype()$/;"	f
+multipliers	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:multipliers(...)$/;"	f
+mysearchpair	/Users/zbridges/.vim/bundle/vim-endwise/plugin/endwise.vim	/^function! s:mysearchpair(beginpat,endpat,synpat)$/;"	f
+narrowable	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:narrowable()$/;"	f
+nerdtree#checkForBrowse	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#checkForBrowse(dir)$/;"	f
+nerdtree#closeTree	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTree()$/;"	f
+nerdtree#closeTreeIfOpen	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTreeIfOpen()$/;"	f
+nerdtree#closeTreeIfQuitOnOpen	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#closeTreeIfQuitOnOpen()$/;"	f
+nerdtree#compareBookmarks	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareBookmarks(first, second)$/;"	f
+nerdtree#compareNodes	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#compareNodes(n1, n2)$/;"	f
+nerdtree#completeBookmarks	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#completeBookmarks(A,L,P)$/;"	f
+nerdtree#deprecated	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#deprecated(func, ...)$/;"	f
+nerdtree#dumpHelp	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#dumpHelp()$/;"	f
+nerdtree#echo	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echo(msg)$/;"	f
+nerdtree#echoError	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoError(msg)$/;"	f
+nerdtree#echoWarning	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#echoWarning(msg)$/;"	f
+nerdtree#exec	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#exec(cmd)$/;"	f
+nerdtree#getTreeWinNum	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#getTreeWinNum()$/;"	f
+nerdtree#has_opt	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#has_opt(options, name)$/;"	f
+nerdtree#isTreeOpen	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#isTreeOpen()$/;"	f
+nerdtree#loadClassFiles	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#loadClassFiles()$/;"	f
+nerdtree#postSourceActions	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#postSourceActions()$/;"	f
+nerdtree#putCursorInTreeWin	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#putCursorInTreeWin()$/;"	f
+nerdtree#putCursorOnBookmarkTable	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#putCursorOnBookmarkTable()$/;"	f
+nerdtree#renderBookmarks	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderBookmarks()$/;"	f
+nerdtree#renderView	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#renderView()$/;"	f
+nerdtree#runningWindows	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#runningWindows()$/;"	f
+nerdtree#stripMarkupFromLine	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#stripMarkupFromLine(line, removeLeadingSpaces)$/;"	f
+nerdtree#treeMarkupReg	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeMarkupReg()$/;"	f
+nerdtree#treeUpDirLine	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeUpDirLine()$/;"	f
+nerdtree#treeWid	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#treeWid()$/;"	f
+nerdtree#ui_glue#bookmarkNode	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#bookmarkNode(...)$/;"	f
+nerdtree#ui_glue#chRootCwd	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#chRootCwd()$/;"	f
+nerdtree#ui_glue#clearBookmarks	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#clearBookmarks(bookmarks)$/;"	f
+nerdtree#ui_glue#createDefaultBindings	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#createDefaultBindings()$/;"	f
+nerdtree#ui_glue#invokeKeyMap	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#invokeKeyMap(key)$/;"	f
+nerdtree#ui_glue#openBookmark	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#openBookmark(name)$/;"	f
+nerdtree#ui_glue#revealBookmark	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#revealBookmark(name)$/;"	f
+nerdtree#ui_glue#setupCommands	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#setupCommands()$/;"	f
+nerdtree#ui_glue#upDir	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! nerdtree#ui_glue#upDir(keepState)$/;"	f
+nerdtree#version	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree.vim	/^function! nerdtree#version()$/;"	f
+newcache	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mixed.vim	/^fu! s:newcache(cwd)$/;"	f
+nocache	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:nocache(...)$/;"	f
+nocache	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^fu! s:nocache()$/;"	f
+nocache	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/rtscript.vim	/^fu! s:nocache()$/;"	f
+nonamecond	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:nonamecond(str, filpath)$/;"	f
+nosort	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:nosort()$/;"	f
+nosplit	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:nosplit()$/;"	f
+offset	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:offset(lines, height)$/;"	f
+openExplorer	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openExplorer(node)$/;"	f
+openHSplit	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openHSplit(target)$/;"	f
+openInNewTab	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openInNewTab(target)$/;"	f
+openInNewTabSilent	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openInNewTabSilent(target)$/;"	f
+openNodeRecursively	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openNodeRecursively(node)$/;"	f
+openVSplit	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:openVSplit(target)$/;"	f
+openfile	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:openfile(cmd, fid, tail, chkmod, ...)$/;"	f
+option_init	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:option_init(name, default) "{{{$/;"	f
+opts	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:opts(...)$/;"	f
+output2	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let output2 = substitute(output, '(', s:l, 'g')$/;"	v
+output2	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let output2 = substitute(output2, ')', s:r, 'g')$/;"	v
+output_q	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^    let output_q = substitute(output,"'" , escape(escape(quote, '"'), '\\'), 'g')$/;"	v
+p	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map p %$/;"	m
+parseline	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:parseline(line)$/;"	f
+parts	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:parts(str)$/;"	f
+passed	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let passed = line == eval(output2)$/;"	v
+passed	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^  let passed = lines == expected$/;"	v
+passed	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^  let passed = lines == expected$/;"	v
+pathogen#cycle_filetype	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#cycle_filetype() abort$/;"	f
+pathogen#execute	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#execute(...) abort$/;"	f
+pathogen#expand	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#expand(pattern) abort$/;"	f
+pathogen#fnameescape	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#fnameescape(string) abort$/;"	f
+pathogen#glob	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#glob(pattern) abort$/;"	f
+pathogen#glob_directories	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#glob_directories(pattern) abort$/;"	f
+pathogen#helptags	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#helptags() abort$/;"	f
+pathogen#incubate	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#incubate(...) abort$/;"	f
+pathogen#infect	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#infect(...) abort$/;"	f
+pathogen#interpose	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#interpose(name) abort$/;"	f
+pathogen#is_absolute	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#is_absolute(path) abort$/;"	f
+pathogen#is_disabled	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#is_disabled(path) abort$/;"	f
+pathogen#join	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#join(...) abort$/;"	f
+pathogen#legacyjoin	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#legacyjoin(...) abort$/;"	f
+pathogen#runtime_append_all_bundles	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#runtime_append_all_bundles(...) abort$/;"	f
+pathogen#runtime_findfile	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#runtime_findfile(file,count) abort "{{{1$/;"	f
+pathogen#runtime_prepend_subdirectories	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#runtime_prepend_subdirectories(path) abort$/;"	f
+pathogen#separator	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#separator() abort$/;"	f
+pathogen#slash	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#slash() abort$/;"	f
+pathogen#split	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#split(path) abort$/;"	f
+pathogen#surround	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#surround(path) abort$/;"	f
+pathogen#uniq	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! pathogen#uniq(list) abort$/;"	f
+pathshorten	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:pathshorten(str)$/;"	f
+perldoc_vim	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^perldoc_vim() {$/;"	f
+previewNodeCurrent	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeCurrent(node)$/;"	f
+previewNodeHSplit	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeHSplit(node)$/;"	f
+previewNodeVSplit	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:previewNodeVSplit(node)$/;"	f
+process	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:process(entries, type)$/;"	f
+process	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:process(fname, ftype)$/;"	f
+process	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! s:process(clines, ...)$/;"	f
+promptToDelBuffer	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToDelBuffer(bufnum, msg)$/;"	f
+promptToRenameBuffer	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^function! s:promptToRenameBuffer(bufnum, msg, newFileName)$/;"	f
+q	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap q :<C-u>q<CR>$/;"	m
+quotes	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^  let quotes = split(g:delimitMate_quotes, '\\s')$/;"	v
+r	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> r <C-L><SID>L$/;"	m
+recall	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:recall() abort$/;"	f
+record	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:record(bufnr)$/;"	f
+reformat	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:reformat(mrufs, ...)$/;"	f
+refreshCurrent	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:refreshCurrent(node)$/;"	f
+refreshRoot	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:refreshRoot()$/;"	f
+regexfilter	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:regexfilter(str)$/;"	f
+regisfilter	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:regisfilter(reg)$/;"	f
+reload	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let reload = 0$/;"	v
+reload	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let reload = 1$/;"	v
+reload	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let reload = 1$/;"	v
+reload	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^    let reload = 0$/;"	v
+reload	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^    let reload = 1$/;"	v
+reload	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let reload = 1$/;"	v
+remarksigns	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:remarksigns()$/;"	f
+repo	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo(...) abort$/;"	f
+repo_aliases	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_aliases() dict abort$/;"	f
+repo_bare	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_bare() dict abort$/;"	f
+repo_config	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_config(conf) dict abort$/;"	f
+repo_configured_tree	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_configured_tree() dict abort$/;"	f
+repo_dir	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_dir(...) dict abort$/;"	f
+repo_dirglob	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_dirglob(base) dict abort$/;"	f
+repo_git_chomp	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_git_chomp(...) dict abort$/;"	f
+repo_git_chomp_in_tree	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_git_chomp_in_tree(...) dict abort$/;"	f
+repo_git_command	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_git_command(...) dict abort$/;"	f
+repo_head	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_head(...) dict abort$/;"	f
+repo_head_ref	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_head_ref() dict abort$/;"	f
+repo_keywordprg	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_keywordprg() dict abort$/;"	f
+repo_rev_parse	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_rev_parse(rev) dict abort$/;"	f
+repo_superglob	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_superglob(base) dict abort$/;"	f
+repo_translate	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_translate(spec) dict abort$/;"	f
+repo_tree	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_tree(...) dict abort$/;"	f
+repo_user	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:repo_user() dict abort$/;"	f
+right	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py	/^right  = {}$/;"	v
+right	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup_v1.py	/^right  = {}$/;"	v
+rquote	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:rquote(char) "{{{$/;"	f
+runVimTests	/Users/zbridges/.vim/bundle/delimitMate/test/_setup.vim	/^let runVimTests = expand('<sfile>:p:h').'\/build\/runVimTests'$/;"	v
+s:Bookmark	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/bookmark.vim	/^let s:Bookmark = {}$/;"	v
+s:Creator	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/creator.vim	/^let s:Creator = {}$/;"	v
+s:Event	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/event.vim	/^let s:Event = {}$/;"	v
+s:FlagSet	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/flag_set.vim	/^let s:FlagSet = {}$/;"	v
+s:KeyMap	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/key_map.vim	/^let s:KeyMap = {}$/;"	v
+s:MenuController	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_controller.vim	/^let s:MenuController = {}$/;"	v
+s:MenuItem	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/menu_item.vim	/^let s:MenuItem = {}$/;"	v
+s:NERDTree	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/nerdtree.vim	/^let s:NERDTree = {}$/;"	v
+s:NERDTreeSortStarIndex	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^let s:NERDTreeSortStarIndex = index(g:NERDTreeSortOrder, '*')$/;"	v
+s:Notifier	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/notifier.vim	/^let s:Notifier = {}$/;"	v
+s:Opener	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/opener.vim	/^let s:Opener = {}$/;"	v
+s:Path	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/path.vim	/^let s:Path = {}$/;"	v
+s:TreeDirNode	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_dir_node.vim	/^let s:TreeDirNode = copy(g:NERDTreeFileNode)$/;"	v
+s:TreeFileNode	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/tree_file_node.vim	/^let s:TreeFileNode = {}$/;"	v
+s:UI	/Users/zbridges/.vim/bundle/nerdtree/lib/nerdtree/ui.vim	/^let s:UI = {}$/;"	v
+s:abstract_prototype	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:abstract_prototype = {}$/;"	v
+s:added_dbs	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^let s:added_dbs = []$/;"	v
+s:ars	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^let s:ars = ['s:maxdepth', 's:maxfiles', 's:compare_lim', 's:glob', 's:caching']$/;"	v
+s:bins	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^let s:bins = [$/;"	v
+s:buffer_prototype	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:buffer_prototype = {}$/;"	v
+s:ccex	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:ccex = s:pref.'clear_cache_on_exit'$/;"	v
+s:commands	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:commands = []$/;"	v
+s:common_efm	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:common_efm = ''$/;"	v
+s:compare_lim	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:compare_lim = 3000$/;"	v
+s:dircounts	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^let s:dircounts = {}$/;"	v
+s:done_bundles	/Users/zbridges/.vim/autoload/pathogen.vim	/^let s:done_bundles = {}$/;"	v
+s:ficounts	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:ficounts = {}$/;"	v
+s:filecounts	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/rtscript.vim	/^let s:filecounts = {}$/;"	v
+s:fpats	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:fpats = {$/;"	v
+s:git_versions	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:git_versions = {}$/;"	v
+s:glbs	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:glbs = { 'magic': 1, 'to': 1, 'tm': 0, 'sb': 1, 'hls': 0, 'im': 0,$/;"	v
+s:hash_colors	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:hash_colors = {}$/;"	v
+s:hlgrps	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:hlgrps = {$/;"	v
+s:i	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^    let s:i = s:i + 1$/;"	v
+s:i	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^  let s:i = 0$/;"	v
+s:id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/dir.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mixed.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/rtscript.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:id	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^let s:id = g:ctrlp_builtins + len(g:ctrlp_ext_vars)$/;"	v
+s:keepcpo	/Users/zbridges/.vim/bundle/vimpager/ansiesc/autoload/AnsiEsc.vim	/^let s:keepcpo= &cpo$/;"	v
+s:keepcpo	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/AnsiEscPlugin.vim	/^let s:keepcpo              = &cpo$/;"	v
+s:keepcpo	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^let s:keepcpo        = &cpo$/;"	v
+s:known_files	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:known_files = []$/;"	v
+s:kprange	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^let s:kprange = {$/;"	v
+s:loaded_delimitMate	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^let s:loaded_delimitMate = 1$/;"	v
+s:lz	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^let s:lz = &lz$/;"	v
+s:maybe_in_progress	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^    let s:maybe_in_progress[module] = {}$/;"	v
+s:maybe_in_progress	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:maybe_in_progress = {}$/;"	v
+s:modifier	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^ let s:modifier= "sil! "$/;"	v
+s:modifier	/Users/zbridges/.vim/bundle/vimpager/ansiesc/plugin/cecutil.vim	/^ let s:modifier= "sil! keepj "$/;"	v
+s:old_cpo	/Users/zbridges/.vim/bundle/nerdtree/plugin/NERD_tree.vim	/^let s:old_cpo = &cpo$/;"	v
+s:options	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^  let s:options = {}$/;"	v
+s:repo_prototype	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:repo_prototype = {}$/;"	v
+s:repos	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^let s:repos = {}$/;"	v
+s:runner_exe	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/cscope.vim	/^let s:runner_exe = gutentags#get_plat_file('update_scopedb')$/;"	v
+s:runner_exe	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags/ctags.vim	/^let s:runner_exe = gutentags#get_plat_file('update_tags')$/;"	v
+s:temp_files	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^  let s:temp_files = {}$/;"	v
+s:text	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^let s:text = map(['second', 'seconds', 'minutes', 'hours', 'days', 'weeks',$/;"	v
+s:tree_up_dir_line	/Users/zbridges/.vim/bundle/nerdtree/syntax/nerdtree.vim	/^let s:tree_up_dir_line = '.. (up a dir)'$/;"	v
+s:types	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^let s:types = {$/;"	v
+s:update_queue	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^    let s:update_queue[module] = []$/;"	v
+s:update_queue	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^let s:update_queue = {}$/;"	v
+s:vopen_warning	/Users/zbridges/.vim/autoload/pathogen.vim	/^let s:vopen_warning = 0$/;"	v
+s:wig_cond	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/utils.vim	/^let s:wig_cond = v:version > 702 || ( v:version == 702 && has('patch051') )$/;"	v
+samerootsyml	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:samerootsyml(each, isfile, cwd)$/;"	f
+sanstail	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:sanstail(str)$/;"	f
+save_cpo	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^let save_cpo = &cpo$/;"	v
+savebookmark	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:savebookmark(name, cwd)$/;"	f
+savetofile	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/mrufiles.vim	/^fu! s:savetofile(mrufs)$/;"	f
+set	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:set(name, value, ...) "{{{$/;"	f
+set	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:set(...) " {{{$/;"	f
+setentries	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:setentries()$/;"	f
+settype	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:settype(type)$/;"	f
+setup	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:setup(...) "{{{$/;"	f
+setupblank	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:setupblank()$/;"	f
+shellesc	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:shellesc(arg) abort$/;"	f
+shellslash	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:shellslash(path) abort$/;"	f
+shortest	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:shortest(lens)$/;"	f
+showMenu	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:showMenu(node)$/;"	f
+skip	/Users/zbridges/.vim/bundle/vimpager/Makefile	/^	    BEGIN { skip = 1 } \\$/;"	m
+space	/Users/zbridges/.vim/bundle/delimitMate/Makefile	/^space    := $(empty) $(empty)$/;"	m
+stage_info	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:stage_info(lnum) abort$/;"	f
+stderr	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py	/^from sys         import stdout, stderr$/;"	i
+stderr	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup_v1.py	/^from sys import stdout, stderr$/;"	i
+stdout	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py	/^from sys         import stdout, stderr$/;"	i
+stdout	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup_v1.py	/^from sys import stdout, stderr$/;"	i
+strwidth	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:strwidth(str)$/;"	f
+sub	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:sub(str,pat,rep) abort$/;"	f
+sublist	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:sublist(l, s, e)$/;"	f
+sublist7071	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:sublist7071(l, s, e)$/;"	f
+synname	/Users/zbridges/.vim/bundle/vim-endwise/plugin/endwise.vim	/^function! s:synname()$/;"	f
+syntax	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:syntax()$/;"	f
+syntax	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:syntax()$/;"	f
+syntax	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/changes.vim	/^fu! s:syntax()$/;"	f
+syntax	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/line.vim	/^fu! s:syntax()$/;"	f
+syntax	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/quickfix.vim	/^fu! s:syntax()$/;"	f
+syntax	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/tag.vim	/^fu! s:syntax()$/;"	f
+syntax	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/undo.vim	/^fu! s:syntax()$/;"	f
+tail	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:tail()$/;"	f
+tail_n	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^tail_n() {$/;"	f
+tcount	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^    let tcount += 1$/;"	v
+tcount	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let tcount = 1$/;"	v
+tcount	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^      let tcount += 1$/;"	v
+tcount	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^    let tcount += 1$/;"	v
+tcount	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let tcount = 1$/;"	v
+tcount	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^  let tcount += 1$/;"	v
+tcount	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^let tcount = 1$/;"	v
+tcount	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^  let tcount += 1$/;"	v
+tcount	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^let tcount = 1$/;"	v
+test	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:test() "{{{$/;"	f
+test_mappings	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:test_mappings(list, is_matchpair) "{{{$/;"	f
+testsnumber	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_matchpairs.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^"'''))$/;"	v
+testsnumber	/Users/zbridges/.vim/bundle/delimitMate/test/autoclose_quotes.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^"'''))$/;"	v
+testsnumber	/Users/zbridges/.vim/bundle/delimitMate/test/expand_cr.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^=\\{80}$'''))$/;"	v
+testsnumber	/Users/zbridges/.vim/bundle/delimitMate/test/expand_space.vim	/^let testsnumber = len(filter(copy(lines), 'v:val =~ ''^=\\{80}$'''))$/;"	v
+textdialog	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:textdialog(str)$/;"	f
+throw	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:throw(string) abort$/;"	f
+toggleIgnoreFilter	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleIgnoreFilter()$/;"	f
+toggleShowBookmarks	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowBookmarks()$/;"	f
+toggleShowFiles	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowFiles()$/;"	f
+toggleShowHidden	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleShowHidden()$/;"	f
+toggleZoom	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:toggleZoom()$/;"	f
+u	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^noremap <script> u <C-U><SID>L$/;"	m
+unmarksigns	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:unmarksigns()$/;"	f
+upDirCurrentRootClosed	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:upDirCurrentRootClosed()$/;"	f
+upDirCurrentRootOpen	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^function! s:upDirCurrentRootOpen()$/;"	f
+update_tags	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:update_tags(module, write_mode, queue_mode, ...) abort$/;"	f
+usrign	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:usrign(item, type)$/;"	f
+uu_chars	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup.py	/^uu_chars = []$/;"	v
+uu_chars	/Users/zbridges/.vim/bundle/vimpager/prototypes/gen_awk_uudecode_lookup_v1.py	/^uu_chars = []$/;"	v
+uudecode	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^uudecode() {$/;"	f
+v	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map v :silent call <SID>End()<CR>$/;"	m
+vacantdict	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:vacantdict(dict)$/;"	f
+validfile	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/buffertag.vim	/^fu! s:validfile(fname, ftype)$/;"	f
+vimTAP	/Users/zbridges/.vim/bundle/delimitMate/test/_setup.vim	/^let vimTAP = expand('<sfile>:p:h').'\/build\/VimTAP'$/;"	v
+vim_less	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^vim_less() {$/;"	f
+w	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map w b$/;"	m
+walker	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:walker(m, p, d)$/;"	f
+warn	/Users/zbridges/.vim/autoload/pathogen.vim	/^function! s:warn(msg) abort$/;"	f
+warn	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:warn(str) abort$/;"	f
+winshell	/Users/zbridges/.vim/bundle/vim-fugitive/plugin/fugitive.vim	/^function! s:winshell() abort$/;"	f
+write_triggered_update_tags	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:write_triggered_update_tags() abort$/;"	f
+writecache	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:writecache(cafile)$/;"	f
+writecache	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp/bookmarkdir.vim	/^fu! s:writecache(lines)$/;"	f
+y	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map y k$/;"	m
+z	/Users/zbridges/.vim/bundle/vimpager/less.vim	/^map z <Space>$/;"	m

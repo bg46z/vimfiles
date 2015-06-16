@@ -16,19 +16,23 @@ set fileencoding=utf-8
 set incsearch
 set mousehide
 set number
+<<<<<<< HEAD
+"set timeoutlen=500
+=======
 set ruler
 set shiftwidth=4
 set tabstop=4
 set visualbell
 
 set timeoutlen=500
+>>>>>>> 748e490da26786a30aec72e5b63f1c75028cea1c
 set t_Co=256 " Use 256 colours
 set backspace=2 " fix annoying backspace restrictions.
 set mouse=a " let vim use the mouse.
 
 " Leader
 let mapleader = "\<space>"
-let g:mapleader ="\<space>"
+
 
 " insert mode remaps
 inoremap jk <ESC>
