@@ -7,9 +7,24 @@
 [submodule "bundle/vimpager"]
 	path = bundle/vimpager
 	url = https://github.com/rkitover/vimpager.git
-[submodule "bundle/syntax"]
-	path = bundle/syntax
-	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
 [submodule "bundle/salt-vim"]
 	path = bundle/salt-vim
 	url = https://github.com/saltstack/salt-vim.git
+[submodule "bundle/vimoutliner"]
+	path = bundle/vimoutliner
+	url = https://github.com/vimoutliner/vimoutliner.git
+[submodule "bundle/vim-quicktask"]
+	path = bundle/vim-quicktask
+	url = https://github.com/aaronbieber/vim-quicktask.git
+[submodule "bundle/vim-pad"]
+	path = bundle/vim-pad
+	url = https://github.com/fmoralesc/vim-pad.git
+[submodule "bundle/haskell-vim"]
+	path = bundle/haskell-vim
+	url = https://github.com/raichoo/haskell-vim.git
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = https://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-pathogen"]
+	path = bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
