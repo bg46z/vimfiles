@@ -4,7 +4,6 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-noremap <C-n> :NERDTreeToggle<CR>
 
 " Set options
 set nocompatible
@@ -34,10 +33,14 @@ let g:mapleader ="\<space>"
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+" mode-ambiguous bindings
+noremap <C-n> :NERDTreeToggle<CR>
+
 " insert mode remaps
 inoremap jk <ESC>
-noremap <leader>m i<space><esc> 
+
 " normal mode remaps
 nnoremap ; :
 nnoremap <leader><leader> o<esc>k
 nnoremap <leader>q :q!<CR>
+nnoremap <leader>m i<space><esc> 
