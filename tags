@@ -873,7 +873,6 @@ g:loaded_nerdtree_exec_menuitem	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_pl
 g:loaded_nerdtree_fs_menu	/Users/zbridges/.vim/bundle/nerdtree/nerdtree_plugin/fs_menu.vim	/^let g:loaded_nerdtree_fs_menu = 1$/;"	v
 g:loaded_nerdtree_ui_glue_autoload	/Users/zbridges/.vim/bundle/nerdtree/autoload/nerdtree/ui_glue.vim	/^let g:loaded_nerdtree_ui_glue_autoload = 1$/;"	v
 g:loaded_pathogen	/Users/zbridges/.vim/autoload/pathogen.vim	/^let g:loaded_pathogen = 1$/;"	v
-g:mapleader	/Users/zbridges/.vim/plugin/options.vim	/^let g:mapleader = ","$/;"	v
 generate_tags	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:generate_tags(bang, ...) abort$/;"	f
 get	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^function! s:get(name, ...) "{{{$/;"	f
 get	/Users/zbridges/.vim/bundle/delimitMate/plugin/delimitMate.vim	/^function! s:get(...) " {{{$/;"	f
@@ -984,7 +983,6 @@ lquote	/Users/zbridges/.vim/bundle/delimitMate/autoload/delimitMate.vim	/^functi
 lsCmd	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:lsCmd()$/;"	f
 main	/Users/zbridges/.vim/bundle/vimpager/vimpager	/^main() {$/;"	f
 manual_update_tags	/Users/zbridges/.vim/bundle/vim-gutentags/autoload/gutentags.vim	/^function! s:manual_update_tags(module, bang) abort$/;"	f
-mapleader	/Users/zbridges/.vim/plugin/options.vim	/^let mapleader = ","$/;"	v
 match_window_opts	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:match_window_opts()$/;"	f
 matchfname	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:matchfname(item, pat)$/;"	f
 matchlens	/Users/zbridges/.vim/bundle/ctrlp.vim/autoload/ctrlp.vim	/^fu! s:matchlens(str, pat, ...)$/;"	f
